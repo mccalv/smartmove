@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poi_types xmlns="http://content.lonelyplanet.com/services">
+	<poi_type>general</poi_type>
+	<poi_type>sleep</poi_type>
+	<poi_type>shop</poi_type>
+	<poi_type>see</poi_type>
+	<poi_type>night</poi_type>
+	<poi_type>eat</poi_type>
+</poi_types>
+

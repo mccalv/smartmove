@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="2.0.0">
+<database-model author="" begin-script="" end-script="" id="567c44:123b94441af:-8000" name="wimove" sql-dialect-id="jp.azzurri.clay.dialect.Postgre_7_3_Dialect" version="1.0">
+<schema-list>
+<schema id="567c44:123b94441af:-7ffd" name="wimove">
+<table-list>
+<table id="567c44:123b94441af:-7fff" name="item">
+<table-description>The base item description</table-description>
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="567c44:123b94441af:-7ffa" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="60" decimal-digits="0" default-value="" id="15a3dac:125f862d43b:-7fba" mandatory="false" name="item_id">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="15" decimal-digits="0" default-value="" id="21ef0d:1253494ef19:-7efd" mandatory="true" name="gid_identifier">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1afab2e:1259c3a41e1:-7f10" mandatory="false" name="category">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="f4b681:1244eabdc0c:-7ffb" mandatory="false" name="website">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="f4b681:1244eabdc0c:-7ffa" mandatory="false" name="telephone">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="f4b681:1244eabdc0c:-7ff9" mandatory="false" name="email">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="21ef0d:1253494ef19:-7f05" mandatory="false" name="creation_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="21ef0d:1253494ef19:-7f04" mandatory="false" name="update_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+</column-list>
+<primary-key id="567c44:123b94441af:-7ffe" name="PK_ITEM">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="21ef0d:1253494ef19:-7f14" name="FK_item_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_GID" referenced-table="gid" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="gid_identifier" referenced-key-column-name="identifier"/>
+</foreign-key>
+<foreign-key id="1afab2e:1259c3a41e1:-7e77" name="FK_item_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CATEGORY" referenced-table="category" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="category" referenced-key-column-name="category"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="567c44:123b94441af:-7ff5" name="gps_position">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="567c44:123b94441af:-7fef" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="567c44:123b94441af:-7fec" mandatory="false" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="cd0da4:123eb6b3dd2:-7ffc" mandatory="false" name="latitude">
+<data-type name="FLOAT4" selected-variant-pattern="FLOAT4"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="cd0da4:123eb6b3dd2:-7ffb" mandatory="false" name="longitude">
+<data-type name="FLOAT4" selected-variant-pattern="FLOAT4"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7ffa" mandatory="false" name="address">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1547961:12568c7f9ec:-7ff4" mandatory="false" name="locality">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="567c44:123b94441af:-7ff4" name="PK_GPS_POSITION">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="567c44:123b94441af:-7fdb" name="FK_gps_position_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="f4b681:1244eabdc0c:-7ff8" name="apikey">
+<column-list>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="f4b681:1244eabdc0c:-7ff2" mandatory="false" name="hash">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="f4b681:1244eabdc0c:-7ff1" mandatory="false" name="domain">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="f4b681:1244eabdc0c:-7ff7" name="PK_APIKEY"/>
+</table>
+<table id="1d60c28:12456d62662:-7ffd" name="tag">
+<column-list>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1d60c28:12456d62662:-7ff9" mandatory="true" name="tag">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1d60c28:12456d62662:-7ff5" mandatory="false" name="parent_tag">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1d60c28:12456d62662:-7ff8" mandatory="false" name="description">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="1d60c28:12456d62662:-7ffc" name="PK_TAG">
+<primary-key-column name="tag"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="1d60c28:12456d62662:-7fdb" name="FK_tag_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_TAG" referenced-table="tag" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="parent_tag" referenced-key-column-name="tag"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="1e65667:124fc02a33f:-7ff9" name="contact">
+<table-description>The item contact (phone, internet, address)</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fef" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fea" mandatory="false" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fee" mandatory="false" name="label">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fed" mandatory="false" name="value">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+<column auto-increment="false" column-size="2" decimal-digits="0" default-value="" id="1375685:127ae39dac8:-7fa7" mandatory="false" name="locale">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="1e65667:124fc02a33f:-7ff8" name="PK_CONTACT">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="1e65667:124fc02a33f:-7fc5" name="FK_contact_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="1e65667:124fc02a33f:-7fb1" name="cost">
+<table-description>The item cost
+</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7faf" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fae" mandatory="false" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fad" mandatory="false" name="label">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1e65667:124fc02a33f:-7fac" mandatory="false" name="value">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2" decimal-digits="0" default-value="" id="1375685:127ae39dac8:-7fa0" mandatory="false" name="locale">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="1e65667:124fc02a33f:-7fab" name="PK_COST">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="1e65667:124fc02a33f:-7f64" name="FK_cost_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="daec86:1250bf7aa01:-7fc2" name="localizedItem">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="daec86:1250bf7aa01:-7fbc" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="daec86:1250bf7aa01:-7fba" mandatory="false" name="item_id">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="4" decimal-digits="0" default-value="" id="daec86:1250bf7aa01:-7fbb" mandatory="false" name="locale">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="50" decimal-digits="0" default-value="" id="daec86:1250bf7aa01:-7fb9" mandatory="false" name="label">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="daec86:1250bf7aa01:-7fb6" mandatory="false" name="value">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+</column-list>
+<primary-key id="daec86:1250bf7aa01:-7fc1" name="PK_LOCALIZEDITEM">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="daec86:1250bf7aa01:-7fa3" name="FK_localizedItem_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="16da9d:12521e694ae:-7ff9" name="time_occurrence">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="16da9d:12521e694ae:-7ff5" mandatory="false" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="16da9d:12521e694ae:-7ff4" mandatory="false" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="16da9d:12521e694ae:-7ff3" mandatory="false" name="start_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="16da9d:12521e694ae:-7ff2" mandatory="false" name="end_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1375685:127ae39dac8:-7f9d" mandatory="false" name="address">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="16da9d:12521e694ae:-7ff8" name="PK_TIME_OCCURRENCE"/>
+<foreign-key-list>
+<foreign-key id="16da9d:12521e694ae:-7fd4" name="FK_time_occurrence_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="219c51:12524f760cb:-7fc0" name="extra">
+<table-description>The item cost
+</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="219c51:12524f760cb:-7fbe" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="219c51:12524f760cb:-7fbd" mandatory="false" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="219c51:12524f760cb:-7fbc" mandatory="false" name="label">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="219c51:12524f760cb:-7fbb" mandatory="false" name="value">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+<column auto-increment="false" column-size="2" decimal-digits="0" default-value="" id="1ac3d6d:12795a9495a:-7fbf" mandatory="false" name="locale">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="219c51:12524f760cb:-7fba" name="PK_EXTRA">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="219c51:12524f760cb:-7f9f" name="FK_extra_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="21ef0d:1253494ef19:-7ff7" name="gid">
+<table-description>Georeferenced Information Deliverer
+</table-description>
+<column-list>
+<column auto-increment="false" column-size="15" decimal-digits="0" default-value="" id="21ef0d:1253494ef19:-7ff0" mandatory="true" name="identifier">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="21ef0d:1253494ef19:-7fef" mandatory="false" name="name">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="21ef0d:1253494ef19:-7ff6" name="PK_GID">
+<primary-key-column name="identifier"/>
+</primary-key>
+</table>
+<table id="1afab2e:1259c3a41e1:-7f1a" name="category">
+<column-list>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1afab2e:1259c3a41e1:-7f16" mandatory="true" name="category">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1afab2e:1259c3a41e1:-7f13" mandatory="false" name="description">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+</column-list>
+<primary-key id="1afab2e:1259c3a41e1:-7f19" name="PK_CATEGORY">
+<primary-key-column name="category"/>
+</primary-key>
+</table>
+<table id="7783ea:125b6cc6109:-7fe1" name="gidZone">
+<table-description>gid zone è semplicemente una spezzata di punti, in altri termini una POLYLINE POSTGIS. 
+</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fdb" mandatory="true" name="id">
+<data-type name="SERIAL8" selected-variant-pattern="SERIAL8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fda" mandatory="false" name="identifier">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="7783ea:125b6cc6109:-7fe0" name="PK_GIDZONE">
+<primary-key-column name="id"/>
+</primary-key>
+</table>
+<table id="7783ea:125b6cc6109:-7fd0" name="list">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fc8" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fc7" mandatory="false" name="name">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="145dbcd:125baa5e2e7:-7fd2" mandatory="false" name="creation_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="145dbcd:125baa5e2e7:-7fd1" mandatory="false" name="update_date">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="dc1882:126dd1f1f3d:-7fc3" mandatory="false" name="id_users">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+</column-list>
+<primary-key id="7783ea:125b6cc6109:-7fcf" name="PK_LIST">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="dc1882:126dd1f1f3d:-7f35" name="FK_list_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_USERS" referenced-table="users" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_users" referenced-key-column-name="id_users"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="7783ea:125b6cc6109:-7fc4" name="list_item">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fc0" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fbf" mandatory="false" name="id_list">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fbe" mandatory="false" name="id_item">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7fbd" mandatory="false" name="ord">
+<data-type name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION"/>
+</column>
+</column-list>
+<primary-key id="7783ea:125b6cc6109:-7fc3" name="PK_LIST_ITEM">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="7783ea:125b6cc6109:-7df2" name="FK_list_item_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_LIST" referenced-table="list" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_list" referenced-key-column-name="id"/>
+</foreign-key>
+<foreign-key id="7783ea:125b6cc6109:-7d63" name="FK_list_item_2" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_item" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="7783ea:125b6cc6109:-7f68" name="list_gidzone">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7f66" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7f65" mandatory="false" name="id_list">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7f64" mandatory="false" name="id_gidzone">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="7783ea:125b6cc6109:-7f63" mandatory="false" name="ord">
+<data-type name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION"/>
+</column>
+</column-list>
+<primary-key id="7783ea:125b6cc6109:-7f62" name="PK_LIST_GIDZONE">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="1889277:1277025bcd2:-7fa2" name="FK_list_menu_3" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_GIDZONE" referenced-table="gidZone" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_gidzone" referenced-key-column-name="id"/>
+</foreign-key>
+<foreign-key id="105fece:12775525bdb:-7f7a" name="FK_list_gidzone_2" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_LIST" referenced-table="list" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_list" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="153235f:12673fbd833:-7f92" name="localizedlist">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7f90" mandatory="true" name="id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7f8f" mandatory="false" name="list_id">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="4" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7f8e" mandatory="false" name="locale">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="50" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7f8d" mandatory="false" name="label">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7f8c" mandatory="false" name="value">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+</column-list>
+<primary-key id="153235f:12673fbd833:-7f8b" name="PK_LOCALIZEDLIST">
+<primary-key-column name="id"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="153235f:12673fbd833:-7dff" name="FK_localizedlist_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LIST" referenced-table="list" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="list_id" referenced-key-column-name="id"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="153235f:12673fbd833:-7de3" name="users">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dda" mandatory="true" name="id_users">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dd9" mandatory="false" name="name">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dd8" mandatory="false" name="surname">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dd7" mandatory="false" name="email">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dd6" mandatory="false" name="nick">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7dd5" mandatory="false" name="password">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d9c" mandatory="false" name="date_activation">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d9b" mandatory="false" name="last_login">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d9a" mandatory="false" name="enable">
+<data-type name="SMALLINT" selected-variant-pattern="SMALLINT"/>
+</column>
+</column-list>
+<primary-key id="153235f:12673fbd833:-7de2" name="PK_USERS">
+<primary-key-column name="id_users"/>
+</primary-key>
+</table>
+<table id="153235f:12673fbd833:-7d99" name="roles">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d95" mandatory="true" name="id_roles">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d94" mandatory="false" name="code_role">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="153235f:12673fbd833:-7d98" name="PK_ROLES">
+<primary-key-column name="id_roles"/>
+</primary-key>
+</table>
+<table id="153235f:12673fbd833:-7d91" name="roles_users">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d85" mandatory="false" name="id_roles_users">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d82" mandatory="false" name="id_roles">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7d81" mandatory="false" name="id_users">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+</column-list>
+<primary-key id="153235f:12673fbd833:-7d90" name="PK_ROLES_USERS"/>
+<foreign-key-list>
+<foreign-key id="153235f:12673fbd833:-7cfb" name="FK_roles_users_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_USERS" referenced-table="users" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_users" referenced-key-column-name="id_users"/>
+</foreign-key>
+<foreign-key id="153235f:12673fbd833:-7cb5" name="FK_roles_users_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_ROLES" referenced-table="roles" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_roles" referenced-key-column-name="id_roles"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="153235f:12673fbd833:-7c8b" name="admin_register_log">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7c87" mandatory="true" name="id_admin_register_log">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7c84" mandatory="false" name="id_users">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="153235f:12673fbd833:-7c83" mandatory="false" name="register_log_datetime">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+</column-list>
+<primary-key id="153235f:12673fbd833:-7c8a" name="PK_ADMIN_REGISTER_LOG">
+<primary-key-column name="id_admin_register_log"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="153235f:12673fbd833:-7c1f" name="FK_admin_register_log_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_USERS" referenced-table="users" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="id_users" referenced-key-column-name="id_users"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="1c71d67:126e048d04a:-7dd6" name="item_tag">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1c71d67:126e048d04a:-7dd3" mandatory="true" name="item_id">
+<data-type name="INT8" selected-variant-pattern="INT8"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="1c71d67:126e048d04a:-7dd2" mandatory="true" name="tag">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="1c71d67:126e048d04a:-7dd1" name="PK_ITEM_TAG"/>
+<foreign-key-list>
+<foreign-key id="1c71d67:126e048d04a:-7d2d" name="FK_item_tag_1" on-delete="CASCADE" on-update="CASCADE" referenced-key="PK_ITEM" referenced-table="item" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="item_id" referenced-key-column-name="id"/>
+</foreign-key>
+<foreign-key id="1c71d67:126e048d04a:-7ccd" name="FK_item_tag_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_TAG" referenced-table="tag" referenced-table-schema="wimove" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="tag" referenced-key-column-name="tag"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="d1fc9e:128f3143c4e:-7fa9" name="geosearch">
+<column-list>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="d1fc9e:128f3143c4e:-7fa5" mandatory="true" name="query">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="10" decimal-digits="0" default-value="" id="d1fc9e:128f3143c4e:-7fa3" mandatory="false" name="date">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="d1fc9e:128f3143c4e:-7fa2" mandatory="false" name="value">
+<data-type name="TEXT" selected-variant-pattern="TEXT"/>
+</column>
+<column auto-increment="false" column-size="2" decimal-digits="0" default-value="" id="d1fc9e:128f3143c4e:-7f9b" mandatory="false" name="locale">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="d1fc9e:128f3143c4e:-7fa8" name="PK_GEOSEARCH">
+<primary-key-column name="query"/>
+</primary-key>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+<diagram>
+<table-figure height="159" refid="567c44:123b94441af:-7fff" width="172" x="205" y="168"/>
+<table-figure height="137" refid="567c44:123b94441af:-7ff5" width="192" x="724" y="132"/>
+<table-figure height="63" refid="f4b681:1244eabdc0c:-7ff8" width="151" x="690" y="37"/>
+<table-figure refid="1d60c28:12456d62662:-7ffd" x="26" y="273"/>
+<table-figure height="104" refid="1e65667:124fc02a33f:-7ff9" width="162" x="257" y="508"/>
+<table-figure height="103" refid="1e65667:124fc02a33f:-7fb1" width="165" x="490" y="38"/>
+<table-figure height="119" refid="daec86:1250bf7aa01:-7fc2" width="151" x="395" y="402"/>
+<table-figure height="106" refid="16da9d:12521e694ae:-7ff9" width="107" x="574" y="335"/>
+<table-figure height="103" refid="219c51:12524f760cb:-7fc0" width="165" x="772" y="282"/>
+<table-figure height="99" refid="21ef0d:1253494ef19:-7ff7" width="133" x="108" y="13"/>
+<table-figure height="68" refid="1afab2e:1259c3a41e1:-7f1a" width="118" x="572" y="159"/>
+<table-figure height="100" refid="7783ea:125b6cc6109:-7fe1" width="156" x="932" y="164"/>
+<table-figure refid="7783ea:125b6cc6109:-7fd0" x="730" y="398"/>
+<table-figure refid="7783ea:125b6cc6109:-7fc4" x="1020" y="487"/>
+<table-figure refid="7783ea:125b6cc6109:-7f68" x="931" y="618"/>
+<table-figure refid="153235f:12673fbd833:-7f92" x="616" y="516"/>
+<table-figure refid="153235f:12673fbd833:-7de3" x="761" y="687"/>
+<table-figure refid="153235f:12673fbd833:-7d99" x="561" y="682"/>
+<table-figure refid="153235f:12673fbd833:-7d91" x="324" y="706"/>
+<table-figure refid="153235f:12673fbd833:-7c8b" x="460" y="792"/>
+<table-figure refid="1c71d67:126e048d04a:-7dd6" x="92" y="476"/>
+<table-figure height="97" refid="d1fc9e:128f3143c4e:-7fa9" width="152" x="152" y="647"/>
+</diagram>
+</clay-model>

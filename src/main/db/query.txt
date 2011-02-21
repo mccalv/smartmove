@@ -1,0 +1,1 @@
+select i.*, t.* FROM item i, time_occurrence t WHERE i.id=t.item_id and i.item_id='ZET_48411'

@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<categoria nome="Catacombe">
+	<elemento id="11097">
+		<nome>Catacombe di San Sebastiano</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11097.html
+		</link>
+		<descrizione><![CDATA[<div>Queste catacombe, estese su quattro livelli, sorgevano in un profondo avvallamento, usato come cava di pozzolana <br />e detto &quot; ad catacumbas &quot; , una denominazione che in epoca moderna &egrave; divenuta sinonimo di cimitero sotterraneo. Usate gi&agrave; come luogo funerario pagano, si trasformarono in necropoli cristiana verso la fine del II secolo, dedicate ai SS. Pietro e Paolo. La tradizione vuole che qui fossero nascosti, in una &quot; cella memoriae &quot; i resti dei due Santi prima della costruzione delle due basiliche sul Colle Vaticano e sulla via Ostiense. Solo nel IV secolo le catacombe hanno preso la denominazione attuale che deriva dal nome del Santo che qui fu deposto dopo la morte (298). Il giovane Sebastiano aveva preferito subire il supplizio delle frecce piuttosto che abiurare alla fede cristiana, ma non essendo deceduto, aveva sfidato l&#39;imperatore Diocleziano non appena si era rimesso in forze. Questi lo aveva fatto condurre all&#39;ippodromo del Palatino dove era stato ucciso a colpi di bastone e il suo corpo gettato nella Cloaca Massima. Miracolosamente apparso in sogno alla matrona Lucina, fu raccolto pietosamente da questa nelle sue spoglie mortali e trasportato presso le catacombe che da lui presero il nome. La visita di queste catacombe comprende l&#39;accesso solo a determinati settori: nella regione pi&ugrave; profonda, dal cubicolo di Giona, cos&igrave; denominato per gli affreschi del IV secolo che lo decorano e che raffigurano quattro scene riguardanti la vita di quel personaggio biblico, si arriva alla cripta di San Sebastiano e alla piazzola dove si aprono tre mausolei pagani utilizzati successivamente anche dai Cristiani. Il primo di questi mausolei &egrave; detto di &quot; Marcus Clodius Hermes &quot; dal nome del proprietario iscritto sulle pareti ed &egrave; decorato esternamente e internamente con pitture; una testa di Gorgone decora la volta. Il secondo &egrave; chiamato degli &quot; Innocentiores &quot; e presenta due camere la cui volta &egrave; decorata con stucchi raffinati e vani con iscrizioni e graffiti. Infine il terzo mausoleo &egrave; denominato dell&#39; &quot;ascia &quot; per l&#39;arnese raffigurato sul timpano del frontone. Dalla piazzola si accede ad un ambiente soprastante detto &quot; Triclia &quot; , luogo dove si celebravano banchetti funebri e sopra i resti del quale fu edificata, nel IV secolo la basilica Apostolorum, oggi ricordata come basilica di S. Sebastiano. <br /><br /><strong>Note<br /></strong>E&#39; possibile, per i gruppi, celebrare la messa nella catacomba con il proprio officiante, previa prenotazione telefonica qualche giorno prima.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.516673"
+				latitudine="41.855610">Via Appia Antica, 136</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 8,00</costo>
+			<costo label="Ridotto"> 5,00</costo>
+			<costo label="Visita guidata"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 7850350</contatto>
+			<contatto label="Fax">0039 06 7843745</contatto>
+			<contatto label="Email">mail@catacombe.org </contatto>
+			<contatto label="Sito web">www.catacombe.org</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Distributore automatico bevande</servizio>
+			<servizio>Punto vendita souvenirs, libri e cartoline</servizio>
+			<servizio>Visite guidate in lingua</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11098">
+		<nome>Catacombe di Santa Agnese</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11098.html
+		</link>
+		<descrizione><![CDATA[<div>Il complesso monumentale &egrave; composto dalla Basilica di Sant&#39;Agnese fuori le Mura e dal Mausoleo di Santa Costanza, il monumento destinato ad accogliere le spoglie di Costanza e di sua sorella Elena, figlie di Costantino, costruito intorno al 350. Sotto la Basilica e nella zona circostante si estendono le gallerie di una vasta catacomba, scoperta casualmente nel 1865, che &egrave; sicuramente anteriore alla deposizione delle spoglie della Santa, come dimostrano le numerose iscrizioni ritrovate. Il cimitero, privo di pitture, si articola su tre piani in quattro regioni. La regione pi&ugrave; antica &egrave; a sinistra della basilica e ha un cubicolo chiuso da una grande pietra come nelle tombe giudaiche. La quarta regione si trova proprio sotto l&#39;atrio della chiesa costantiniana.<br /><br /><strong>Note<br /></strong>E&#39; possibile, per i gruppi, celebrare la messa nella catacomba con il proprio officiante, previa prenotazione telefonica qualche giorno prima.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Ingresso secondario" longitudine="12.519327"
+				latitudine="41.922814">Via Nomentana, 349</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 8,00</costo>
+			<costo label="Ridotto"> 5,00</costo>
+			<costo label="Visita guidata"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 86205456</contatto>
+			<contatto label="Fax">0039 06 8610840</contatto>
+			<contatto label="Email">santagnese@santagnese.com</contatto>
+			<contatto label="Sito web">www.santagnese.net</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Punto vendita souvenirs, libri e cartoline</servizio>
+			<servizio>Visite guidate in lingua</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11099">
+		<nome>Catacombe di Domitilla</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11099.html
+		</link>
+		<descrizione><![CDATA[<div>La Catacomba di Domitilla &egrave; tra i cimiteri pi&ugrave; vasti della Roma sotterranea ed ha origine da alcuni sepolcreti costituiti in terreni appartenenti a Flavia Domitilla e da questa donati ai propri liberti. Flavia Domitilla era nipote di Tito Flavio Clemente, console nel 95 d.C. ed imparentata con la famiglia imperiale di Vespasiano. Tramite una scala rifatta in et&agrave; moderna, si accede ad una piccola basilica in muratura dedicata ai Santi Nereo e Achilleo, martirizzati da Diocleziano, i cui corpi furono deposti in una cripta trasformata, alla fine del secolo IV, da Papa Damaso in edificio di culto. Esso &egrave; costituito da tre navate, precedute da un nartece, separate da due file di quattro colonne. Dell&#39;altare maggiore, l&#39;unica colonnina superstite &egrave; decorata con la decapitazione di Achilleo, monumento il cui genere &egrave; rarissimo nell&#39;arte cristiana. Dietro l&#39;abside vi &egrave; un cunicolo con un affresco raffigurante la Santa Petronilla che introduce in cielo la defunta Veneranda. Dalla navata sinistra si accede a una regione molto antica (seconda met&agrave; del II secolo), luogo di deposizione di alcuni membri della famiglia dei Flavi Aureli. Al centro della catacomba si trova, su tre piani sovrapposti, la regione detta &quot;dello scalone del 1897&quot;: al piano superiore incontriamo il cubicolodi Ampliato, forse il nucleo pi&ugrave; antico dei cimiteri cristiani romani, con pitture di soggetto pagano. E&#39; di notevole interesse, al livello inferiore, un cubicolo con un affresco del III secolo raffigurante il Cristo Buon Pastore. Infine un&#39;altra regione ancora, detta &quot;della Madonna&quot;, contiene diversi dipinti del III e IV secolo, tra i quali spicca quello dell&#39;Epifania raffigurante quattro Magi che si avvicinano alla Vergine con il Bambino.<br /><br /><strong>Note<br /></strong>E&#39; possibile, per i gruppi, celebrare la messa nella catacomba con il proprio officiante, previa prenotazione telefonica qualche giorno prima.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.504226"
+				latitudine="41.859178">Via delle Sette Chiese, 280/282</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 8,00</costo>
+			<costo label="Ridotto"> 5,00</costo>
+			<costo label="Visita guidata"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 5110342</contatto>
+			<contatto label="Fax">0039 06 5110512</contatto>
+			<contatto label="Email">info@domitilla.soverdi.eu</contatto>
+			<contatto label="Sito web">http://domitilla.soverdi.eu -
+				www.domitilla.info</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Visite guidate in lingua</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11100">
+		<nome>Catacombe di Priscilla</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11100.html
+		</link>
+		<descrizione><![CDATA[<div>Le catacombe di Priscilla sono la testimonianza meglio conservatasi della vasta area funeraria che era attraversata dalla via Salaria. I nuclei primitivi di questa catacomba, tra le pi&ugrave; vaste e antiche di Roma, risalgono alla fine del II secolo, testimoniati dalla presenza di molte iscrizioni con i nomi di Pietro e Paolo. La sua denominazione deriva dalla proprietaria del terreno, la matrona romana Priscilla il cui figlio avrebbe ospitato S. Pietro.La parte pi&ugrave; antica prende il nome di &quot; cappella greca &quot; dalle due iscrizioni in lettere greche dipinte in rosso nelle nicchie presenti in questo luogo, che in origine serviva come riparo per la calura estiva, rinfrescato, pare, da giochi d&#39;acqua e arricchito da ornamenti.Le scene dipinte riportano episodi del Vecchio e Nuovo Testamento; particolarmente famosa &egrave; la scena nota come &quot; fractio panis &quot; cos&igrave; detta dalle immagini raffiguranti sette personaggi attorno ad una mensa, il cui primo commensale sembra essere in atto di spezzare il pane, gesto sacrale che allude al cibo eucaristico.Nel III secolo, sotto questa regione, si scav&ograve; un secondo piano comprendente una lunga galleria principale con ai lati oltre venti gallerie minori. Un&#39;altra regione si svilupp&ograve; intorno al vecchio nucleo &quot; dell&#39; arenario &quot; dove si conserva una pittura con la pi&ugrave; antica raffigurazione della Vergine col Bambino.Nel IV secolo venne edificata sulle catacombe una basilica, detta di S.Silvestro, che &egrave; ora in gran parte ricostruita. </div><div><strong><br />Note<br /></strong>E&#39; possibile, per i gruppi, celebrare la messa nella catacomba con il proprio officiante, previa prenotazione telefonica qualche giorno prima. </div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.508948"
+				latitudine="41.930180">Via Salaria, 430</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 8,00</costo>
+			<costo label="Ridotto"> 5,00</costo>
+			<costo label="Visita guidata"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 86206272</contatto>
+			<contatto label="Fax">0039 06 86398134</contatto>
+			<contatto label="Email">info.priscilla@flashnet.it</contatto>
+			<contatto label="Sito web">http://web.tiscali.it/catacombe_priscilla/
+			</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Punto vendita souvenirs, libri e cartoline</servizio>
+			<servizio>Visite guidate in lingua</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11101">
+		<nome>Catacombe di San Callisto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11101.html
+		</link>
+		<descrizione><![CDATA[<p>Le catacombe di San Callisto costituiscono il nucleo cimiteriale pi&ugrave; antico, e meglio conservato, della Via Appia. Sorte verso la fine del secolo II da una grande area sepolcrale comunitaria della Chiesa, gestita autonomamente dall&#39;autorit&agrave; ecclesiastica, prendono nome dal diacono Callisto che fu preposto all&#39;amministrazione del cimitero da papa S. Zefirino. Divenuto a sua volta pontefice, Callisto ingrand&igrave; il complesso funerario e questo fu il luogo dove trovarono sepoltura sedici pontefici romani del III secolo (Cripta dei papi). Alla catacomba si scende mediante un ripido scalone e, passando proprio dalla cripta dei papi, si accede, mediante una piccola apertura, al cubicolo in cui fu rinvenuta la tomba di Santa Cecilia: sulle pareti si conservano pitture del V-VI secolo, tra cui la pi&ugrave; antica immagine della Santa in atteggiamento di orante.</p><p>Da qui, nell&#39;821, papa Pasquale I tolse il sarcofago della martire per trasportarlo nella chiesa omonima in Trastevere.</p><p>Usciti dalla cripta di Santa Cecilia, si pu&ograve; scendere ad un ossario, costituito da strati sovrapposti fino a raggiungere 4 metri di altezza, e poi percorrere una galleria in cui si apre una serie di cubicoli detti &quot;dei Sacramenti&quot; a causa delle pitture che alludono al Battesimo e all&#39;Eucarestia. Dopo aver visitato il monumentale sarcofago detto &quot;di papa Milziade&quot;, si penetra nelle altre regioni dei SS. Gaio e Eusebio e in quella detta &quot;liberiana&quot; per tre iscrizioni del tempo di papa Liberio (352-366), nella quale vi sono arcosoli dipinti con scene del Vecchio e Nuovo Testamento. Infine si giunge ad un nucleo primitivo, le &quot;cripte di Lucina&quot;, dove si trovano il sepolcro di papa Cornelio decorato da pitture in stile bizantineggiante e, vicino, due affreschi che raffigurano uno, &quot;il Buon Pastore e orante&quot; e l&#39;altro due pesci con due cesti pieni di pane e al centro un bicchiere di vetro colmo di vino, simboli evidenti del cibo eucaristico. <br /><br /><strong>Modalit&agrave; della visita</strong><br />I visitatori vengono accompagnati, gratuitamente, da guide della loro lingua; nei momenti di grande afflusso con i gruppi numerosi della stessa lingua, per evitare lunghe attese, la visita si svolge in questo modo.<br />I gruppi ricevono all&#39;esterno un&#39;ampia spiegazione sulle catacombe (storia, simboli, cripte e gallerie, affreschi e lapidi); poi, scendono accompagnati nelle catacombe percorrendo con calma, ma senza fermarsi nelle cripte e gallerie, perch&eacute; data la ristrettezza degli spazi non sono possibili ulteriori spiegazioni.<br />Non &egrave; possibile soddisfare esigenze diverse come maggiore durata della visita, altre spiegazioni all&#39;interno della catacomba, percorsi alternativi fuori dell&#39;itinerario normale.<br />La visita (spiegazione previa e percorso in catacomba) dura 30/40 minuti.<br /><strong><br />Note<br /></strong>E&#39; possibile, per i gruppi, celebrare la messa nella catacomba con il proprio officiante, previa prenotazione telefonica qualche giorno prima.<br /></p>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.512230"
+				latitudine="41.859571">Via Appia Antica, 110/126</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 8,00</costo>
+			<costo label="Ridotto"> 5,00</costo>
+			<costo label="Visita guidata"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 51301580 - 5130151</contatto>
+			<contatto label="Fax">0039 06 51301567</contatto>
+			<contatto label="Email">scallisto@catacombe.roma.it</contatto>
+			<contatto label="Sito web">www.catacombe.roma.it/indice.html</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Punto vendita souvenirs, libri e cartoline</servizio>
+			<servizio>Visite guidate in lingua</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11102">
+		<nome>Catacomba dei SS. Marcellino e Pietro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11102.html
+		</link>
+		<descrizione><![CDATA[<div>Il complesso, segnalato dalle fonti come &ldquo;inter duas lauros&rdquo; dal nome antico della localit&agrave;, comprende la Catacomba di Marcellino e Pietro, la basilica omonima e il Mausoleo di Elena, noto anche con il nome di Tor Pignattara. Si accede alle catacombe dal cortile della basilica. Il sepolcro dei due Santi (accanto ai quali erano venerati anche Tiburzio, Corgonio, i SS. Quattro Coronati e due gruppi anonimi di martiri, tutte vittime della grande persecuzione di Diocleziano) era inizialmente costituito da dues emplici loculi, in seguito arricchiti da monumentali decorazioni marmoree per volont&agrave; di papa Damaso (366-84), il quale si tramanda abbia conosciuto le vicende di Marcellino e Pietro direttamente dal loro carnefice. Damaso fece costruire la scala d&#39;accesso e un percorso obbligatorio per i pellegrini che si snodava tra sopra e sottoterra. I corpi dei due martiri rimasero nella cripta sotterranea fino al pontificato di Gregorio IV (826), quando furono trasportati in Francia e di qui in Germania. La grande devozione dei fedeli per questo sito &egrave; documentata dai numerosi graffiti nell&#39;absidiola e nelle gallerie che conducono verso le tombe dei martiri; non solo compaiono invocazioni in latino, ma anche in runico, a testimonianza della frequentazione del luogo di culto da parte anche di Celti e Germani. Le catacombe, decorate da scene bibliche, sono tra le pi&ugrave; grandi di quelle presenti a Roma. Onorio I (625-38) fece costruire una piccola basilica sotterranea absidata per accogliere i fedeli sempre pi&ugrave; numerosi, raddoppi&ograve; la scala d&#39;ingresso al vano basilicale e consacr&ograve; un altare proprio sopra i due loculi; tra il V e il VII secolo fu creato il nuovo santuario dedicato ai SS.Quattro Coronati, collegato al primo nucleo martiriale tramite percorsi a senso unico contrassegnati da lucernari; inoltre, per agevolare il cammino delle schiere di pellegrini, furono sbarrate le gallerie secondarie e i cubicoli e costruite nuove scale. Adriano I infine (ultimo quarto sec. VIII) provvide all&#39;ultimo allargamento dell&#39;edificio. <br />Tra le pitture presenti, merita una segnalazione quella che rappresenta l&#39;Epifania con due Magi.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.548680"
+				latitudine="41.877918">Via Casilina, 641</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4465610</contatto>
+			<contatto label="Fax">0039 06 4467625</contatto>
+			<contatto label="Email">callisto@catacombe.roma.it</contatto>
+			<contatto label="Sito web">www.catacombe.roma.it/indice.html</contatto>
+		</contatti>
+		<keywords>
+			<keyword>Pontificia Commissione di Archeologia Sacra</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11103">
+		<nome>Catacombe Ebraiche di Vigna Randanini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11103.html
+		</link>
+		<descrizione><![CDATA[<div>Propriet&agrave; privata. Bene sotto la tutela della Soprintendenza Archeologica di Roma.</div><div>Queste catacombe, scoperte nel1859, costituiscono uno degli esempi migliori di strutture cimiteriali della comunit&agrave; ebraica di Roma, presente nella citt&agrave; gi&agrave; dal II secolo a.C. e divenuta sempre pi&ugrave; numerosa soprattutto in epoca imperiale. L&rsquo;ingresso alle catacombe avviene attraverso una vasta aula rettangolare, in origine a cielo aperto ed in seguito divisa in due parti e coperta&nbsp; da una volta, probabilmente per essere utilizzata come sinagoga. Le gallerie presentano&nbsp; tombe a &ldquo;forma&rdquo;, cio&egrave; scavate nel pavimento, loculi chiusi da mattoni, arcosoli e le caratteristiche sepolture a K&ocirc;chim, di origine fenicia, costituite da tombe a forno a pi&ugrave; piani. Alcuni cubicoli dipinti riportano, oltre a&nbsp; motivi floreali e raffigurazioni di animali, anche soggetti tipici della religione ebraica come l&rsquo;arca della legge e il candelabro a sette braccia. Da notare invece l&rsquo;assenza di iscrizioni in ebraico. Le catacombe raggiunsero il loro massimo sviluppo nel III e IV secolo d.C.&nbsp;</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.513683"
+				latitudine="41.858293">Via Appia Antica, 119</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">laeti@tiscalinet.it</contatto>
+			<contatto label="Fax">0039 06 6785989</contatto>
+		</contatti>
+		<keywords>
+			<keyword>statale</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11104">
+		<nome>Catacombe di Pretestato</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11104.html
+		</link>
+		<descrizione><![CDATA[<div>Le catacombe, che prendono forse il nome dal proprietario del terreno, erano conosciute gi&agrave; dal Settecento, e furono scavate tra il 1847 e il 1872. Nel 1931 fu inoltre scoperto un vasto recinto funerario sopratterra, caratterizzato dalla presenza di tombe di personaggi dell&rsquo;aristocrazia senatoria e della famiglia imperiale. Questa zona era precedentemente occupata dalla vasta residenza di Erode Attico (il cosiddetto Triopio), passata alla morte del proprietario al demanio imperiale ed occupata da tombe di alto livello. Qui &egrave; stato tra l&rsquo;altro rinvenuto il sarcofago dell&rsquo;imperatore Balbino (238 d.C.), a dimostrazione del carattere elitario del sepolcreto. Una parte delle catacombe riutilizza inoltre una lunga galleria, probabilmente una cisterna abbandonata, chiamata Spelunca Magna. Le catacombe, il cui impianto si colloca agli inizi del III secolo d.C., erano costituite da tre nuclei principali articolati su pi&ugrave; livelli. Nel IV secolo questi tre nuclei furono ampliati, creando una fitta rete di diramazioni e cubicoli. Nello stesso periodo, nell&rsquo;area sopra terra insieme alle sepolture vennero costruiti anche luoghi di culto, come le due basiliche di Zenone e Tiburzio, Valeriano e Massimo, di cui non rimane pi&ugrave; traccia. Molto interessanti le pitture presenti nei cubicoli; tra queste una scena di incoronazione di Cristo, del III secolo, da considerare uno dei pi&ugrave; antichi esempi di rappresentazione della Passione. Altri affreschi, del IV secolo, rappresentano gli apostoli Pietro e Paolo, e i papi Sisto II e Liberio.&nbsp;&nbsp; <br /><br /><strong>Note<br /></strong>Visita su richiesta da inoltrare alla Pontificia Commissione di Archeologia Sacra.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.516971"
+				latitudine="41.858202">Via Appia Pignatelli, 11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4465610</contatto>
+		</contatti>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="11105">
+		<nome>Catacombe di S. Valentino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/11105.html
+		</link>
+		<descrizione><![CDATA[<div>La catacomba si trova lungo la via Flaminia, nei pressi di una vasta area funeraria dove sono presenti alcuni mausolei addossati alla collina dei Parioli databili tra il I e il II secolo d.C. Fu rinvenuta da Bosio, che possedeva proprio al di sopra di essa una villa,&nbsp;nel XVII secolo. La prima fase della catacomba risale al III secolo; da un ingresso in piano si accedeva&nbsp; a una serie di gallerie ortogonali, scavate con schema &ldquo;a graticola&rdquo;. Nel corso del IVs ecolo fu costruita, probabilmente nel luogo dove era la tomba di S. Valentino, una basilica a tre navate con una cripta e un&rsquo;abside scavata nel colle dei Parioli. Durante questo periodo furono anche scavati due nuovi livelli di gallerie al di sopra del livello pi&ugrave; antico. La basilica ha subito modifiche nella met&agrave; del VII secolo. Al suo interno sono state inoltre rinvenute alcune tombe, databili tra il IV e il VI secolo. Il culto del martire Valentino sembra risalire all&rsquo;epoca costantiniana, anche se con questo nome sono identificati due martiri legati alla viaFlaminia,&nbsp; a Roma e a Terni. E&rsquo; probabile anche che si tratti dello stesso personaggio, originario della citt&agrave; umbra e venerato anche a Roma. <br /><br /><strong>Note<br /></strong>Per le visite (gruppi o scuole) occorre fare richiesta alla Pontificia Commissione di Archeologia Sacra - tel. 06.4465610.<br />La gestione delle catacombe &egrave; a cura della Pontificia Accademia Cultorum Martyrum - tel. 06.4455833.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472828"
+				latitudine="41.925111">Viale Maresciallo Pilsudski, 2</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Visita guidata"> 0,00</costo>
+			<costo label="Gratuito"> 0,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 4455833 - 4465610</contatto>
+			<contatto label="Fax">0039 06 4455833</contatto>
+			<contatto label="Email">cultorum.martyrum@tiscali.it</contatto>
+		</contatti>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="23382">
+		<nome>Catacombe di Generosa</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/89/itm/23382.html
+		</link>
+		<descrizione><![CDATA[<p>La catacomba fu scoperta casualmente nel 1868 da G.B. De Rossi quando furono rinvenute molte epigrafi in quest&#39;area che era una vigna di propriet&agrave; dei fratelli Ceccarelli: non ha un&#39;ampia estensione, le sue gallerie sono strette, piuttosto irregolari: probabilmente la natura geomorfologica del terreno ne ha condizionato l&#39;andamento. Le sepolture sono a loculo, abbastanza modeste, tranne rare eccezioni possiamo parlare di un modesto cimitero rurale. Nella catacomba furono sepolti i martiri Simplicio, Faustino e Beatrice, e non &egrave; da escludere che proprio la loro presenza abbia notevolmente contribuito allo sfruttamento intensivo di tutto il cimitero.<br />Secondo la tradizione, durante le persecuzioni ordinate dall&rsquo;imperatore Diocleziano (284-305), i due fratelli Simplicio e Faustino furono uccisi, dopo essere stati torturati. I loro corpi, gettati nel Tevere e spinti dalla corrente fin sulle sponde della Magliana, furono tratti a riva dalla sorella Beatrice che, aiutata dai presbiteri Crispo e Giovanni, provvide alla loro sepoltura in una cava di pozzolana situata nelle vicinanze, di propriet&agrave; di una matrona romana di nome Generosa.<br />In seguito anche Beatrice fu uccisa e venne seppellita accanto ai fratelli.<br /><br /><strong>Note<br /></strong>Attualmente non visitabile.<br />Informazioni: Pontificia Commissione di Archeologia Sacra 06 4465610</p>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.430978"
+				latitudine="41.835715">Via Catacombe di Generosa</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4465610</contatto>
+		</contatti>
+		<keywords>
+			<keyword>Santa Sede</keyword>
+		</keywords>
+	</elemento>
+</categoria>

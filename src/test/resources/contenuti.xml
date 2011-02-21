@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns="http://content.wimove.com/services">
+	<description><![CDATA[èèpoii sdfsdfsd]]></description>
+	<item>
+		<title><![CDATA[Title]]></title>
+		<description><![CDATA[description]]></description>
+		<gps_positions>
+			<gps_position lon="1520.55" lat="1520.55">
+				<address><![CDATA[via della marmorata,21,roma]]></address>
+			</gps_position>
+		</gps_positions>
+		<costs>
+			<cost label="biglietto">
+				<value><![CDATA[111.29€]]></value>
+			</cost>
+			<cost label="biglietto">
+				<value><![CDATA[111.29€]]></value>
+			</cost>
+		</costs>
+		<contacts>
+			<contact label="telefono">
+				<value><![CDATA[0684579554]]></value>
+			</contact>
+		</contacts>
+		<timeTable>
+			<timeRange startDate="2009-11-23+01:00" endDate="2009-11-23+01:00" />
+		</timeTable>
+		<timeRecurrences>
+			<byDayOfWeek>
+				<dayOfTheWeek>1</dayOfTheWeek>
+			</byDayOfWeek>
+		</timeRecurrences>
+		<extra>
+			<name><![CDATA[telefono]]></name>
+			<value><![CDATA[3282930943]]></value>
+		</extra>
+	</item>
+</list>
+

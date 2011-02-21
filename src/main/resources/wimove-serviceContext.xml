@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:compass="http://www.compass-project.org/schema/spring-core-config"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+    http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd
+    http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd 
+    ">
+
+
+
+	<!--
+		import required child contexts so clients only need to import the
+		service context
+	-->
+	<import resource="classpath:wimove-persistenceContext.xml" />
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<bean id="itemService" class="com.wimove.content.service.impl.DefaultItemService">
+		<property name="itemRepository" ref="itemRepository"></property>
+	</bean>
+
+
+	<bean id="listService" class="com.wimove.content.service.impl.DefaultListService">
+		<property name="listRepository" ref="listRepository"></property>
+	</bean>
+
+	<bean id="categoryService" class="com.wimove.content.service.impl.DefaultCategoryService">
+		<property name="categoryRepository" ref="categoryRepository"></property>
+	</bean>
+	<bean id="apiKeyService" class="com.wimove.content.service.impl.DefaultApiKeyService">
+		<property name="apiKeyRepository" ref="apiKeyRepository"></property>
+	</bean>
+
+
+	<bean id="httpConnectionManager" class="com.wimove.service.atac.AtacCalcolaPercorsoService">
+		<constructor-arg value="${httpConnectionManager.infoPointUrl}" />
+		<constructor-arg value="${httpConnectionManager.useTimeouts}" />
+	</bean>
+
+
+
+	<bean id="ttsServiceManager" class="com.wimove.service.audio.TTSServiceManager">
+		<constructor-arg value="${mp3Service.ttsCreationUrl}" />
+		<constructor-arg value="false" />
+		<property name="mp3Folder" value="${mp3Service.mp3Folder}" />
+		<property name="tmpFolder" value="${mp3Service.tmpFolder}" />
+		<property name="itemService" ref="itemService" />
+	</bean>
+
+
+
+	<bean id="atacTempiAttesaBusService" class="com.wimove.service.atac.AtacTempiAttesaBusService">
+		<constructor-arg value="${xmlRpc.tempiAttesaBusUrl}" />
+		<constructor-arg value="${xmlRpc.tempiAttesaBusToken}" />
+		<constructor-arg value="${xmlRpc.tempiAttesaBusMethod}" />
+
+	</bean>
+	
+	<!-- Google Reverse Gecoding Service -->
+	<bean id="geocodingService" class="com.wimove.content.service.impl.GoogleGeocodingService">
+		<constructor-arg value="${googleGeocodingServiceUrl}" />
+		<constructor-arg value="true" />
+		<property name="geoSearchRepository" ref="geoSearchRepository" />
+
+	</bean>
+
+
+	<!-- ZETEMA IMPORT SERVICE -->
+	<bean id="parsingService"
+		class="com.wimove.content.service.impl.provider.DefaultParsingService">
+		<property name="gidIdentifier" value="${zetema.gidIdentifier}" />
+		<property name="csvGidIdentifier" value="${csv.gidIdentifier}" />
+		
+	</bean>
+
+	<bean id="batchContentService"
+		class="com.wimove.content.service.impl.provider.DefaultBatchContentsService">
+		<property name="folderPath" value="${zetema.folder}" />
+		<property name="csvfolderPath" value="${atac.csvFolder}" />
+		<property name="backupFolder" value="${zetema.backupfolder}" />
+		<property name="parsingService" ref="parsingService" />
+		<property name="batchRepository" ref="batchRepository" />
+		<property name="ttsServiceManager" ref="ttsServiceManager" />
+		
+	</bean>
+
+
+
+
+
+	<!-- CRONJOB -->
+	
+		
+	<bean name="quartzDeleteContentJob" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass"
+			value="com.wimove.content.timer.DeletedExpiredContentsJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="timeout" value="5" />
+				<entry key="service" value-ref="batchContentService" />
+				<entry key="enabled" value="${removeUnusedContents.isEnabled}" />
+			</map>
+		</property>
+	</bean>
+	
+	<bean name="quartzImportContentJob" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass"
+			value="com.wimove.content.timer.ImportContentJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="timeout" value="5" />
+				<entry key="service" value-ref="batchContentService"  />
+				<entry key="enabled" value="${importContents.isEnabled}" />
+				
+			</map>
+		</property>
+	</bean>
+	
+	<bean name="quartzCreateMp3Job" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass"
+			value="com.wimove.content.timer.GenerateMp3Job" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="timeout" value="5" />
+				<entry key="service" value-ref="batchContentService"  />
+				<entry key="enabled" value="${mp3Service.isEnabled}" />
+			</map>
+		</property>
+	</bean>
+
+	<!-- bean id="importContentTrigger" class="org.springframework.scheduling.timer.ScheduledTimerTask"
+		lazy-init="false">
+		
+		<property name="delay" value="30000" />
+		
+		<property name="period" value="1000000" />
+		<property name="timerTask" ref="importContentTimerTask" />
+	</bean-->
+	<bean id="deleteContentTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="quartzDeleteContentJob" />
+		<!-- run every morning at 6 AM -->
+		<property name="cronExpression" value="${removeUnusedContents.cronExpression}" />
+	</bean>
+	
+	<bean id="importContentTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="quartzImportContentJob" />
+		<!-- run every morning at 6 AM -->
+		<property name="cronExpression" value="${importContents.cronExpression}" />
+	</bean>
+	
+	<bean id="createMp3Trigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="quartzCreateMp3Job" />
+		<!-- run every morning at 6 AM -->
+		<property name="cronExpression" value="${createMp3.cronExpression}" />
+	</bean>
+
+
+	<!--   This time factory instanciate the the timerTask-->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!--
+			property name="jobDetails"> <list> <ref bean="deleteContentTrigger"
+			/> </list> </property
+		-->
+		<property name="triggers">
+			<list>
+				<ref bean="deleteContentTrigger" />
+				<ref bean="importContentTrigger" />
+				<ref bean="createMp3Trigger" />
+			
+			</list>
+		</property>
+	</bean>
+
+
+
+
+	<!--  JMX Beans -->
+	<!--  This  part is optional and should be refactored out -->
+	<bean id="exporter" class="org.springframework.jmx.export.MBeanExporter">
+		<property name="assembler" ref="assembler" />
+		<property name="namingStrategy" ref="namingStrategy" />
+		<property name="autodetect" value="true" />
+		<property name="registrationBehaviorName" value="REGISTRATION_REPLACE_EXISTING" />
+	</bean>
+	<bean id="jmxAttributeSource"
+		class="org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource" />
+
+	<!-- will create management interface using annotation metadata -->
+	<bean id="assembler"
+		class="org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler">
+		<property name="attributeSource" ref="jmxAttributeSource" />
+	</bean>
+	<!-- will pick up the ObjectName from the annotation -->
+	<bean id="namingStrategy"
+		class="org.springframework.jmx.export.naming.MetadataNamingStrategy">
+		<property name="attributeSource" ref="jmxAttributeSource" />
+	</bean>
+	<bean id="jmsItemsMbean" class="com.wimove.content.jmx.JmxItemsMbean">
+	
+		<property name="itemService" ref="itemService" />
+		<property name="batchContentService" ref="batchContentService" />
+	</bean>
+</beans>

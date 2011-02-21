@@ -1,0 +1,915 @@
+<?xml version="1.0"?>
+<categoria nome="Sedi espositive">
+	<elemento id="10660">
+		<nome>Galleria Emmeotto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10660.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479838"
+				latitudine="41.908283">Via Margutta, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3216540 - 3217155</contatto>
+			<contatto label="Sito web">www.emmeotto.net</contatto>
+			<contatto label="Email">info@emmeotto.net</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10833">
+		<nome>Sala Instituto Cervantes</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10833.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473327"
+				latitudine="41.898960">Piazza Navona, 91/92</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6861871</contatto>
+			<contatto label="Email">curom@cervantes.es</contatto>
+			<contatto label="Sito web">http://roma.cervantes.es</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10835">
+		<nome>Torretta Valadier di Ponte Milvio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10835.html
+		</link>
+		<descrizione><![CDATA[<div><strong><br /></strong></div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.466342"
+				latitudine="41.937263">Piazzale di Ponte Milvio, 48</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69620680 - 681</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10836">
+		<nome>Sale del Bramante</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10836.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476451"
+				latitudine="41.910285">Piazza del Popolo, 1</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36004224</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10838">
+		<nome>Complesso Monumentale del San Michele a Ripa</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10838.html
+		</link>
+		<descrizione><![CDATA[<div>Gli spazi espositivi sono costituiti dalla Sala dello Stenditoio e dalla Sala degli Aranci</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474056"
+				latitudine="41.884498">Via di San Michele, 25</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58434405</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10839">
+		<nome>Sala Santa Rita</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10839.html
+		</link>
+		<descrizione><![CDATA[<div><p class="MsoNormal">La Sala Santa Rita &egrave; uno spazio polifunzionale inaugurato nel febbraio 2004 al centro della citt&agrave;, dopo un accurato lavoro di restauro, con l&#39;obiettivo di farne una delle sedi privilegiate per le proprie iniziative culturali ed istituzionali. <br />Nel suo scenario raccolto e suggestivo hanno luogo progetti espositivi di grande originalit&agrave; e interesse, veri e propri cammei dedicati a sperimentalismi di ogni tipo, che dalle tradizionali espressioni delle arti visive trasmigrano fino a coinvolgere musica, teatro, fumetto, cinema, moda, producendo singolari incontri tra espressivit&agrave; diverse, individuate anche per la loro straordinaria capacit&agrave; di valorizzare la particolarit&agrave; di questo spazio situato al centro della citt&agrave; storica.<br />La struttura ellittica offre uno scenario suggestivo e raccolto, nel quale vengono realizzati progetti che attraversano i diversi linguaggi artistici contemporanei: esposizioni, performance, incontri, letture, installazioni, concerti, recital, proiezioni.<br />Sono state finora ospitate opere di grandi maestri quali Robert Capa, Arnaldo Pomodoro, Tommaso Le Pera, Roberto Capucci, Bartolomeo e Achille Pinelli, Antoine Jean Baptiste Thomas, Emanuele Luzzati, Altan, Pablo Echaurren, Federico Garolla, Maria Signorelli, illustratori come Mojmir Ježec, Michelangelo Pace e di giovani artisti e fotografi come Martux_M, Riccardo Venturi, Massimiliano Verdino, Lorenzo Vitturi, Piero Mottola, PierPaolo Verdecchi, Danele Vita, Giorgio De Finis, Maurizio Ribichini, Davide Reviati, Stefano Misesti.<br />La Sala inoltre ha ospitato l&#39;edizione 2004, 2005 e 2006 del <em><span style="font-family: Arial">Festival delle Fotografie</span></em>, con le mostre &quot;I Tulkus del Tibet&quot; di Martine Franck , &quot;Original Malati&quot; e &quot;Vocazione Reporter&quot; di Mario Dondero.<br />Le immagini esposte nella Sala vengono spesso accompagnate da suoni, proiezioni, parole e letture ad opera di grandi artisti e personaggi della cultura. Da ricordare in tal senso le performance di Ottavia Piccolo, Bruno Cagli, Omero Antonutti, Daniela Giordano, Gabriele Lavia, Magda Mercatali, Ascanio Celestini, Giampiero Bianchi, Ugo De Vita, Fabio Isman, Giancarlo Dotto, Oliviero Beha, Maria Rosaria Omaggio, Massimo Rinaldi, Erri De Luca, Valerio Magrelli, Gabriella Sica, Valentino Zeichen.<br />La gestione dello spazio e le attivit&agrave; realizzate sono curati dal Dipartimento Politiche Culturali e dalla Sovrintendenza ai Beni Culturali del Comune di Roma in collaborazione con Z&egrave;tema Progetto Cultura.</p></div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480413"
+				latitudine="41.892477">Via Montanara, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 67105568</contatto>
+			<contatto label="Sito web">www.salasantarita.culturaroma.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10840">
+		<nome>Complesso dei Dioscuri al Quirinale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10840.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.489142"
+				latitudine="41.899716">Via Piacenza, 1</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 484809 - 06 4747155</contatto>
+			<contatto label="Fax">0039 06 4747155</contatto>
+		</contatti>
+		<keywords>
+			<keyword>gratuito</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="10841">
+		<nome>Chiostro del Bramante</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10841.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471205"
+				latitudine="41.899340">Via della Pace, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68809035</contatto>
+			<contatto label="Fax">0039 06 68809036</contatto>
+			<contatto label="Email">info@chiostrodelbramante.it</contatto>
+			<contatto label="Sito web">www.chiostrodelbramante.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10842">
+		<nome>Palazzo delle Esposizioni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10842.html
+		</link>
+		<descrizione><![CDATA[<p style="margin: 3pt 0pt" class="MsoNormal"><font size="2"><font face="Arial">Palazzo delle Esposizioni &egrave; il pi&ugrave; grande spazio espositivo interdisciplinare nel centro di Roma: pi&ugrave; di 10.000 metri quadri, articolati su 3 piani, Livello 0, 1 e 2, ospitano eventi culturali e offrono servizi ai visitatori.</font></font></p><p style="margin: 3pt 0pt" class="MsoNormal"><font size="2"><font face="Arial">Inoltre, il Palazzo &egrave; dotato di una Sala Cinema da 139 posti, dell&rsquo;Auditorium (sala&nbsp; multimediale per 90 persone) e del Forum (sala polifunzionale), oltre a una caffetteria di 290 mq, un ristorante per 240 persone di 400 mq di e una libreria di 470 mq.</font></font></p><p style="margin: 3pt 0pt" class="MsoNormal"><font size="2"><font face="Arial">Palazzo delle Esposizioni, in sintonia con quanto accade nelle maggiori capitali europee, &egrave; uno spazio di cultura e suggestioni, capace di proporre ai visitatori progetti qualitativamente elevati, standard tecnologici di eccellenza e politiche di accoglienza degli ospiti attente e moderne. Un centro culturale tra i pi&ugrave; aggiornati, in continuo e proficuo scambio con le pi&ugrave; importanti istituzioni culturali internazionali. </font></font><span style="font-size: 10pt; font-family: Arial">Palazzo delle Esposizioni &egrave; gestito dall&rsquo;Azienda Speciale Palaexpo, ente strumentale del Comune di Roma che ricopre un ruolo di primo piano in Italia quale ente produttore di servizi integrati: dalle mostre d&rsquo;arte alle rassegne cinematografiche, dal teatro alla fotografia, dalla musica alla presentazione di libri ed eventi.</span></p>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490471"
+				latitudine="41.898935">Via Nazionale, 194</indirizzo>
+			<indirizzo label="Ingresso disabili" longitudine="12.48976"
+				latitudine="41.89930">Via Milano, 17</indirizzo>
+			<indirizzo label="Ingresso disabili" longitudine="12.489286"
+				latitudine="41.899826">Via Piacenza, snc</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 10,00</costo>
+			<costo label="Ridotto"> 7,50</costo>
+			<costo label="Scuole"> 4,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">info e prenotazioni 0039 06 39967500 - 06
+				39967200 (scuole)</contatto>
+			<contatto label="Fax">0039 06 48941999</contatto>
+			<contatto label="Email">info.pde@palaexpo.it</contatto>
+			<contatto label="Acquisto online">http://www.ticketclic.it/database/b2c__/order.cfm?sitedefid=272&amp;ln=39
+			</contatto>
+			<contatto label="Sito web">www.palazzoesposizioni.it</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Auditorium</servizio>
+			<servizio>Caffetteria</servizio>
+			<servizio></servizio>
+			<servizio>Guardaroba</servizio>
+			<servizio></servizio>
+			<servizio>Libreria</servizio>
+			<servizio>Ristorante</servizio>
+			<servizio>Sala Cinema</servizio>
+			<servizio>Servizi igienici per disabili</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Bibliocard</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="10843">
+		<nome>Museo Fondazione Roma - Museo del Corso</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10843.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Spettacoli</strong>: Dal marted&igrave; alla domenica vengono rappresentati spettacoli che durano circa 30 minuti ciascuno.* Per bambini (spettacoli di giullari, maghi e burattinai): Mar, gio, sab, dom (ore 15:30-18:30)* Per adulti (musica jazz, folk e classica): Mer, ven, sab, dom (ore 20:00-23:00)</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4810004"
+				latitudine="41.8995305">Via del Corso, 320</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 10,00</costo>
+			<costo label="Ridotto"> 8,00</costo>
+			<costo label="Scuole"> 4,50</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 06 6786209</contatto>
+			<contatto label="Email">info@museodelcorso.it</contatto>
+			<contatto label="Sito web">www.fondazioneroma.it / www.museodelcorso.it
+			</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Bar</servizio>
+			<servizio>Libreria</servizio>
+			<servizio>Collegamento Internet</servizio>
+			<servizio>Visite guidate</servizio>
+			<servizio>Sala proiezione</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10844">
+		<nome>Complesso del Vittoriano</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10844.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.484313"
+				latitudine="41.893583">Via di San Pietro in Carcere</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6780664 - 06 6780363</contatto>
+			<contatto label="Email">museovittoriano@tiscali.it</contatto>
+		</contatti>
+		<keywords>
+			<keyword>Bibliocard</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="10845">
+		<nome>Scuderie del Quirinale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10845.html
+		</link>
+		<descrizione><![CDATA[  <p class="MsoNormal">Costruito nell&#39;arco di un decennio (1722 - 1732), il palazzo delle Scuderie al Quirinale delimita, con il Palazzo del Quirinale e quello della Consulta, lo straordinario spazio urbano al centro del quale &egrave; posta la fontana con le statue dei Dioscuri e l&#39;obelisco ritrovato nell&#39;Ottocento nei pressi del Mausoleo di Augusto. </p>    <p class="MsoNormal">L&#39;edificio delle Scuderie &egrave; collocato a ridosso del muro che chiude il giardino Colonna e poggia sui resti, in parte ancora visibili, del grandioso tempio romano di Serapide. </p>  <p class="MsoNormal">La superficie complessiva delle Scuderie Papali &egrave; di circa 3000 metri quadrati, distribuiti su pi&ugrave; piani. In particolare, al primo e al secondo piano ampi spazi di circa 1500 metri quadrati costituiscono la zona espositiva. Al piano ammezzato &egrave; allestita una caffetteria mentre il piano terra ospita i servizi di accoglienza, la libreria, il negozio di oggettistica e spazi riservati a iniziative collaterali alle mostre.</p>  <p class="MsoNormal">Le Scuderie del Quirinale sono gestite dall&rsquo;Azienda Speciale Palaexpo, ente strumentale del Comune di Roma che ricopre un ruolo di primo piano in Italia quale ente produttore di servizi integrati: dalle mostre d&rsquo;arte alle rassegne cinematografiche, dal teatro alla fotografia, dalla musica alla presentazione di libri ed eventi<strong>.</strong></p>   ]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4823243"
+				latitudine="41.8954656">Via Ventiquattro Maggio, 16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 39967500 - Scuole 06 39967200
+			</contatto>
+			<contatto label="Fax">0039 06 6780842</contatto>
+			<contatto label="Email">info.sdq@palaexpo.it</contatto>
+			<contatto label="Sito web">www.scuderiequirinale.it</contatto>
+			<contatto label="Acquisto online">http://www.pierreci.it/it/acquista-il-biglietto/biglietto-on-line.aspx
+			</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Audioguida</servizio>
+			<servizio>Bar</servizio>
+			<servizio>Libreria</servizio>
+			<servizio>Guardaroba</servizio>
+		</servizi>
+		<keywords>
+			<keyword>Bibliocard</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="10846">
+		<nome>Galleria l'Agostiniana - Santa Maria del Popolo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10846.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476451"
+				latitudine="41.910285">Piazza del Popolo, 12/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3610836</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10847">
+		<nome>Ex Chiesa di Santa Marta</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10847.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480675"
+				latitudine="41.898969">Piazza del Collegio Romano, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6791051</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10848">
+		<nome>Sazio per l'Arte Tor Bella Monaca</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10848.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.632471"
+				latitudine="41.868244">Via Fernando Conti</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4745903 info</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10849">
+		<nome>Galleria Candido Portinari</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10849.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472888"
+				latitudine="41.898028">Piazza Navona, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68398284</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10850">
+		<nome>Complesso di Vicolo Valdina</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10850.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Descrizione</strong>: Acquistato nel 1960 dalla Camera dei Deputati, il complesso ospita alcuni uffici e funge da centro culturale per esposizioni, concerti e convegni.</div><div><strong>Collegamenti</strong>: Bus 52 - 53 - 61 - 71 - 80 - 85 - 81 - 116 - 116T- 117 - 119 - 160 -  492 - 590 - 628 - 850</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476891"
+				latitudine="41.902057">Vicolo Valdina, 3/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.67604150</contatto>
+			<contatto label="Fax">0039-06.67602449</contatto>
+			<contatto label="Email">visite_eventi@camera.it</contatto>
+			<contatto label="Sito web">www.camera.it/camera/palazzi/04.valdina.asp
+			</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10851">
+		<nome>Spazio Etoile - Fondazione Memmo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10851.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477891"
+				latitudine="41.903627">Piazza di San Lorenzo in Lucina, 41</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68136598</contatto>
+			<contatto label="Fax">0039 06 6872276</contatto>
+			<contatto label="Email">info@spazioetoile</contatto>
+			<contatto label="Sito web">www.spazioetoile.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10852">
+		<nome>Sala Roberto Olivetti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10852.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472070"
+				latitudine="41.901391">Via Giuseppe Zanardelli, 34</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6877054</contatto>
+			<contatto label="Email">info@fondazioneadrianolivetti</contatto>
+			<contatto label="Sito web">www.fondazioneadrianolivetti.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10853">
+		<nome>Palazzo Ruspoli - Fondazione Memmo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10853.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478985"
+				latitudine="41.904351">Via del Corso, 418</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6874704 info e pren.</contatto>
+			<contatto label="Sito web">www.fondazionememmo.com</contatto>
+			<contatto label="Email">info@fondazionememmo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10854">
+		<nome>Gate Termini Art Gallery - Ala Mazzoniana</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10854.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503224"
+				latitudine="41.898751">Via Giovanni Giolitti, 34</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 4,00</costo>
+			<costo label="Ridotto"> 2,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 47841393</contatto>
+			<contatto label="Fax">0039 06 3221579</contatto>
+			<contatto label="Sito web">www.beniculturali.it/novita/iniziative/termini/index.html
+			</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10855">
+		<nome>Galerie Francaise</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10855.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473265"
+				latitudine="41.899710">Piazza Navona, 65</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6868690 - 688851</contatto>
+			<contatto label="Fax">0039 06 6868615</contatto>
+			<contatto label="Email">gallerianavona@yahoo.fr</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10856">
+		<nome>Sala Margana</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10856.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480275"
+				latitudine="41.894429">Piazza Margana, 41</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6793915</contatto>
+			<contatto label="Fax">0039 06 6793915</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10857">
+		<nome>Complesso Monumentale di San Salvatore in Lauro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10857.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469236"
+				latitudine="41.900865">Piazza di San Salvatore in Lauro, 15</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6865493 - 6873842 - 68808432
+			</contatto>
+			<contatto label="Fax">0039 06 6892109</contatto>
+			<contatto label="Sito web">www.ilcigno.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10858">
+		<nome>Auditorium Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10858.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474239"
+				latitudine="41.929818">Viale Pietro De Coubertin, 30</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 1,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 80241</contatto>
+			<contatto label="Fax">0039 06 80241211</contatto>
+			<contatto label="Email">info@musicaperroma.it</contatto>
+			<contatto label="Sito web">www.musicaperroma.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10859">
+		<nome>Complesso Monumentale della Bocca della Verit&#xE0;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10859.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.481375"
+				latitudine="41.887730">Via della Greca, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.6793609 - 39738949</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10860">
+		<nome>Braccio di Carlo Magno</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10860.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.458371"
+				latitudine="41.902251">Piazza San Pietro</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69884095 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10861">
+		<nome>Complesso monumentale Santo Spirito in Sassia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10861.html
+		</link>
+		<descrizione><![CDATA[<div>Accesso consentito con visita guidata al complesso<br />Durata della visita: 1 ora circa.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.460803"
+				latitudine="41.901478">Borgo Santo Spirito, 1-2</indirizzo>
+		</indirizzi>
+		<costi>
+			<costo label="Intero"> 7,50</costo>
+			<costo label="Ridotto"> 6,00</costo>
+		</costi>
+		<contatti>
+			<contatto label="Telefono">0039 06 68210854 - 68352433</contatto>
+			<contatto label="Fax">0039 06 6893072</contatto>
+			<contatto label="Email">info@giubilarte.it</contatto>
+			<contatto label="Sito web">www.giubilarte.it</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Visite guidate</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10862">
+		<nome>Cinecitt&#xE0;Due Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10862.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.570967"
+				latitudine="41.853710">Viale Palmiro Togliatti, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7220910</contatto>
+			<contatto label="Fax">0039 06 72200981</contatto>
+			<contatto label="Email">direzione@cinecittadue.com</contatto>
+			<contatto label="Sito web">www.cinecittadue.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Aria condizionata</servizio>
+			<servizio>Bar</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10864">
+		<nome>Vertecchi per l'Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10864.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470302"
+				latitudine="41.922434">Via Pietro da Cortona, 18</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3322821</contatto>
+			<contatto label="Email">fdelmarro@vertecchi.com</contatto>
+			<contatto label="Sito web">www.vertecchi.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10865">
+		<nome>Spazio Fare</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10865.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.514941"
+				latitudine="41.893630">Via dei Bruzi, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 44704182</contatto>
+			<contatto label="Email">sviluppo@spaziofare.com</contatto>
+			<contatto label="Sito web">www.spaziofare.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Libreria</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10866">
+		<nome>Centro espositivo prima facolt&#xE0; d'architettura Ludovico
+			Quaroni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10866.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Collegamenti</strong>: Bus 70 - 492</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475688"
+				latitudine="41.904256">Via Borghese</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="10867">
+		<nome>Blast</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10867.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467741"
+				latitudine="41.898540">Corso Vittorio Emanuele II, 261</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.6861446</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10868">
+		<nome>Palazzo Incontro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10868.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476416"
+				latitudine="41.902400">Via dei Prefetti, 22</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 67667553 (URP Provincia)</contatto>
+			<contatto label="Sito web">www.provincia.roma.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10869">
+		<nome>Spazio Punctum</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10869.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469880"
+				latitudine="41.898460">Vicolo del Governo Vecchio, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 339 6170930</contatto>
+			<contatto label="Email">info@punctum-arte.org</contatto>
+			<contatto label="Sito web">www.punctum-arte.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10871">
+		<nome>Galleria Angelica</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10871.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474386"
+				latitudine="41.900513">Via di Sant'Agostino, 11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68408049 - 06 68408040</contatto>
+			<contatto label="Fax">0039 06 68408053</contatto>
+			<contatto label="Sito web">www.biblioangelica.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10872">
+		<nome>Vetrina Roma</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10872.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Altri servizi</strong>: Punto informativo; vendita biglietti (Roma pass; Villa Borghese Card); sala conferenze.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.500092"
+				latitudine="41.901783">Piazza dei Cinquecento</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+		<servizi>
+			<servizio>Aria condizionata</servizio>
+			<servizio>Sala proiezione</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10874">
+		<nome>Loto Design</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10874.html
+		</link>
+		<descrizione><![CDATA[<div>Show room di 600 mq dedicati al design. Organizza&nbsp;cicli di mostre di artisti internazionali e di grandi firme del design.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.481120"
+				latitudine="41.923837">Via Filippo Civinini, 39/49</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36006879</contatto>
+			<contatto label="Fax">0039 06 36008757</contatto>
+			<contatto label="Email">info@lotodesign.com</contatto>
+			<contatto label="Sito web">www.lotodesign.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10876">
+		<nome>La Magnolia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10876.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Descrizione</strong>: Spazio espositivo di arte contemporanea dedicato alle giovani artiste</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.466080"
+				latitudine="41.894464">Via della Lungara, 19</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68401721 - 06 68193001</contatto>
+			<contatto label="Email">areacultura.cidd@tiscali.it</contatto>
+			<contatto label="Sito web">www.casainternazionaledelledonne.org/laMagnolia.htm
+			</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10877">
+		<nome>Officine Farneto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/10877.html
+		</link>
+		<descrizione><![CDATA[<div>Ex magazzino di casermaggio del Foro Italico ed ex fabbrica di ceramiche, la struttura &egrave; stata recuperata come spazio polivalente ed adattata a&nbsp;location per congressi, eventi e feste.&nbsp;</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.451874"
+				latitudine="41.938608">Via dei Monti della Farnesina, 77</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@officinefarneto.it</contatto>
+			<contatto label="Sito web">www.officinefarneto.it</contatto>
+			<contatto label="Telefono">0039 06 83396746</contatto>
+			<contatto label="Fax">0039 06 32609943</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="14966">
+		<nome>Spazio Officina</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/14966.html
+		</link>
+		<descrizione><![CDATA[Spazio Officina &egrave; un ex fabbrica di prodotti edili stradali degli anni &#39;50. Oggi &egrave; uno spazio utilizzato per promuovere idee, eventi legati alla musica, presentazione di libri e non solo...]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.522894"
+				latitudine="41.908869">Via della Lega Lombarda, 44</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">393 9686193</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="16559">
+		<nome>OF Officine Fotografiche</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/16559.html
+		</link>
+		<descrizione><![CDATA[OF si propone di divulgare la cultura della fotografia e dell&rsquo;immagine agli appassionati di tutte le et&agrave;,&nbsp;in particolare alle nuove generazioni. Obbiettivo principale dell&rsquo;associazione &egrave; di aumentare la conoscenza tecnica e culturale dell&rsquo;immagine fotografica, rendendola nel contempo accessibile a tutti.]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503090"
+				latitudine="41.857465">Via del Casale de Merode</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">of@officinefotografiche.org</contatto>
+			<contatto label="Fax">0039 06 5125019</contatto>
+			<contatto label="Sito web">www.officinefotografiche.org</contatto>
+			<contatto label="Telefono">0039 06 5125019</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="17282">
+		<nome>Fondazione Pastificio Cerere</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/17282.html
+		</link>
+		<descrizione><![CDATA[Famoso insediamento Industriale Romano innalzato nel 1902 architettonicamente riscattato grazie all&#39;intervento di un gruppo di GIOVANI ARTISTI, decisi a recuperarlo per stabilirvisi e svolgere qui il loro lavoro. <br />]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.516192"
+				latitudine="41.899177">Via degli Ausoni, 7</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@pastificiocerere.it</contatto>
+			<contatto label="Sito web">www.pastificiocerere.com</contatto>
+			<contatto label="Telefono">0039 06 45422960</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="17577">
+		<nome>26cc</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/17577.html
+		</link>
+		<descrizione><![CDATA[<p>26cc &egrave; uno spazio no profit, all&rsquo;interno del quale si terranno mostre, incontri, workshop, rassegne di performance, ma soprattutto &egrave; un luogo dove diventa necessario, fondamentale, il dibattito, la parola. <br />26cc &egrave; anche un luogo dove verr&agrave; creato un archivio con book di artisti, sia italiani che stranieri, consultabile gratuitamente da tutti. </p><p>Sempre nello spazio &egrave; stata predisposta anche una stanza che diverr&agrave; studio per gli artisti residenti.</p>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.529762"
+				latitudine="41.888529">Via Castruccio Castracane, 26-28a-30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@26cc.org</contatto>
+			<contatto label="Sito web">www.26cc.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="25391">
+		<nome>Palazzo della Civilt&#xE0; del Lavoro (gi&#xE0; della
+			Civilt&#xE0; Italiana) </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/25391.html
+		</link>
+		<descrizione><![CDATA[<div>Noto anche come&nbsp;<strong>Colosseo quadrato,</strong> l&#39;edificio venne realizzato tra il 1938 e il 1943 nell&#39;ambito dell&#39;edificazione del quartiere EUR. <br /></div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.465219"
+				latitudine="41.836191">Quadrato della Concordia</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 54251</contatto>
+			<contatto label="Sito web">www.eurspa.it</contatto>
+			<contatto label="Email">info@romaeur.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="28916">
+		<nome>Chiostro della Confraternita di San Giovanni Batttista dei
+			Genovesi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/28916.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475530"
+				latitudine="41.887748">Via Anicia, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="28981">
+		<nome>Antica Casa di Correzione di Carlo Fontana presso il Complesso
+			Monumentale di S. Michele a Ripa</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/28981.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474056"
+				latitudine="41.884498">Via di San Michele, 25</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="29901">
+		<nome>Istituto Superiore Antincendi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/29901.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475741"
+				latitudine="41.870974">Via del Commercio, 13</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 49919016</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="30252">
+		<nome>Nomas Foundation</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/30252.html
+		</link>
+		<descrizione><![CDATA[Fondazione di stampo artistico comprendente uno spazio espositivo che ospita le opere di giovani artisti.<br /><br />]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.511385"
+				latitudine="41.935264">Viale Somalia, 33</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@nomasfoundation.com</contatto>
+			<contatto label="Telefono">0039 06 86398381</contatto>
+			<contatto label="Sito web">www.nomasfoundation.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="30557">
+		<nome>Laboratorio Museo di Arte Sperimentale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/30557.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.630059"
+				latitudine="41.877368">Via dell'Archeologia, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 8992234 info</contatto>
+			<contatto label="Sito web">www.santegidio.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Accessibile ai disabili</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="35799">
+		<nome>Ex Mercato Ebraico del Pesce</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/35799.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4836422"
+				latitudine="41.8890429">Via di San Teodoro, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="37253">
+		<nome>Bunker Rifugio antiaereo del Palazzo degli Uffici di Eur Spa
+		</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/37253.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4680877"
+				latitudine="41.8369619">Piazzale Konrad Adenauer, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.eurspa.it</contatto>
+			<contatto label="Email">info@romaeur.it</contatto>
+			<contatto label="Telefono">+39 06 54251</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="37718">
+		<nome>Olearie Papali</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/37718.html
+		</link>
+		<descrizione><![CDATA[Realizzate nel Settecento da papa Clemente XIII per garantire l&#39;approvvigionamento dell&#39;olio a Roma, riutilizzano l&#39;aula ottagona e tre grandi ambienti delle Terme di Diocleziano.<br />]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4965115"
+				latitudine="41.9027613">Piazza della Repubblica, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 477881</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="47277">
+		<nome>Spazio espositivo del Tempio di Adriano</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/105/itm/47277.html
+		</link>
+		<descrizione><![CDATA[<p>All&#39;interno del Tempio di Adriano vengono realizzati eventi di carattere culturale, curati dall&#39;azienda speciale della Camera di Commercio Promoroma<br /><br />Azienda Speciale Promoroma<br /><em>Via de Burr&ograve; 147 - 00186 Roma</em></p>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4791968"
+				latitudine="41.8999306">Piazza di Pietra</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6795941 - 06 6789345</contatto>
+			<contatto label="Fax">0039 06 6786521</contatto>
+			<contatto label="Email">promoroma@promoroma.com -
+				eventi@promoroma.com - tempiodiadriano@promoroma.com</contatto>
+		</contatti>
+	</elemento>
+</categoria>

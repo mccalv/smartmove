@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+    http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd
+    http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd">
+
+
+	<import resource="classpath:wimove-dataSourceContext.xml" />
+	<!--
+		convenience bean to be subclassed by any session-dependent objects
+	-->
+	<bean id="sessionAwareBean" abstract="true">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.wimove.content.domain.Item
+				</value>
+				<value>com.wimove.content.domain.GpsPosition
+				</value>
+				<value>com.wimove.content.domain.LocalizedItem
+				</value>
+				<value>com.wimove.content.domain.Cost
+				</value>
+				<value>com.wimove.content.domain.Contact
+				</value>
+				<value>com.wimove.content.domain.Extra
+				</value>
+				<value>com.wimove.content.domain.TimeOccurrence
+				</value>
+				<value>com.wimove.content.domain.Gid
+				</value>
+				<value>com.wimove.content.domain.Category
+				</value>
+				<value>com.wimove.content.domain.ApiKey
+				</value>
+				<value>com.wimove.content.domain.Menu
+				</value>
+				<value>com.wimove.content.domain.Tag
+				</value>
+				<value>com.wimove.content.domain.ItemList
+				</value>
+				<value>com.wimove.content.domain.LocalizedList
+				</value>
+				<value>com.wimove.content.domain.GidZone
+				</value>
+				<value>com.wimove.content.domain.GeoSearch
+				</value>
+			</list>
+		</property>
+	</bean>
+</beans>

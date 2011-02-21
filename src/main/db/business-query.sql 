@@ -1,0 +1,77 @@
+# Delete 
+# 
+
+SELECT i.* FROM item i
+LEFT OUTER join time_occurrence t on t.item_id = i.id and 
+t.end_date< NOW() 
+
+
+
+SELECT item_id FROM time_occurence WHERE end_date<NOW 
+LEFT OUTER join time_occurrence t on t.item_id = i.id and 
+t.end_date< NOW() 
+
+
+SELECT i.*,t.* from item i,time_occurrence t where t.item_id= i.id and MAX(t.end_date) <now() order by t.end_date DESC  LIMIT 10 
+SELECT i.*,t.* from item i,time_occurrence t where t.item_id= i.id and MAX(t.end_date) <now() GROUP by t.item_id
+order by t.end_date DESC  LIMIT 10
+
+select * from time_occurrence  t WHERE t.item_id = 114147
+/*
+114147
+2010-04-16 00:00:00
+121105
+2010-04-16 00:00:00
+116119
+2010-04-16 00:00:00
+116627
+2010-04-16 00:00:00
+121482
+2010-04-16 00:00:00
+118672
+2010-04-16 00:00:00
+116819
+2010-04-15 21:00:00
+113726
+2010-04-15 21:00:00
+121030
+2010-04-15 17:00:00
+118491
+2010-04-15 00:00:00
+119980
+2010-04-14 21:00:00
+116901
+2010-04-14 21:00:00
+115228
+2010-04-14 21:00:00
+112616
+2010-04-14 20:45:00
+117768
+2010-04-14 20:30:00
+113247
+2010-04-14 00:00:00
+1171
+
+111943
+
+
+SELECT i.* FROM item i  WHERE i.id IN (
+select t.item_id FROM time_occurrence t
+INNER JOIN time_occurrence ts on ts.item_id = t.item_id
+ where t.end_date<NOW()) LIMIT 1
+ 
+ 
+
+#CORRETTA  
+ SELECT item_id, max(end_date) as max_date FROM time_occurrence GROUP BY item_id   HAVING max(end_date)<NOW()   ORDER BY  max(end_date) DESC
+ 
+ 
+ /*
+ Eliminazione corretta
+ */ 
+ DELETE FROM item WHERE item.id IN( SELECT item_id as max_date FROM time_occurrence GROUP BY item_id   HAVING max(end_date)<NOW()   ORDER BY  max(end_date) DESC)
+ 
+ 
+ 
+ SELECT i.item_id,li.locale  FROM item i, localizeditem li WHERE i.id=li.item_id AND  li.label='Description' AND li.value<>'' AND li.id NOT IN (SELECT li_.id from localizeditem li_ WHERE li_.label='Mp3') LIMIT 10
+ 

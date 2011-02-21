@@ -1,0 +1,11 @@
+<destination xmlns="http://content.lonelyplanet.com/services"
+	node_id="80353" language="eng">
+	<title>Colosseo</title>
+
+	<short_description>Descrizione breve del poi
+	</short_description>
+	<description>Descrizione estesa</description>
+	<audio_file>http://repository.wimove.com/audio/2.mp3
+	</audio_file>
+
+</destination>

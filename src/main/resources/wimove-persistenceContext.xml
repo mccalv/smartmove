@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+    http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd
+    http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd">
+	<!--
+		import required child contexts so clients only need to import the
+		service context
+	-->
+	<import resource="classpath:wimove-sessionFactory.xml" />
+
+	<bean id="itemRepository"
+		class="com.wimove.content.persistence.hibernate.HibernateItemRepository"
+		parent="sessionAwareBean">
+	</bean>
+	<bean id="apiKeyRepository"
+		class="com.wimove.content.persistence.hibernate.HibernateApiKeyRepository"
+		parent="sessionAwareBean">
+	</bean>
+	<bean id="categoryRepository"
+		class="com.wimove.content.persistence.hibernate.HibernateCategoryRepository"
+		parent="sessionAwareBean">
+	</bean>
+	<bean id="listRepository"
+		class="com.wimove.content.persistence.hibernate.HibernateListRepository"
+		parent="sessionAwareBean">
+	</bean>
+	<bean id="geoSearchRepository"
+		class="com.wimove.content.persistence.hibernate.HibernateGeoSearchRepository" parent="sessionAwareBean">
+	</bean>
+
+	<bean id="batchRepository"
+		class="com.wimove.content.persistence.jdbc.JdbcBatchRepository">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+
+</beans>

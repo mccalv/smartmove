@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="2.0.0">
+<database-model author="anph, mirc, rvd" begin-script="" end-script="" id="da431b:118bc323fc6:-7fe8" name="create-schema" sql-dialect-id="jp.azzurri.clay.dialect.HSQLDB_1_8_0_Dialect" version="1.0">
+<schema-list>
+<schema id="da431b:118bc323fc6:-7fe7" name="DELPHI">
+<table-list>
+<table id="da431b:118bc323fc6:-7fe2" name="CONTENT_ITEM" remarks="A self-contained, packaged piece (or set of pieces) of content">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fe0" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fdf" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fde" mandatory="true" name="CONTENT_TYPE_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fdd" mandatory="true" name="STATUS">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fdc" mandatory="true" name="URI">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fdb" mandatory="true" name="NAME_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fda" mandatory="false" name="DESCRIPTION_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fd9" mandatory="true" name="RELEASE_DATE">
+<data-type name="DATE" selected-variant-pattern="DATE"/>
+</column>
+<column auto-increment="false" column-size="63" decimal-digits="0" default-value="1000" id="da431b:118bc323fc6:-7fd7" mandatory="true" name="VERSION">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fd3" mandatory="true" name="SUPPLIER_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="en" id="da431b:118bc323fc6:-7fd2" mandatory="true" name="DEFAULT_LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fe1" name="PK_CONTENT_ITEM">
+<primary-key-column name="ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="1c142c2:11a7e3ea2aa:-7fcd" name="UQ_CONTENT_ITEM_1" remarks="Enforce the business key">
+<unique-key-column name="URI"/>
+<unique-key-column name="VERSION"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ef8" name="FK_CONTENT_ITEM_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_SUPPLIER" referenced-table="SUPPLIER" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="SUPPLIER_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ef7" name="FK_CONTENT_ITEM_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_TYPE" referenced-table="CONTENT_TYPE" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_TYPE_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ef6" name="FK_CONTENT_ITEM_3" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LOCALIZED_ITEM" referenced-table="LOCALIZED_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="NAME_CODE" referenced-key-column-name="CODE"/>
+<foreign-key-column column-name="DEFAULT_LOCALE" referenced-key-column-name="LOCALE"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ef5" name="FK_CONTENT_ITEM_4" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LOCALIZED_ITEM" referenced-table="LOCALIZED_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="DESCRIPTION_CODE" referenced-key-column-name="CODE"/>
+<foreign-key-column column-name="DEFAULT_LOCALE" referenced-key-column-name="LOCALE"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="1c142c2:11a7e3ea2aa:-7fcc" name="IX_CONTENT_ITEM_1" remarks="Only items with active statuses can be shown" unique="false">
+<index-column name="STATUS" sort="ASC"/>
+</index>
+<index id="1c142c2:11a7e3ea2aa:-7fcb" name="IX_CONTENT_ITEM_2" remarks="All items with the same URI form a &quot;family&quot; that is often retrieved together" unique="false">
+<index-column name="URI" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="da431b:118bc323fc6:-7fd1" name="CONTENT_TYPE" remarks="A type/category of Content Item">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fcf" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fce" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fcd" mandatory="true" name="TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fcc" mandatory="true" name="NAME_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fcb" mandatory="false" name="DESCRIPTION_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fca" mandatory="true" name="CATEGORY">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="EN" id="da431b:118bc323fc6:-7fc9" mandatory="true" name="DEFAULT_LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fd0" name="PK_CONTENT_TYPE">
+<primary-key-column name="ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="1e6b1c:11a953b8c36:-7fc5" name="UQ_CONTENT_TYPE_1" remarks="&quot;Type&quot; is the ContentType business key">
+<unique-key-column name="TYPE"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ef3" name="FK_CONTENT_TYPE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LOCALIZED_ITEM" referenced-table="LOCALIZED_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="NAME_CODE" referenced-key-column-name="CODE"/>
+<foreign-key-column column-name="DEFAULT_LOCALE" referenced-key-column-name="LOCALE"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ef2" name="FK_CONTENT_TYPE_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LOCALIZED_ITEM" referenced-table="LOCALIZED_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="DESCRIPTION_CODE" referenced-key-column-name="CODE"/>
+<foreign-key-column column-name="DEFAULT_LOCALE" referenced-key-column-name="LOCALE"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7fc2" name="SUPPLIER">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fc0" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fbf" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fbe" mandatory="true" name="NAME" remarks="255 characters may be too short in the long run, but MySQL cannot index bigger columns">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="671637:11d762c02b5:-7fc5" mandatory="false" name="VISUALISATION_URL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="671637:11d762c02b5:-7fc4" mandatory="false" name="VISUALISATION_MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="671637:11d762c02b5:-7fc3" mandatory="false" name="VISUALISATION_USAGE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fc1" name="PK_SUPPLIER">
+<primary-key-column name="ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="1e6b1c:11a953b8c36:-7fc0" name="UQ_SUPPLIER_1" remarks="&quot;Name&quot; is the Supplier business key">
+<unique-key-column name="NAME"/>
+</unique-key>
+</unique-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7fbd" name="ARTIFACT" remarks="The actual package/file corresponding to a Content Item or Component">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fbb" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fba" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb9" mandatory="true" name="ARTIFACT_TYPE_DISCRIMINATOR" remarks="Used only be Hibernate to hydrate the correct subclass.">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="becf73:11d43641e61:-7fc7" mandatory="true" name="TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb8" mandatory="false" name="PACKAGE_SIZE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb7" mandatory="true" name="INSTALLED_SIZE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb6" mandatory="true" name="URL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb5" mandatory="true" name="ENCRYPTION_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb4" mandatory="false" name="REVISION" remarks="Only for Durham artifacts">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fbc" name="PK_ARTIFACT">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="da431b:118bc323fc6:-7fb3" name="CONTENT_ITEM_ARTIFACTSET_ARTIFACTS" remarks="Many-to-many join table between an Artifact Set and its Artifacts">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb1" mandatory="true" name="CONTENT_ITEM_ARTIFACTSET_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fb0" mandatory="true" name="ARTIFACT_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fb2" name="PK_CONTENT_ITEM_ARTIFACTSET_ARTIFACTS">
+<primary-key-column name="CONTENT_ITEM_ARTIFACTSET_ID"/>
+<primary-key-column name="ARTIFACT_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ef0" name="FK_CONTENT_ITEM_ARTIFACTS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_ARTIFACT" referenced-table="ARTIFACT" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ARTIFACT_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="107d4f6:119753b8e27:-7ef2" name="FK_CONTENT_ITEM_ARTIFACTSET_ARTIFACTS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_ARTIFACTSET" referenced-table="CONTENT_ITEM_ARTIFACTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ARTIFACTSET_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7fab" name="LOCALIZED_ITEM" remarks="Mapping table between property codes and locale-specific strings">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fa9" mandatory="true" name="CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fa8" mandatory="true" name="LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="32" decimal-digits="0" default-value="''" id="da431b:118bc323fc6:-7fa7" mandatory="true" name="VALUE_HASH" remarks="A short hash of the value that can be indexed. The default value is required for the MySQL trigger to work.">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fa6" mandatory="true" name="VALUE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7faa" name="PK_LOCALIZED_ITEM">
+<primary-key-column name="CODE"/>
+<primary-key-column name="LOCALE"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="da431b:118bc323fc6:-7fa5" name="UQ_LOCALIZED_ITEM_1" remarks="Surrogate for a LOCALE/VALUE unique key, which is what should be enforced.">
+<unique-key-column name="LOCALE"/>
+<unique-key-column name="VALUE_HASH"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="efa093:119e485ee30:-7fb8" name="FK_LOCALIZED_ITEM_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LOCALIZED_ITEM_CODE" referenced-table="LOCALIZED_ITEM_CODE" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CODE" referenced-key-column-name="CODE"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="1c142c2:11a7e3ea2aa:-7fc7" name="IX_LOCALIZED_ITEM_1" remarks="Items with the same code are locale-specific versions of the same entry" unique="false">
+<index-column name="CODE" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="da431b:118bc323fc6:-7fa4" name="MAP" remarks="Map Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fa2" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1a176fc:11b4edda52c:-7fcc" mandatory="false" name="BUILD">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7fa0" mandatory="true" name="RECTANGLE_WEST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f9f" mandatory="true" name="RECTANGLE_NORTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f9e" mandatory="true" name="RECTANGLE_EAST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f9d" mandatory="true" name="RECTANGLE_SOUTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7fa3" name="PK_MAP">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7eed" name="FK_MAP_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f9c" name="POI" remarks="POI Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f9a" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f99" mandatory="false" name="RECTANGLE_WEST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f98" mandatory="false" name="RECTANGLE_NORTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f97" mandatory="false" name="RECTANGLE_EAST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f96" mandatory="false" name="RECTANGLE_SOUTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f95" mandatory="false" name="NUMBER_OF_POINTS">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f9b" name="PK_POI">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7eec" name="FK_POI_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f94" name="COLOUR_SCHEME" remarks="Colourscheme Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f92" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f91" mandatory="false" name="BIT_DEPTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f93" name="PK_COLOUR_SCHEME">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7eeb" name="FK_COLOUR_SCHEME_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f90" name="VOICE" remarks="Voice Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f8e" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f8d" mandatory="true" name="LANGUAGE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f8c" mandatory="true" name="GENDER">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f8b" mandatory="true" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f8f" name="PK_VOICE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7eea" name="FK_VOICE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f8a" name="TRAFFIC" remarks="(&quot;Normal&quot;) Traffic Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f88" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f87" mandatory="false" name="COUNTRY">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f89" name="PK_TRAFFIC">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee9" name="FK_TRAFFIC_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f86" name="ROUTE" remarks="Route Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f84" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f83" mandatory="false" name="START">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f82" mandatory="false" name="FINISH">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f81" mandatory="false" name="KM_DISTANCE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f80" mandatory="false" name="COUNTRIES">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f85" name="PK_ROUTE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee8" name="FK_ROUTE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f7f" name="NAVCORE_DLL" remarks="Navcore DLL Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f7d" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f7c" mandatory="true" name="EMULATED_NAVCORE_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f7e" name="PK_NAVCORE_DLL">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee7" name="FK_NAVCORE_DLL_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ee6" name="FK_NAVCORE_DLL_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="EMULATED_NAVCORE_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f7b" name="NAVCORE" remarks="Navcore Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f79" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="1a74a56:11b59fe89c2:-7fce" mandatory="true" name="BUILD">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f7a" name="PK_NAVCORE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee5" name="FK_NAVCORE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f78" name="MAP_OVERLAY" remarks="Map Overlay Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f76" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f75" mandatory="false" name="ZOOM_LEVEL">
+<data-type name="DOUBLE" selected-variant-pattern="DOUBLE"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f74" mandatory="false" name="RECTANGLE_WEST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f73" mandatory="false" name="RECTANGLE_NORTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f72" mandatory="false" name="RECTANGLE_EAST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f71" mandatory="false" name="RECTANGLE_SOUTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f77" name="PK_MAP_OVERLAY">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee4" name="FK_MAP_OVERLAY_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f70" name="CAR_SYMBOL" remarks="Car Symbol Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f6e" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f6d" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f6c" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f6b" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f6a" mandatory="false" name="COLOUR">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f69" mandatory="false" name="MAKE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f6f" name="PK_CAR_SYMBOL">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee3" name="FK_CAR_SYMBOL_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f68" name="WARNING_SOUND" remarks="Warning Sound Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f66" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f65" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f64" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f63" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f62" mandatory="false" name="LANGUAGE" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f67" name="PK_WARNING_SOUND">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee2" name="FK_WARNING_SOUND_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f61" name="LINKS" remarks="Links Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f5f" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f60" name="PK_LINKS">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee1" name="FK_LINKS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f5e" name="LINK_URL" remarks="URLs for Links Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f5c" mandatory="true" name="LINKS_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="32" decimal-digits="0" default-value="''" id="da431b:118bc323fc6:-7f5b" mandatory="true" name="URL_HASH" remarks="A short hash of the URL value that can be indexed and used in a primary key. The default value is required for the MySQL trigger to work.">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f5a" mandatory="true" name="URL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f5d" name="PK_LINK_URL">
+<primary-key-column name="LINKS_ID"/>
+<primary-key-column name="URL_HASH"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ee0" name="FK_LINK_URLS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_LINKS" referenced-table="LINKS" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="LINKS_ID" referenced-key-column-name="CONTENT_ITEM_ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f55" name="CONTENT_ITEM_VISUALISATION" remarks="ContentItems have collections of Visualisation components">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f53" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="32" decimal-digits="0" default-value="''" id="c5af5c:118c0f4fff2:-7fa9" mandatory="true" name="URL_HASH" remarks="A short hash of the URL value that can be indexed and used in a primary key. The default value is required for the MySQL trigger to work.">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f52" mandatory="true" name="URL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f51" mandatory="true" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f50" mandatory="true" name="VISUALISATION_USAGE" remarks="&quot;usage&quot; is a reserved word in MySQL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f54" name="PK_CONTENT_ITEM_VISUALISATION">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+<primary-key-column name="URL_HASH"/>
+<primary-key-column name="VISUALISATION_USAGE"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ede" name="FK_CONTENT_ITEM_VISUALISATIONS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="1c142c2:11a7e3ea2aa:-7fc8" name="IX_CONTENT_ITEM_VISUALISATION_1" remarks="All items belonging to a content item are retrieved together" unique="false">
+<index-column name="CONTENT_ITEM_ID" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="da431b:118bc323fc6:-7f49" name="COMPATIBILITY_SPECIFICATION_COMPATIBLE_DEVICE_TYPE">
+<table-description>List of devices for a compatiblity specification.</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f47" mandatory="true" name="COMPATIBILITY_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f46" mandatory="true" name="DEVICE_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f48" name="PK_COMPATIBILITY_SPECIFICATION_COMPATIBLE_DEVICE_TYPE">
+<primary-key-column name="DEVICE_TYPE"/>
+<primary-key-column name="COMPATIBILITY_SPECIFICATION_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7edb" name="FK_COMPATIBLE_DEVICES_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COMPATIBILITY_SPECIFICATION" referenced-table="COMPATIBILITY_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COMPATIBILITY_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f45" name="RESTRICTION">
+<table-description>Single table of restriction hierarchy</table-description>
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f43" mandatory="true" name="ID" remarks="Rename to &quot;CONTENT_ITEM_SPECIFICATION_RESTRICTION&quot;? Ugly but consistent.">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f42" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f41" mandatory="true" name="RESTRICTION_TYPE_DISCRIMINATOR">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f40" mandatory="true" name="PROPERTY_NAME">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f3f" mandatory="true" name="VALUE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f3e" mandatory="false" name="TEST_FOR_EQUALITY">
+<data-type name="TINYINT" selected-variant-pattern="TINYINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f3d" mandatory="false" name="CASE_SENSITIVE">
+<data-type name="TINYINT" selected-variant-pattern="TINYINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f3c" mandatory="false" name="ALLOW_EQUALS">
+<data-type name="TINYINT" selected-variant-pattern="TINYINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f3b" mandatory="false" name="TEST_FOR_PRESENCE">
+<data-type name="TINYINT" selected-variant-pattern="TINYINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f44" name="PK_RESTRICTION">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="da431b:118bc323fc6:-7f3a" name="CONTENT_ITEM_SPECIFICATION">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f38" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f37" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f39" name="PK_CONTENT_ITEM_SPECIFICATION">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="da431b:118bc323fc6:-7f36" name="COMPATIBILITY_SPECIFICATION_REQUIRED_CAPABILITY">
+<table-description>List of required capabilities for a compatiblity specification.</table-description>
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f34" mandatory="true" name="COMPATIBILITY_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f33" mandatory="true" name="CAPABILITY">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f35" name="PK_COMPATIBILITY_SPECIFICATION_REQUIRED_CAPABILITY">
+<primary-key-column name="CAPABILITY"/>
+<primary-key-column name="COMPATIBILITY_SPECIFICATION_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7eda" name="FK_COMPATIBILITY_SPECIFICATION_REQUIRED_CAPABILITIES_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COMPATIBILITY_SPECIFICATION" referenced-table="COMPATIBILITY_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COMPATIBILITY_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f32" name="COMPATIBILITY_SPECIFICATION_REQUIRED_CONTENT_ITEMS" remarks="Many-to-many join table between Compatibility Specifications and required Content Item Specifications.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f30" mandatory="true" name="COMPATIBILITY_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f2f" mandatory="true" name="CONTENT_ITEM_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f31" name="PK_COMPATIBILITY_SPECIFICATION_REQUIRED_CONTENT_ITEMS">
+<primary-key-column name="COMPATIBILITY_SPECIFICATION_ID"/>
+<primary-key-column name="CONTENT_ITEM_SPECIFICATION_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed9" name="FK_COMPATIBILITY_SPECIFICATION_REQUIRED_CONTENT_ITEMS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_SPECIFICATION" referenced-table="CONTENT_ITEM_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ed8" name="FK_COMPATIBILITY_SPECIFICATION_REQUIRED_CONTENT_ITEMS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COMPATIBILITY_SPECIFICATION" referenced-table="COMPATIBILITY_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COMPATIBILITY_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f2e" name="COMPATIBILITY_SPECIFICATION_FORBIDDEN_CONTENT_ITEMS" remarks="Many-to-many join table between Compatibility Specifications and forbidden Content Item Specifications.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f2c" mandatory="true" name="COMPATIBILITY_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f2b" mandatory="true" name="CONTENT_ITEM_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f2d" name="PK_COMPATIBILITY_SPECIFICATION_FORBIDDEN_CONTENT_ITEMS">
+<primary-key-column name="COMPATIBILITY_SPECIFICATION_ID"/>
+<primary-key-column name="CONTENT_ITEM_SPECIFICATION_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed7" name="FK_COMPATIBILITY_SPECIFICATION_FORBIDDEN_CONTENT_ITEMS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_SPECIFICATION" referenced-table="CONTENT_ITEM_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ed6" name="FK_COMPATIBILITY_SPECIFICATION_FORBIDDEN_CONTENT_ITEMS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COMPATIBILITY_SPECIFICATION" referenced-table="COMPATIBILITY_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COMPATIBILITY_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f2a" name="CONTENT_ITEM_SPECIFICATION_RESTRICTIONS" remarks="One-to-many join table between a Content Item Specification and its Restrictions">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f28" mandatory="true" name="CONTENT_ITEM_SPECIFICATION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f27" mandatory="true" name="RESTRICTION_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f29" name="PK_CONTENT_ITEM_SPECIFICATION_RESTRICTIONS">
+<primary-key-column name="CONTENT_ITEM_SPECIFICATION_ID"/>
+<primary-key-column name="RESTRICTION_ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="da431b:118bc323fc6:-7f26" name="UQ_CONTENT_ITEM_SPECIFICATION_RESTRICTIONS_1" remarks="Enforces a one-to-many mapping (each Restriction can belong to only ONE Content Item Specification)">
+<unique-key-column name="RESTRICTION_ID"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed5" name="FK_CONTENT_ITEM_SPECIFICATION_RESTRICTIONS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_SPECIFICATION" referenced-table="CONTENT_ITEM_SPECIFICATION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_SPECIFICATION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="da431b:118bc323fc6:-7ed4" name="FK_CONTENT_ITEM_SPECIFICATION_RESTRICTIONS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_RESTRICTION" referenced-table="RESTRICTION" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="RESTRICTION_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f25" name="LOCALIZED_ITEM_CODE" remarks="A table from which unique codes are drawn for LocalizedItems in a thread- and transaction-safe manner">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f23" mandatory="true" name="CODE" remarks="Autoincrement guarantees uniqueness even in a concurrent processing environment">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f24" name="PK_LOCALIZED_ITEM_CODE">
+<primary-key-column name="CODE"/>
+</primary-key>
+</table>
+<table id="da431b:118bc323fc6:-7f22" name="STARTUP_SCREEN" remarks="Startup Screen Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f20" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f1f" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f1e" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f1d" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f21" name="PK_STARTUP_SCREEN">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed3" name="FK_STARTUP_SCREEN_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f1c" name="SUSPEND_SCREEN" remarks="Suspend Screen Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f1a" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f19" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f18" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f17" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f1b" name="PK_SUSPEND_SCREEN">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed2" name="FK_SHUTDOWN_SCREEN_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f16" name="RINGTONE" remarks="Ringtone Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f14" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f13" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f12" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f11" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f10" mandatory="false" name="LANGUAGE" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f15" name="PK_RINGTONE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed1" name="FK_RINGTONE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f0f" name="INCOMING_MESSAGE_TONE" remarks="Incoming Message Tone Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f0d" mandatory="true" name="CONTENT_ITEM_ID" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f0c" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f0b" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f0a" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f09" mandatory="false" name="LANGUAGE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f0e" name="PK_INCOMING_MESSAGE_TONE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="da431b:118bc323fc6:-7ed0" name="FK_INCOMING_MESSAGE_SOUND_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f08" name="ARRIVAL_SOUND" remarks="Arrival Sound Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f06" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f05" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f04" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f03" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f02" mandatory="false" name="LANGUAGE" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f07" name="PK_ARRIVAL_SOUND">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7ed5" name="FK_ARRIVAL_SOUND_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="da431b:118bc323fc6:-7f01" name="CONTENT_ITEM_STATUS_AUDIT">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7eff" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7efe" mandatory="true" name="CONTENT_ITEM_ID" remarks="No foreign keys added to avoid coupling between audit tables and &quot;domain model&quot; tables.">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7efd" mandatory="true" name="OLD_STATUS">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7efc" mandatory="true" name="NEW_STATUS">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7efb" mandatory="true" name="MODIFIED_TIME">
+<data-type name="TIMESTAMP" selected-variant-pattern="TIMESTAMP"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f00" name="PK_CONTENT_ITEM_STATUS_AUDIT">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="107d4f6:119753b8e27:-7fd9" name="CONTENT_ITEM_ARTIFACTSETS" remarks="One-to-many join table between a Content Item and its ArtifactSets. An ArtifactSet may be linked to only *one* Content Item.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="107d4f6:119753b8e27:-7fd7" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="107d4f6:119753b8e27:-7fd6" mandatory="true" name="CONTENT_ITEM_ARTIFACTSET_ID" remarks="Declared as unique to make the relationship one-to-many rather than many-to-many">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="107d4f6:119753b8e27:-7fd5" name="PK_CONTENT_ITEM_ARTIFACTSETS">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+<primary-key-column name="CONTENT_ITEM_ARTIFACTSET_ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="107d4f6:119753b8e27:-7fd0" name="UQ_CONTENT_ITEM_ARTIFACTSETS_1" remarks="Enforces a one-to-many relationship">
+<unique-key-column name="CONTENT_ITEM_ARTIFACTSET_ID"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="107d4f6:119753b8e27:-7f98" name="FK_CONTENT_ITEM_ARTIFACTSETS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="107d4f6:119753b8e27:-7f17" name="FK_CONTENT_ITEM_ARTIFACTSETS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_ARTIFACTSET" referenced-table="CONTENT_ITEM_ARTIFACTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ARTIFACTSET_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="107d4f6:119753b8e27:-7fcf" name="CONTENT_ITEM_ARTIFACTSET" remarks="An set of Artifacts which together make up the files for a Content Item">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="107d4f6:119753b8e27:-7fbf" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="107d4f6:119753b8e27:-7e81" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="107d4f6:119753b8e27:-7fcb" name="PK_CONTENT_ITEM_ARTIFACTSET">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="da431b:118bc323fc6:-7f4e" name="COMPATIBILITY_SPECIFICATION">
+<table-description>Describes conditions on a configuration to be compatible with a certain content item.</table-description>
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f4c" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f4b" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="da431b:118bc323fc6:-7f4a" mandatory="true" name="COMPATIBLE_WITH_ALL_DEVICE_TYPES">
+<data-type name="TINYINT" selected-variant-pattern="TINYINT"/>
+</column>
+</column-list>
+<primary-key id="da431b:118bc323fc6:-7f4d" name="PK_COMPATIBILITY_SPECIFICATION">
+<primary-key-column name="ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="107d4f6:119753b8e27:-7ed9" name="FK_COMPATIBILITY_SPECIFICATION_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_ARTIFACTSET" referenced-table="CONTENT_ITEM_ARTIFACTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="c46396:11a24675354:-7fd9" name="ZIP_CODE" remarks="ZipCode Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="c46396:11a24675354:-7fd7" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="c46396:11a24675354:-7fd6" name="PK_ZIP_CODE">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="c46396:11a24675354:-7fc1" name="FK_ZIP_CODE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="c46396:11a24675354:-7f71" name="EPHEMERIS" remarks="Ephemeris Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="c46396:11a24675354:-7f6f" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="c46396:11a24675354:-7f6b" mandatory="true" name="GPS_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="c46396:11a24675354:-7f6e" name="PK_EPHEMERIS">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="c46396:11a24675354:-7f5a" name="FK_EPHEMERIS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="680ae9:11a52d724ce:-7fd7" name="SUSPEND_SOUND" remarks="Suspend Sound Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fd5" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fd4" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fd3" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fd2" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fd1" mandatory="false" name="LANGUAGE" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="680ae9:11a52d724ce:-7fd0" name="PK_SUSPEND_SOUND">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7f66" name="FK_SHUTDOWN_SOUND_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="680ae9:11a52d724ce:-7fcf" name="STARTUP_SOUND" remarks="Startup Sound Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fcd" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fcc" mandatory="false" name="SAMPLE_RATE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fcb" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="1023" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fca" mandatory="false" name="ARTIST" remarks="The &quot;speaker&quot; of the sound, e.g. &quot;John Cleese&quot;">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fc9" mandatory="false" name="LANGUAGE" remarks="Stored as an ISO Language/Country code combination, e.g. 'en_GB'">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="680ae9:11a52d724ce:-7fc8" name="PK_STARTUP_SOUND">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7f42" name="FK_STARTUP_SOUND_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="680ae9:11a52d724ce:-7fc0" name="BUDDY_SYMBOL" remarks="Buddy Symbol Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fbe" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fbd" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fbc" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fbb" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="680ae9:11a52d724ce:-7fba" name="PK_BUDDY_SYMBOL">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7f7b" name="FK_BUDDY_SYMBOL_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="680ae9:11a52d724ce:-7fb9" name="HOME_SYMBOL" remarks="Home Symbol Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fb7" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fb6" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fb5" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7fb4" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="680ae9:11a52d724ce:-7fb3" name="PK_HOME_SYMBOL">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7f9f" name="FK_HOME_SYMBOL_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="680ae9:11a52d724ce:-7f27" name="FAVOURITE_SYMBOL" remarks="Favourite Symbol Content Items">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7f25" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7f24" mandatory="false" name="WIDTH">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7f23" mandatory="false" name="HEIGHT">
+<data-type name="INT" selected-variant-pattern="INT"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="680ae9:11a52d724ce:-7f22" mandatory="false" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="680ae9:11a52d724ce:-7f21" name="PK_FAVOURITE_SYMBOL">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="680ae9:11a52d724ce:-7f0e" name="FK_FAVOURITE_SYMBOL_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="63c26f:11a77738fb2:-7fd2" name="COUNTRY" remarks="Country">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fd0" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fc7" mandatory="true" name="ENTITY_VERSION">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="2" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fc6" mandatory="true" name="ISO_CODE">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fce" mandatory="false" name="RECTANGLE_WEST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fcd" mandatory="false" name="RECTANGLE_NORTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fcc" mandatory="false" name="RECTANGLE_EAST">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fcb" mandatory="false" name="RECTANGLE_SOUTH">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="63c26f:11a77738fb2:-7fca" name="PK_COUNTRY">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="63c26f:11a77738fb2:-7fc3" name="COUNTRY_NEIGHBOURING_COUNTRIES" remarks="Many-to-many join table to link a country to its neighbours">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fbb" mandatory="true" name="COUNTRY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7fba" mandatory="true" name="NEIGHBOURING_COUNTRY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="63c26f:11a77738fb2:-7fc2" name="PK_COUNTRY_NEIGHBOURING_COUNTRIES">
+<primary-key-column name="COUNTRY_ID"/>
+<primary-key-column name="NEIGHBOURING_COUNTRY_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="63c26f:11a77738fb2:-7f4f" name="FK_COUNTRY_NEIGHBOURING_COUNTRIES_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COUNTRY" referenced-table="COUNTRY" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="NEIGHBOURING_COUNTRY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="63c26f:11a77738fb2:-7fac" name="FK_COUNTRY_NEIGHBOURING_COUNTRIES_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COUNTRY" referenced-table="COUNTRY" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COUNTRY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="63c26f:11a77738fb2:-7f41" name="MAP_COUNTRIES" remarks="Many-to-many join table to link a Map to the countries it covers">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7f3e" mandatory="true" name="MAP_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="63c26f:11a77738fb2:-7f3f" mandatory="true" name="COUNTRY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="63c26f:11a77738fb2:-7f3d" name="PK_MAP_COUNTRIES">
+<primary-key-column name="COUNTRY_ID"/>
+<primary-key-column name="MAP_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="63c26f:11a77738fb2:-7efc" name="FK_MAP_COUNTRIES_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_COUNTRY" referenced-table="COUNTRY" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="COUNTRY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="63c26f:11a77738fb2:-7f22" name="FK_MAP_COUNTRIES_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_MAP" referenced-table="MAP" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="MAP_ID" referenced-key-column-name="CONTENT_ITEM_ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="311df2:11c31377d6e:-7fc2" name="CONTENT_ITEM_COMPONENTSETS" remarks="One-to-many join table between a Content Item and its ComponentSets. A ComponentSet may be linked to only *one* Content Item.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fc0" mandatory="true" name="CONTENT_ITEM_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fbf" mandatory="true" name="CONTENT_ITEM_COMPONENTSET_ID" remarks="Declared as unique to make the relationship one-to-many rather than many-to-many">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7fbe" name="PK_CONTENT_ITEM_COMPONENTSETS">
+<primary-key-column name="CONTENT_ITEM_ID"/>
+<primary-key-column name="CONTENT_ITEM_COMPONENTSET_ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="311df2:11c31377d6e:-7e18" name="UQ_CONTENT_ITEM_COMPONENTSETS_1" remarks="Enforces a one-to-many relationship">
+<unique-key-column name="CONTENT_ITEM_COMPONENTSET_ID"/>
+</unique-key>
+</unique-key-list>
+<foreign-key-list>
+<foreign-key id="311df2:11c31377d6e:-7f16" name="FK_CONTENT_ITEM_COMPONENTSETS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENTSET" referenced-table="CONTENT_ITEM_COMPONENTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_COMPONENTSET_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="311df2:11c31377d6e:-7f34" name="FK_CONTENT_ITEM_COMPONENTSETS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="311df2:11c31377d6e:-7fba" name="CONTENT_ITEM_COMPONENTSET" remarks="An set of Components which are bundled as an &quot;accessories set&quot; for a Content Item">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fb8" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fb7" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7dbb" mandatory="true" name="IDENTIFIER">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fb1" mandatory="true" name="NAME_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fae" mandatory="true" name="DESCRIPTION_CODE">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fad" mandatory="true" name="DEFAULT_LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7fb6" name="PK_CONTENT_ITEM_COMPONENTSET">
+<primary-key-column name="ID"/>
+</primary-key>
+<unique-key-list>
+<unique-key id="311df2:11c31377d6e:-7db3" name="UQ_CONTENT_ITEM_COMPONENTSET_1">
+<unique-key-column name="IDENTIFIER"/>
+</unique-key>
+</unique-key-list>
+</table>
+<table id="311df2:11c31377d6e:-7fac" name="CONTENT_ITEM_COMPONENTSET_COMPONENTS" remarks="Many-to-many join table between a ComponentSet and its Components">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7faa" mandatory="true" name="CONTENT_ITEM_COMPONENTSET_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7fa9" mandatory="true" name="CONTENT_ITEM_COMPONENT_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7fa8" name="PK_CONTENT_ITEM_COMPONENTSET_COMPONENTS">
+<primary-key-column name="CONTENT_ITEM_COMPONENTSET_ID"/>
+<primary-key-column name="CONTENT_ITEM_COMPONENT_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="311df2:11c31377d6e:-7e9b" name="FK_CONTENT_ITEM_COMPONENTSET_COMPONENTS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENT" referenced-table="CONTENT_ITEM_COMPONENT" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_COMPONENT_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="311df2:11c31377d6e:-7eb1" name="FK_CONTENT_ITEM_COMPONENTSET_COMPONENTS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENTSET" referenced-table="CONTENT_ITEM_COMPONENTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_COMPONENTSET_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="311df2:11c31377d6e:-7fa1" name="CONTENT_ITEM_COMPONENT" remarks="An set of Components which are bundled as an &quot;accessories set&quot; for a Content Item">
+<column-list>
+<column auto-increment="true" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f9f" mandatory="true" name="ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f9e" mandatory="true" name="ENTITY_VERSION" remarks="For Hibernate dirty checking">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f93" mandatory="true" name="TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f9d" mandatory="true" name="URI">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f9c" mandatory="true" name="NAME">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7dbe" mandatory="true" name="RELEASE_DATE">
+<data-type name="DATE" selected-variant-pattern="DATE"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7f9a" name="PK_CONTENT_ITEM_COMPONENT">
+<primary-key-column name="ID"/>
+</primary-key>
+</table>
+<table id="311df2:11c31377d6e:-7f7f" name="CONTENT_ITEM_COMPONENT_ARTIFACTS" remarks="Many-to-many join table between a Component and its Artifacts">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f7d" mandatory="true" name="CONTENT_ITEM_COMPONENT_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f7c" mandatory="true" name="ARTIFACT_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7f7b" name="PK_CONTENT_ITEM_COMPONENT_ARTIFACTS">
+<primary-key-column name="CONTENT_ITEM_COMPONENT_ID"/>
+<primary-key-column name="ARTIFACT_ID"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="311df2:11c31377d6e:-7e68" name="FK_CONTENT_ITEM_COMPONENT_ARTIFACTS_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENT" referenced-table="CONTENT_ITEM_COMPONENT" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_COMPONENT_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+<foreign-key id="311df2:11c31377d6e:-7dcf" name="FK_CONTENT_ITEM_COMPONENT_ARTIFACTS_2" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_ARTIFACT" referenced-table="ARTIFACT" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ARTIFACT_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+</table>
+<table id="311df2:11c31377d6e:-7f76" name="CONTENT_ITEM_COMPONENTSET_VISUALISATION" remarks="ContentItem ComponentSets have collections of Visualisation components">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f74" mandatory="true" name="CONTENT_ITEM_COMPONENTSET_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="32" decimal-digits="0" default-value="''" id="311df2:11c31377d6e:-7f73" mandatory="true" name="URL_HASH" remarks="A short hash of the URL value that can be indexed and used in a primary key. The default value is required for the MySQL trigger to work.">
+<data-type name="CHAR" selected-variant-pattern="CHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f72" mandatory="true" name="URL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="255" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f71" mandatory="true" name="MIME_TYPE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="311df2:11c31377d6e:-7f70" mandatory="true" name="VISUALISATION_USAGE" remarks="&quot;usage&quot; is a reserved word in MySQL">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="311df2:11c31377d6e:-7f6f" name="PK_CONTENT_ITEM_COMPONENTSET_VISUALISATION">
+<primary-key-column name="CONTENT_ITEM_COMPONENTSET_ID"/>
+<primary-key-column name="URL_HASH"/>
+<primary-key-column name="VISUALISATION_USAGE"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="311df2:11c31377d6e:-7ede" name="FK_CONTENT_ITEM_COMPONENTSET_VISUALISATION_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENTSET" referenced-table="CONTENT_ITEM_COMPONENTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="CONTENT_ITEM_COMPONENTSET_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="311df2:11c31377d6e:-7e1b" name="IX_CONTENT_ITEM_COMPONENTSET_VISUALISATION_1" remarks="All items belonging to a component set are retrieved together" unique="false">
+<index-column name="CONTENT_ITEM_COMPONENTSET_ID" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="181c4c7:11d86445142:-7f95" name="CONTENT_ITEM_LOCALIZATION_RESOURCE" remarks="L10N resources for ContentItems.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f91" mandatory="true" name="ENTITY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f90" mandatory="true" name="LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="511" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f8f" mandatory="true" name="NAME">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f8e" mandatory="true" name="DESCRIPTION">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="181c4c7:11d86445142:-7f94" name="PK_CONTENT_ITEM_LOCALIZATION_RESOURCE">
+<primary-key-column name="ENTITY_ID"/>
+<primary-key-column name="LOCALE"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="181c4c7:11d86445142:-7f74" name="FK_CONTENT_ITEM_LOCALIZATION_RESOURCE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM" referenced-table="CONTENT_ITEM" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ENTITY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="181c4c7:11d86445142:-7f63" name="IX_CONTENT_ITEM_LOCALIZATION_RESOURCE_1" unique="false">
+<index-column name="NAME" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="181c4c7:11d86445142:-7f2c" name="CONTENT_TYPE_LOCALIZATION_RESOURCE" remarks="L10N resources for ContentTypes.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f2a" mandatory="true" name="ENTITY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f29" mandatory="true" name="LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="511" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f28" mandatory="true" name="NAME">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f27" mandatory="true" name="DESCRIPTION">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="181c4c7:11d86445142:-7f26" name="PK_CONTENT_TYPE_LOCALIZATION_RESOURCE">
+<primary-key-column name="ENTITY_ID"/>
+<primary-key-column name="LOCALE"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="181c4c7:11d86445142:-7f0c" name="FK_CONTENT_TYPE_LOCALIZATION_RESOURCE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_TYPE" referenced-table="CONTENT_TYPE" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ENTITY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="9f2146:11d8aecee37:-7f8e" name="IX_CONTENT_TYPE_LOCALIZATION_RESOURCE_1" unique="false">
+<index-column name="NAME" sort="ASC"/>
+</index>
+</index-list>
+</table>
+<table id="181c4c7:11d86445142:-7f22" name="CONTENT_ITEM_COMPONENTSET_LOCALIZATION_RESOURCE" remarks="L10N resources for content item ComponentSets.">
+<column-list>
+<column auto-increment="false" column-size="0" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f20" mandatory="true" name="ENTITY_ID">
+<data-type name="BIGINT" selected-variant-pattern="BIGINT"/>
+</column>
+<column auto-increment="false" column-size="31" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f1f" mandatory="true" name="LOCALE">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="511" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f1e" mandatory="true" name="NAME">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+<column auto-increment="false" column-size="2047" decimal-digits="0" default-value="" id="181c4c7:11d86445142:-7f1d" mandatory="true" name="DESCRIPTION">
+<data-type name="VARCHAR" selected-variant-pattern="VARCHAR(%n)"/>
+</column>
+</column-list>
+<primary-key id="181c4c7:11d86445142:-7f1c" name="PK_CONTENT_ITEM_COMPONENTSET_LOCALIZATION_RESOURCE">
+<primary-key-column name="ENTITY_ID"/>
+<primary-key-column name="LOCALE"/>
+</primary-key>
+<foreign-key-list>
+<foreign-key id="181c4c7:11d86445142:-7edc" name="FK_CONTENT_ITEM_COMPONENTSET_LOCALIZATION_RESOURCE_1" on-delete="UNSPECIFIED" on-update="UNSPECIFIED" referenced-key="PK_CONTENT_ITEM_COMPONENTSET" referenced-table="CONTENT_ITEM_COMPONENTSET" referenced-table-schema="DELPHI" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="">
+<foreign-key-column column-name="ENTITY_ID" referenced-key-column-name="ID"/>
+</foreign-key>
+</foreign-key-list>
+<index-list>
+<index id="9f2146:11d8aecee37:-7f8b" name="IX_CONTENT_ITEM_COMPONENTSET_LOCALIZATION_RESOURCE_1" unique="false">
+<index-column name="NAME" sort="ASC"/>
+</index>
+</index-list>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+<diagram>
+<table-figure height="167" refid="da431b:118bc323fc6:-7fe2" width="199" x="461" y="218"/>
+<table-figure refid="da431b:118bc323fc6:-7fd1" x="419" y="38"/>
+<table-figure refid="da431b:118bc323fc6:-7fc2" x="190" y="3"/>
+<table-figure refid="da431b:118bc323fc6:-7fbd" x="921" y="496"/>
+<table-figure refid="da431b:118bc323fc6:-7fb3" x="929" y="425"/>
+<table-figure refid="da431b:118bc323fc6:-7fab" x="834" y="44"/>
+<table-figure refid="da431b:118bc323fc6:-7fa4" x="573" y="630"/>
+<table-figure refid="da431b:118bc323fc6:-7f9c" x="419" y="630"/>
+<table-figure refid="da431b:118bc323fc6:-7f94" x="545" y="742"/>
+<table-figure refid="da431b:118bc323fc6:-7f90" x="706" y="456"/>
+<table-figure refid="da431b:118bc323fc6:-7f8a" x="671" y="553"/>
+<table-figure refid="da431b:118bc323fc6:-7f86" x="724" y="716"/>
+<table-figure refid="da431b:118bc323fc6:-7f7f" x="375" y="742"/>
+<table-figure refid="da431b:118bc323fc6:-7f7b" x="202" y="632"/>
+<table-figure refid="da431b:118bc323fc6:-7f78" x="8" y="145"/>
+<table-figure refid="da431b:118bc323fc6:-7f70" x="7" y="39"/>
+<table-figure refid="da431b:118bc323fc6:-7f68" x="7" y="432"/>
+<table-figure refid="da431b:118bc323fc6:-7f61" x="202" y="683"/>
+<table-figure refid="da431b:118bc323fc6:-7f5e" x="198" y="729"/>
+<table-figure refid="da431b:118bc323fc6:-7f55" x="697" y="137"/>
+<table-figure refid="da431b:118bc323fc6:-7f49" x="1144" y="273"/>
+<table-figure refid="da431b:118bc323fc6:-7f45" x="1481" y="565"/>
+<table-figure refid="da431b:118bc323fc6:-7f3a" x="1514" y="431"/>
+<table-figure refid="da431b:118bc323fc6:-7f36" x="1166" y="417"/>
+<table-figure refid="da431b:118bc323fc6:-7f32" x="1462" y="294"/>
+<table-figure refid="da431b:118bc323fc6:-7f2e" x="1457" y="357"/>
+<table-figure refid="da431b:118bc323fc6:-7f2a" x="1477" y="502"/>
+<table-figure refid="da431b:118bc323fc6:-7f25" x="843" y="3"/>
+<table-figure refid="da431b:118bc323fc6:-7f22" x="200" y="192"/>
+<table-figure refid="da431b:118bc323fc6:-7f1c" x="200" y="270"/>
+<table-figure refid="da431b:118bc323fc6:-7f16" x="6" y="521"/>
+<table-figure refid="da431b:118bc323fc6:-7f0f" x="8" y="612"/>
+<table-figure refid="da431b:118bc323fc6:-7f08" x="7" y="703"/>
+<table-figure height="90" refid="da431b:118bc323fc6:-7f01" width="180" x="1781" y="9"/>
+<table-figure refid="107d4f6:119753b8e27:-7fd9" x="724" y="347"/>
+<table-figure refid="107d4f6:119753b8e27:-7fcf" x="963" y="347"/>
+<table-figure refid="da431b:118bc323fc6:-7f4e" x="1180" y="336"/>
+<table-figure refid="c46396:11a24675354:-7fd9" x="5" y="2"/>
+<table-figure refid="c46396:11a24675354:-7f71" x="202" y="582"/>
+<table-figure refid="680ae9:11a52d724ce:-7fd7" x="7" y="249"/>
+<table-figure refid="680ae9:11a52d724ce:-7fcf" x="9" y="340"/>
+<table-figure refid="680ae9:11a52d724ce:-7fc0" x="200" y="425"/>
+<table-figure refid="680ae9:11a52d724ce:-7fb9" x="200" y="504"/>
+<table-figure refid="680ae9:11a52d724ce:-7f27" x="200" y="348"/>
+<table-figure refid="63c26f:11a77738fb2:-7fd2" x="942" y="642"/>
+<table-figure refid="63c26f:11a77738fb2:-7fc3" x="1125" y="650"/>
+<table-figure refid="63c26f:11a77738fb2:-7f41" x="766" y="648"/>
+<table-figure refid="311df2:11c31377d6e:-7fc2" x="758" y="280"/>
+<table-figure refid="311df2:11c31377d6e:-7fba" x="942" y="165"/>
+<table-figure refid="311df2:11c31377d6e:-7fac" x="1002" y="108"/>
+<table-figure refid="311df2:11c31377d6e:-7fa1" x="1005" y="1"/>
+<table-figure refid="311df2:11c31377d6e:-7f7f" x="1194" y="25"/>
+<table-figure refid="311df2:11c31377d6e:-7f76" x="1329" y="91"/>
+<table-figure refid="181c4c7:11d86445142:-7f95" x="450" y="403"/>
+<table-figure refid="181c4c7:11d86445142:-7f2c" x="602" y="6"/>
+<table-figure refid="181c4c7:11d86445142:-7f22" x="1129" y="190"/>
+</diagram>
+</clay-model>
