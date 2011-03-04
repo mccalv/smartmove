@@ -6,7 +6,7 @@ package com.wimove.content.bean;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.junit.Test;
 
-import com.wimove.content.domain.Item;
+import com.closertag.smartmove.server.content.domain.Item;
 
 /**
  * @author mccalv

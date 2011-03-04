@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.wimove.content.domain.GpsPosition;
-import com.wimove.service.atac.AtacCalcolaPercorsoService;
+import com.closertag.smartmove.server.content.domain.GpsPosition;
+import com.closertag.smartmove.server.service.atac.AtacCalcolaPercorsoService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:wimove-serviceContext.xml" })

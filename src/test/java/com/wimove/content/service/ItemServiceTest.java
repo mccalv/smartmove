@@ -17,7 +17,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.wimove.content.persistence.filter.SearchFilter;
+import com.closertag.smartmove.server.content.persistence.filter.SearchFilter;
+import com.closertag.smartmove.server.content.service.ItemService;
 
 /**
  * It parses data coming from a different source. At this stage, data are not

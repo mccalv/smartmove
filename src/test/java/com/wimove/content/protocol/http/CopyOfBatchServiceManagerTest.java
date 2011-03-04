@@ -10,8 +10,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.transaction.TransactionConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.wimove.content.service.BatchContentsService;
-import com.wimove.util.HtmlUtils;
+import com.closertag.smartmove.server.content.service.BatchContentsService;
+import com.closertag.smartmove.server.util.HtmlUtils;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:wimove-serviceContext.xml" })

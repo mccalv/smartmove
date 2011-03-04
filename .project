@@ -1,6 +1,6 @@
 <projectDescription>
-  <name>wimove</name>
-  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <name>Smartmove_server</name>
+  <comment/>
   <projects/>
   <buildSpec>
     <buildCommand>

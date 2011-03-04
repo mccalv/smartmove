@@ -17,14 +17,14 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 
-import com.wimove.content.domain.Category;
-import com.wimove.content.domain.Gid;
-import com.wimove.content.domain.GpsPosition;
-import com.wimove.content.domain.Item;
-import com.wimove.content.domain.LocalizedItem;
-import com.wimove.content.domain.LocalizedItem.Label;
+import com.closertag.smartmove.server.content.domain.Category;
+import com.closertag.smartmove.server.content.domain.Gid;
+import com.closertag.smartmove.server.content.domain.GpsPosition;
+import com.closertag.smartmove.server.content.domain.Item;
+import com.closertag.smartmove.server.content.domain.LocalizedItem;
+import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
+import com.closertag.smartmove.server.content.persistence.ItemRepository;
 import com.wimove.content.hibernate.AbstractPrepopulatedHibernateItest;
-import com.wimove.content.persistence.ItemRepository;
 
 /**
  * @author mccalv

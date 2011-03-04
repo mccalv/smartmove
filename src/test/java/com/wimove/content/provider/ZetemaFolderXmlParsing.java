@@ -25,20 +25,20 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 
-import com.wimove.content.domain.Category;
-import com.wimove.content.domain.Contact;
-import com.wimove.content.domain.Cost;
-import com.wimove.content.domain.Extra;
-import com.wimove.content.domain.Gid;
-import com.wimove.content.domain.GpsPosition;
-import com.wimove.content.domain.Item;
-import com.wimove.content.domain.LocalizedItem;
-import com.wimove.content.domain.Tag;
-import com.wimove.content.domain.TimeOccurrence;
-import com.wimove.content.domain.LocalizedItem.Label;
+import com.closertag.smartmove.server.content.domain.Category;
+import com.closertag.smartmove.server.content.domain.Contact;
+import com.closertag.smartmove.server.content.domain.Cost;
+import com.closertag.smartmove.server.content.domain.Extra;
+import com.closertag.smartmove.server.content.domain.Gid;
+import com.closertag.smartmove.server.content.domain.GpsPosition;
+import com.closertag.smartmove.server.content.domain.Item;
+import com.closertag.smartmove.server.content.domain.LocalizedItem;
+import com.closertag.smartmove.server.content.domain.Tag;
+import com.closertag.smartmove.server.content.domain.TimeOccurrence;
+import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
+import com.closertag.smartmove.server.content.persistence.ItemRepository;
+import com.closertag.smartmove.server.util.HtmlUtils;
 import com.wimove.content.hibernate.AbstractPrepopulatedHibernateItest;
-import com.wimove.content.persistence.ItemRepository;
-import com.wimove.util.HtmlUtils;
 
 /**
  * It parses data coming from a different source. 

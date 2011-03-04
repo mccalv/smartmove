@@ -16,7 +16,7 @@ import javax.xml.bind.JAXBException;
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
-import com.wimove.content.utils.JAXBUtils;
+import com.closertag.smartmove.server.content.utils.JAXBUtils;
 
 /**
  * @author mccalv

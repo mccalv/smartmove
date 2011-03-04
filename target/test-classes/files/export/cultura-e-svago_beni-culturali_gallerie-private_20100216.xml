@@ -1,0 +1,4883 @@
+<?xml version="1.0"?>
+<categoria nome="Gallerie private">
+	<elemento id="10428">
+		<nome>Show Room Telemarket</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10428.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477537"
+				latitudine="41.909629">Via del Babuino, 16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 32651935</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10430">
+		<nome>Galleria Primo Piano</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10430.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.492738"
+				latitudine="41.896776">Via Panisperna, 203</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4880309</contatto>
+			<contatto label="Fax">0039 06 4881894</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10431">
+		<nome>Galleria Monogramma </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10431.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480406"
+				latitudine="41.907770">Via Margutta, 57</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 32650297 - 32650297</contatto>
+			<contatto label="Fax">0039 06 32655574</contatto>
+			<contatto label="Email">monogramma@virgilio.it</contatto>
+			<contatto label="Sito web">www.monogramma.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10432">
+		<nome>Magazzino d'arte moderna</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10432.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476733"
+				latitudine="41.902460">Via dei Prefetti, 17</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6875951</contatto>
+			<contatto label="Fax">0039 06 68135635</contatto>
+			<contatto label="Email">info@magazzinoartemoderna.com</contatto>
+			<contatto label="Sito web">www.magazzinoartemoderna.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10433">
+		<nome>Galleria La Vetrata</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10433.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4786818"
+				latitudine="41.9083912">Via di Ges&#xF9; e Maria, 23</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36006854</contatto>
+			<contatto label="Fax">0039 06 36006854</contatto>
+			<contatto label="Email">info@gallerialavetrata.com</contatto>
+			<contatto label="Sito web">www.gallerialavetrata.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10434">
+		<nome>Galleria Studio S </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10434.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474881"
+				latitudine="41.909592">Via Della Penna, 59</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3612086</contatto>
+			<contatto label="Sito web">www.arte.ware.it/ARGAM/StudioS</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10435">
+		<nome>Galleria F. Russo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10435.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.481025"
+				latitudine="41.907277">Via Alibert, 15/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6789949 - 69920692</contatto>
+			<contatto label="Fax">0039 06 69920692</contatto>
+			<contatto label="Email">info@galleriarusso.com</contatto>
+			<contatto label="Sito web">www.galleriarusso.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10436">
+		<nome>Galleria Don Chisciotte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10436.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476178"
+				latitudine="41.909167">Via Angelo Brunetti, 21/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3224515</contatto>
+			<contatto label="Email">info@galleriadonchisciotte.com</contatto>
+			<contatto label="Sito web">www.galleriadonchisciotte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10437">
+		<nome>Galleria Mascherino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10437.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.458617"
+				latitudine="41.903740">Via del Mascherino, 24</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68803820</contatto>
+			<contatto label="Fax">0039 06 68803820</contatto>
+			<contatto label="Email">mascherino@iol.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10438">
+		<nome>Galleria De Crescenzo &amp;amp; Viesti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10438.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477373"
+				latitudine="41.908177">Via del Corso, 42 - 1&#xB0; Piano</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36002414</contatto>
+			<contatto label="Fax">0039 06 36002415</contatto>
+			<contatto label="Email">info@decrescenzoeviesti.com</contatto>
+			<contatto label="Sito web">www.decrescenzoeviesti.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10439">
+		<nome>Galleria il Narciso</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10439.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478199"
+				latitudine="41.908792">Via Laurina, 26</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3207700</contatto>
+			<contatto label="Fax">0039 06 3207700</contatto>
+			<contatto label="Email">galleriailnarciso@libero.it</contatto>
+			<contatto label="Sito web">www.galleriailnarciso.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10440">
+		<nome>Galleria il Gabbiano</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10440.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476462"
+				latitudine="41.906937">Via della Frezza, 51</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3227049</contatto>
+			<contatto label="Fax">0039 06 3220401</contatto>
+			<contatto label="Sito web">www.galleriailgabbiano.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10442">
+		<nome>Galleria Gian Enzo Sperone</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10442.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475612"
+				latitudine="41.902659">Via di Pallacorda, 15</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6893525</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10443">
+		<nome>Galleria l'Attico di Fabio Sargentini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10443.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473452"
+				latitudine="41.896338">Via del Paradiso, 41</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6869846</contatto>
+			<contatto label="Fax">0039 06 6869846</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10444">
+		<nome>Galleria Ex Ante</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10444.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475012"
+				latitudine="41.900067">Largo Giuseppe Toniolo, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68801107</contatto>
+			<contatto label="Fax">0039 06 32650534</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10445">
+		<nome>Galleria Erica Fiorentini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10445.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478584"
+				latitudine="41.909433">Via Margutta, 17</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3219968</contatto>
+			<contatto label="Email">artecontemporanea@ericafiorentini.it
+			</contatto>
+			<contatto label="Fax">0039 06 3219968</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10446">
+		<nome>Galleria l'Ariete</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10446.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467536"
+				latitudine="41.896870">Via Giulia, 140/E</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6875641</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10447">
+		<nome>Galleria Il Punto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10447.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.439227"
+				latitudine="41.917036">Via Ugo De Carolis, 96/E</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 35497855</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10448">
+		<nome>Galleria Il Ponte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10448.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468724"
+				latitudine="41.896791">Via di Monserrato, 23</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68801351</contatto>
+			<contatto label="Fax">0039 06 68211084</contatto>
+			<contatto label="Email">info@ilpontecontemporanea.com</contatto>
+			<contatto label="Sito web">www.ilpontecontemporanea.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10449">
+		<nome>Galleria il Polittico</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10449.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467526"
+				latitudine="41.897681">Via dei Banchi Vecchi, 135</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6832574</contatto>
+			<contatto label="Fax">0039 06 6875689</contatto>
+			<contatto label="Email">ilpolittico@tin.it</contatto>
+			<contatto label="Sito web">www.ilpolittico.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10450">
+		<nome>Galleria Mirabilia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10450.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.500366"
+				latitudine="41.888193">Via San Giovanni in Laterano, 83</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 70450453</contatto>
+			<contatto label="Email">artemirabilia@libero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10451">
+		<nome>Galleria Chimera</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10451.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478960"
+				latitudine="41.899076">Via del Seminario, 121</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6792126</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10452">
+		<nome>Galleria Palladio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10452.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468908"
+				latitudine="41.899202">Via del Governo Vecchio, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6867897</contatto>
+			<contatto label="Fax">0039 06 68132259</contatto>
+			<contatto label="Email">palladio@srd.it</contatto>
+			<contatto label="Sito web">www.ex-art.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Postazioni multimediali</servizio>
+			<servizio>Videoteca</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10453">
+		<nome>Galleria Athena Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10453.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.458691"
+				latitudine="41.904361">Via del Mascherino, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6865615</contatto>
+			<contatto label="Email">mpghezzi@infinito.it </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10454">
+		<nome>Galleria Emanuela Oddi Baglioni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10454.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.483824"
+				latitudine="41.905596">Via Gregoriana, 34</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6797906</contatto>
+			<contatto label="Fax">0039 06 6788424</contatto>
+			<contatto label="Email">galleriaoddibaglioni@libero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10455">
+		<nome>Galleria Minima Peliti Associati</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10455.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476688"
+				latitudine="41.903723">Largo della Fontanella di Borghese, 19</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6868622</contatto>
+			<contatto label="Sito web">www.pelitiassociati.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10456">
+		<nome>GAlleria Marcello Aldega</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10456.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478599"
+				latitudine="41.899037">Via del Seminario, 117</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3213542</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10457">
+		<nome>Nuova Galleria Campo dei Fiori</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10457.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469041"
+				latitudine="41.896389">Via di Monserrato, 30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68804621</contatto>
+			<contatto label="Email">info@nuovagalleriacampodeifiori.it
+			</contatto>
+			<contatto label="Sito web">www.nuovagalleriacampodeifiori.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10458">
+		<nome>Galleria d'Arte Ca' d'oro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10458.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.481872"
+				latitudine="41.905957">Piazza di Spagna, 81</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6796417</contatto>
+			<contatto label="Fax">0039 06 6797550</contatto>
+			<contatto label="Email">ca.doro@virgilio.it</contatto>
+			<contatto label="Sito web">www.ca-doro.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10459">
+		<nome>Galleria Alessandra Bonomo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10459.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4787105"
+				latitudine="41.8966755">Via del Ges&#xF9;, 62</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69925858</contatto>
+			<contatto label="Email">mail@bonomogallery.com</contatto>
+			<contatto label="Sito web">www.bonomogallery.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10460">
+		<nome>Galleria Area Domus</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10460.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.482066"
+				latitudine="41.902529">Via del Pozzetto, 124</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6790515</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10461">
+		<nome>Galleria Arco Farnese</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10461.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469624"
+				latitudine="41.894537">Via Giulia, 180</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6865145</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10462">
+		<nome>Galleria Anna D'Ascanio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10462.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478022"
+				latitudine="41.909220">Via del Babuino, 29</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36001804</contatto>
+			<contatto label="Fax">0039 06 36001804</contatto>
+			<contatto label="Email">info@galleriadascanio.it</contatto>
+			<contatto label="Sito web">www.galleriadascanio.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10463">
+		<nome>Galleria Carlo Virgilio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10463.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476759"
+				latitudine="41.902847">Via della Lupa, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6871093</contatto>
+			<contatto label="Sito web">www.carlovirgilio.it</contatto>
+			<contatto label="Email">carlovirgilio@carlovirgilio.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10464">
+		<nome>Galleria - Stamperia Il Bulino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10464.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.494903"
+				latitudine="41.897175">Via Urbana, 148</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4742351</contatto>
+			<contatto label="Fax">0039 06 4742351</contatto>
+			<contatto label="Email">info@galleriailbulino.it</contatto>
+			<contatto label="Sito web">www.galleriailbulino.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10465">
+		<nome>Galleria Fontanella Borghese</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10465.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477473"
+				latitudine="41.904021">Via della Fontanella Borghese, 31</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6873741 - 6876127</contatto>
+			<contatto label="Fax">0039 06 6876127</contatto>
+			<contatto label="Email">galleriaf.borghese@libero.it</contatto>
+			<contatto label="Sito web">www.galleriafontanellaborghese.com
+			</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10466">
+		<nome>Galleria d'Arte della Scuola Romana di Fotografia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10466.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.518343"
+				latitudine="41.896874">Via degli Ausoni, 76</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4957264 - 335 6153357</contatto>
+			<contatto label="Email">sfr@scuolaromanadifotografia.it</contatto>
+			<contatto label="Sito web">www.scuolaromanadifotografia.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10467">
+		<nome>Galleria Donini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10467.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4894684"
+				latitudine="41.9026597">Via delle Quattro Fontane, 158</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4885226</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10468">
+		<nome>Galleria Maniero</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10468.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476157"
+				latitudine="41.904557">Via dell'Arancio, 79</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68807116</contatto>
+			<contatto label="Fax">0039 06 68807116</contatto>
+			<contatto label="Email">info@galleriamaniero.it</contatto>
+			<contatto label="Sito web">www.galleriamaniero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10469">
+		<nome>UCAI Galleria La Pigna</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10469.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4775164"
+				latitudine="41.8969607">Via della Pigna, 13/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6781525</contatto>
+			<contatto label="Email">gallerialapigna@yahoo.it</contatto>
+			<contatto label="Sito web">www.ucairoma.it</contatto>
+			<contatto label="Fax">0039 06 6781525</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10470">
+		<nome>La Nuova Pesa Centro per l'Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10470.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476685"
+				latitudine="41.909804">Via del Corso, 530</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3610892</contatto>
+			<contatto label="Fax">0039 06 322873</contatto>
+			<contatto label="Email">nuovapesa@farm.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10471">
+		<nome>Galleria de La Cuba d'oro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10471.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469554"
+				latitudine="41.890406">Via della Pelliccia, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5897368</contatto>
+			<contatto label="Fax">0039 06 5897368</contatto>
+			<contatto label="Email">lacubadoro@alice.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10472">
+		<nome>Gallery of Art - Temple University Rome</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10472.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471815"
+				latitudine="41.914455">Lungotevere Arnaldo da Brescia, 15</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3202808</contatto>
+			<contatto label="Sito web">www.temple.edu</contatto>
+			<contatto label="Email">info@temple.edu</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10473">
+		<nome>Sala 1. Centro internazionale d'arte contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10473.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.507289"
+				latitudine="41.886646">Piazza di Porta San Giovanni, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7008691</contatto>
+			<contatto label="Fax">0039 06 7008691</contatto>
+			<contatto label="Email">salauno@salauno.com</contatto>
+			<contatto label="Sito web">www.salauno.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10474">
+		<nome>Galleria 9 Via della vetrina contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10474.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469810"
+				latitudine="41.900072">Via della Vetrina, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68192277</contatto>
+			<contatto label="Fax">0039 06 68192277</contatto>
+			<contatto label="Email">info@galleriavetrina.it</contatto>
+			<contatto label="Sito web">www.galleriavetrina.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10475">
+		<nome>Galleria il Tempo ritrovato</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10475.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.465471"
+				latitudine="41.901080">Lungotevere degli Altoviti, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68308707</contatto>
+			<contatto label="Fax">0039 06 68308707</contatto>
+			<contatto label="Email">iltemporitrovato@hotmail.com</contatto>
+			<contatto label="Sito web">www.arteperte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10476">
+		<nome>Galleria Studio DR - Spazio Visivo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10476.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Collegamenti</strong>: Metro A fermata Flaminio.Bus 81, 117, 119, 204 fest., 590, 628, 926</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474870"
+				latitudine="41.909274">Via Angelo Brunetti, 43</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3612055</contatto>
+			<contatto label="Fax">0039-06.39734162</contatto>
+			<contatto label="Email">g.diroberto@archiworld.it</contatto>
+			<contatto label="Sito web">www.studiodr-arte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10477">
+		<nome>Galleria Paolo Antonacci</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10477.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480049"
+				latitudine="41.907500">Via del Babuino, 144</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.32651679</contatto>
+			<contatto label="Email">info@paoloantonacci.com</contatto>
+			<contatto label="Sito web">www.paoloantonacci.com</contatto>
+			<contatto label="Fax">0039 06 32629014</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10478">
+		<nome>Galleria Giovanni di Summa</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10478.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475673"
+				latitudine="41.908031">Via del Fiume, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3230590</contatto>
+			<contatto label="Fax">0039 06 3241731</contatto>
+			<contatto label="Sito web">www.giovannidisumma.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10479">
+		<nome>A.A.M. Architettura Arte Moderna - Archivio disegno moderno e
+			contemporaneo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10479.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4666004"
+				latitudine="41.8991451">Via dei Banchi Vecchi, 61</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68307537</contatto>
+			<contatto label="Email">info@aamgalleria.it</contatto>
+			<contatto label="Sito web">www.aamgalleria.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10480">
+		<nome>Galleria Interculturale permanente</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10480.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471688"
+				latitudine="41.892392">Lungotevere dei Vallati, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68803547</contatto>
+			<contatto label="Fax">0039 06 68804063 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10481">
+		<nome>Galleria Marchetti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10481.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479162"
+				latitudine="41.908906">Via Margutta, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3204863</contatto>
+			<contatto label="Fax">0039 06 3204863</contatto>
+			<contatto label="Email">info@artemarchetti.it</contatto>
+			<contatto label="Sito web">www.artemarchetti.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10482">
+		<nome>Galleria Il Segno</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10482.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.485258"
+				latitudine="41.903976">Via di Capo Le Case, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6791387</contatto>
+			<contatto label="Fax">0039 06 6795844</contatto>
+			<contatto label="Sito web">www.galleriailsegno.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10483">
+		<nome>Galleria Altri lavori in corso</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10483.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469682"
+				latitudine="41.898129">Vicolo del Governo Vecchio, 7</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68611719</contatto>
+			<contatto label="Fax">0039 06 6861719</contatto>
+			<contatto label="Email">info@altrilavoriincorso.com</contatto>
+			<contatto label="Sito web">www.altrilavoriincorso.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10484">
+		<nome>Galleria Ferro di Cavallo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10484.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475296"
+				latitudine="41.904080">Via di Ripetta, 67</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3227303</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10485">
+		<nome>Galleria la Borgognona</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10485.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476858"
+				latitudine="41.909387">Via del Corso, 525</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3610258</contatto>
+			<contatto label="Fax">0039 06 3610258</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10486">
+		<nome>Galleria Ferranti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10486.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472282"
+				latitudine="41.901904">Via dei Soldati, 25/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68802146</contatto>
+			<contatto label="Fax">0039 06 68802146</contatto>
+			<contatto label="Email">ferranti@flashnet.it</contatto>
+			<contatto label="Sito web">www.galleriaferranti.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10487">
+		<nome>Galleria Andr&#xE8;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10487.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Collegamenti</strong>: Bus 40Bus 46 - 116 - 116T - 62 - 64 - 916</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469455"
+				latitudine="41.894722">Via Giulia, 175</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.6861875</contatto>
+			<contatto label="Fax">0039-06.6861875</contatto>
+			<contatto label="Email">info@andrearte.it</contatto>
+			<contatto label="Sito web">www.andrearte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10488">
+		<nome>Forum Interart</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10488.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488980"
+				latitudine="41.894048">Via della Madonna dei Monti, 30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6791578</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10489">
+		<nome>Galleria RDF</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10489.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.441854"
+				latitudine="41.921205">Via Festo Avieno, 38</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 35451919</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10490">
+		<nome>Galleria AOCF58</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10490.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475144"
+				latitudine="41.913636">Via Flaminia, 58</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3200317</contatto>
+			<contatto label="Fax">0039 06 3610411</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10491">
+		<nome>Galleria il Canovaccio Studio del Canova</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10491.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477120"
+				latitudine="41.907371">Via delle Colonnette, 27</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3227162</contatto>
+			<contatto label="Fax">0039 06 3227162</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10492">
+		<nome>Studio Stefania Miscetti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10492.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.462615"
+				latitudine="41.895422">Via delle Mantellate, 14</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68805880</contatto>
+			<contatto label="Fax">0039 06 68805880</contatto>
+			<contatto label="Email">mistef@iol.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10493">
+		<nome>Studio Arte Fuori Centro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10493.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.453349"
+				latitudine="41.861033">Via Ercole Bombelli, 22</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5578101</contatto>
+			<contatto label="Fax">0039 06 5578101</contatto>
+			<contatto label="Email">artefuoricentro@aruba.it</contatto>
+			<contatto label="Sito web">www.artefuoricentro.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10495">
+		<nome>Galleria La Nuvola</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10495.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479838"
+				latitudine="41.908283">Via Margutta, 51/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36005158</contatto>
+			<contatto label="Fax">0039 06 36091562</contatto>
+			<contatto label="Email">info@gallerialanuvola.it</contatto>
+			<contatto label="Sito web">www.gallerialanuvola.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10496">
+		<nome>Galleria Vittoria</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10496.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478703"
+				latitudine="41.909325">Via Margutta, 103</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36001878</contatto>
+			<contatto label="Fax">0039 06 3242599</contatto>
+			<contatto label="Email">tizianatodi@libero.it</contatto>
+			<contatto label="Sito web">www.galleriavittoria.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Accessibile ai disabili</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10497">
+		<nome>Galleria della Tartaruga</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10497.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.484843"
+				latitudine="41.905241">Via Sistina, 85/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6788956</contatto>
+			<contatto label="Fax">0039 06 6788956</contatto>
+			<contatto label="Email">info@galleriadellatartaruga.com</contatto>
+			<contatto label="Sito web">www.galleriadellatartaruga.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10498">
+		<nome>Antiquaria Carlo Maria Biagiarelli</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10498.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477903"
+				latitudine="41.899868">Piazza Capranica, 97</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69940728</contatto>
+			<contatto label="Sito web">www.biagiarelli.it</contatto>
+			<contatto label="Email">biagiarellicm@libero.it</contatto>
+			<contatto label="Fax">0039 06 6784987</contatto>
+		</contatti>
+		<keywords>
+			<keyword>icone russe</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="10499">
+		<nome>Galleria Il Selvaggio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10499.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475325"
+				latitudine="41.904246">Via di Ripetta, 40</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3217232</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10500">
+		<nome>Galleria dei Soldati</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10500.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472413"
+				latitudine="41.901431">Via dei Soldati, 20</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6875613</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10501">
+		<nome>Galleria Edo City</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10501.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473380"
+				latitudine="41.896171">Piazza del Paradiso, 18</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68192659</contatto>
+			<contatto label="Sito web">www.edocity.it</contatto>
+			<contatto label="Email">edocity@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10502">
+		<nome>Casa d'Arte Ulisse</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10502.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4843838"
+				latitudine="41.9038527">Via dei Due Macelli, 79/82</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69380596</contatto>
+			<contatto label="Fax">0039 06 6780771</contatto>
+			<contatto label="Email">info@casadarteulisse.com</contatto>
+			<contatto label="Sito web">www.casadarteulisse.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10504">
+		<nome>Galleria Bernini Borromini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10504.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479988"
+				latitudine="41.893542">Piazza Capizucchi, 6</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6789818</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10505">
+		<nome>Galleria Valentina Moncada</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10505.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480027"
+				latitudine="41.908112">Via Margutta, 54</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3207956</contatto>
+			<contatto label="Fax">0039 06 3208209</contatto>
+			<contatto label="Email">infogalleria@valentinamoncada.com</contatto>
+			<contatto label="Sito web">www.valentinamoncada.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10506">
+		<nome>Galleria Spigoli di Luce</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10506.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490985"
+				latitudine="41.896429">Via Panisperna, 238</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4817414</contatto>
+			<contatto label="Sito web">www.artgalleryinrome.eu</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10507">
+		<nome>Galleria Yaki</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10507.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475895"
+				latitudine="41.893533">Via di Santa Maria del Pianto, 55</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68807724</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10508">
+		<nome>Galleria Solarte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10508.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476794"
+				latitudine="41.909112">Via Angelo Brunetti, 6</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3200407</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10509">
+		<nome>Galleria Ioansen</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10509.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469240"
+				latitudine="41.890425">Via della Pelliccia, 44 A/B</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58334495 - 328 4956762</contatto>
+			<contatto label="Fax">0039 06 58334495</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10510">
+		<nome>Galleria l'Ermete</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10510.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470432"
+				latitudine="41.899352">Via della Fossa, 17</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 39727799</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10511">
+		<nome>Galleria il Colibr&#xEC;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10511.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473193"
+				latitudine="41.901825">Via dell'Orso</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6869131</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10512">
+		<nome>Galleria Trincia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10512.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477892"
+				latitudine="41.908725">Via Laurina, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3612322</contatto>
+			<contatto label="Fax">0039 06 3612322</contatto>
+			<contatto label="Email">info@perotrincia.it</contatto>
+			<contatto label="Sito web">www.pierotrincia.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10513">
+		<nome>Galleria Acta International</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10513.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.492412"
+				latitudine="41.896711">Via Panisperna, 83</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4742005</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10514">
+		<nome>Galleria il Labirinto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10514.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471812"
+				latitudine="41.887935">Via dei Fienaroli, 21/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5895555</contatto>
+			<contatto label="Fax">0039 06 58179511</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10515">
+		<nome>Il Cenacolo. Salotto de il Narciso</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10515.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475366"
+				latitudine="41.904480">Via di Ripetta, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36003630</contatto>
+			<contatto label="Fax">0039 06 36003630</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10516">
+		<nome>Galleria del cortile - Archivio Sante Monachesi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10516.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478966"
+				latitudine="41.908424">Via del Babuino, 51</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3234475</contatto>
+			<contatto label="Fax">0039 06 36000480</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10517">
+		<nome>Galleria Akka</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10517.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6792066</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10518">
+		<nome>L.I.ART Laboratoio Incontri d'Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10518.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479182"
+				latitudine="41.913262">Viale David Lubin, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3202673</contatto>
+			<contatto label="Fax">0039 06 3202673</contatto>
+			<contatto label="Email">lab.incontriarte@tiscalinet.it</contatto>
+			<contatto label="Sito web">www.liart.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10519">
+		<nome>Studio d'Arte Campaiola</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10519.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479021"
+				latitudine="41.909035">Via Margutta, 29</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 85304622 - 85832687</contatto>
+			<contatto label="Fax">0039 06 85304606</contatto>
+			<contatto label="Email">s.artecampaiola@jumpy.it</contatto>
+			<contatto label="Sito web">www.campaiola.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10520">
+		<nome>Soligo Art Projet</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10520.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490987"
+				latitudine="41.896147">Via Cimarra, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4880853</contatto>
+			<contatto label="Email">info@soligoartproject.it</contatto>
+			<contatto label="Sito web">www.soligoartproject.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10521">
+		<nome>Galleria Smit</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10521.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.455319"
+				latitudine="41.897822">Via di Santa Maria alle Fornaci, 26</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 636321</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10522">
+		<nome>Galleria Ricerca d'Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10522.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469624"
+				latitudine="41.894537">Via Giulia, 180</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6893728</contatto>
+			<contatto label="Email">ricercadarte@libero.it</contatto>
+			<contatto label="Fax">0039 06 6893728</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10523">
+		<nome>Tricromia illustrator&#x2019;s International artgallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10523.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467109"
+				latitudine="41.900830">Via di Panico, 35</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6896970 - 339 7856006</contatto>
+			<contatto label="Email">info@tricromia.com</contatto>
+			<contatto label="Sito web">www.tricromia.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10524">
+		<nome>Galleria Pio Monti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10524.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.464703"
+				latitudine="41.905373">Via Pietro Della Valle, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68808590</contatto>
+			<contatto label="Email">permariemonti@hotmail.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10525">
+		<nome>Galleria 2RC</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10525.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.462754"
+				latitudine="41.895444">Via delle Mantellate, 15/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6868878</contatto>
+			<contatto label="Fax">0039 06 6868878</contatto>
+			<contatto label="Email">2rcgallery@2rcgallery.it</contatto>
+			<contatto label="Sito web">www.2rcgallery.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10526">
+		<nome>Studio Andrea Gobbi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10526.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.515351"
+				latitudine="41.894656">Via dei Lucani, 33/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 44340151</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10527">
+		<nome>Galleri la finestra sul cortile</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10527.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469578"
+				latitudine="41.884244">Viale Glorioso, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="10528">
+		<nome>Galleria K.R. Centro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10528.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474174"
+				latitudine="41.895158">Via dei Chiavari, 82</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5881084</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10529">
+		<nome>Galleria Edieuropa Qui arte contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10529.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475486"
+				latitudine="41.892714">Piazza Cenci, 56</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 64760172 - 06 68805795</contatto>
+			<contatto label="Fax">0039 06 68805795</contatto>
+			<contatto label="Email">edieuropa@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10530">
+		<nome>Galleria il Saggiatore</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10530.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479863"
+				latitudine="41.908261">Via Margutta, 83/B</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3207709</contatto>
+			<contatto label="Email">il.saggiatore.arte@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10531">
+		<nome>Galleria Extraspazio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10531.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.462674"
+				latitudine="41.894052">Via di San Francesco di Sales, 16/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68210655</contatto>
+			<contatto label="Fax">0039 06 68210655</contatto>
+			<contatto label="Email">info@extraspazio.it</contatto>
+			<contatto label="Sito web">www.extraspazio.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10532">
+		<nome>Galleria Italarte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10532.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473770"
+				latitudine="41.895514">Largo del Pallaro, 11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6865776</contatto>
+			<contatto label="Fax">0039 06 6864621</contatto>
+			<contatto label="Email">italarte@italarte</contatto>
+			<contatto label="Sito web">www.italarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10533">
+		<nome>Centro Luigi di Sarro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10533.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.463386"
+				latitudine="41.908953">Via Paolo Emilio, 28</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3243513 - 3243642</contatto>
+			<contatto label="Email">centroluigidisarro@virgilio.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10534">
+		<nome>Galleria d'Arte dei Serpenti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10534.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490259"
+				latitudine="41.895992">Via Dei Serpenti, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4872212</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10535">
+		<nome>Galleria Augusto Consorti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10535.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479806"
+				latitudine="41.908313">Via Margutta, 52/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3614053</contatto>
+			<contatto label="Fax">0039 06 3614053</contatto>
+			<contatto label="Sito web">www.galleriaconsorti.it</contatto>
+			<contatto label="Email">info@galleriaconsorti.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10537">
+		<nome>Fidia Arte Moderna</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10537.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474545"
+				latitudine="41.909300">Via Angelo Brunetti, 49</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3612051</contatto>
+			<contatto label="Fax">0039 06 3612051</contatto>
+			<contatto label="Sito web">www.artefidia.com</contatto>
+			<contatto label="Email">info@artefidia.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10538">
+		<nome>Galleria del Teatro Eliseo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10538.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488975"
+				latitudine="41.897954">Via Nazionale, 183/E</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4744959</contatto>
+			<contatto label="Sito web">www.teatroeliseo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10539">
+		<nome>Edicola Notte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10539.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4696219"
+				latitudine="41.8909747">Vicolo de' Cinque, 23</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5816161</contatto>
+			<contatto label="Email">edicolanotte@edicolanotte.com</contatto>
+			<contatto label="Sito web">www.edicolanotte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10540">
+		<nome>Galleria Autori Cambi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10540.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470044"
+				latitudine="41.906939">Via Giuseppe Gioacchino Belli, 26</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 47824613</contatto>
+			<contatto label="Email">matteo.boetti@fastwebnet.it</contatto>
+			<contatto label="Sito web">www.arteautoricambi.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10541">
+		<nome>Galleria Faleria</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10541.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.509408"
+				latitudine="41.882567">Via Faleria, 47</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 70450821 / 339 7066949</contatto>
+			<contatto label="Email">galleriafaleria@inwind.it</contatto>
+			<contatto label="Sito web">www.galleriafaleria.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10542">
+		<nome>Galleria Le Opere</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10542.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467366"
+				latitudine="41.900056">Vicolo della Campanella, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68136100</contatto>
+			<contatto label="Email">info@galleraleopere.it</contatto>
+			<contatto label="Sito web">www.gallerialeopere.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10543">
+		<nome>Galleria Valentina Bonomo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10543.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.6832766</contatto>
+			<contatto label="Fax">0039-06.6832766</contatto>
+			<contatto label="Email">v.bonomo@libero.it</contatto>
+			<contatto label="Sito web">www.galleriabonomo.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10544">
+		<nome>Galleria il Collezionista</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10544.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.486737"
+				latitudine="41.902325">Via Rasella, 132</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 42011393</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10545">
+		<nome>Galleria l'Indicatore</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10545.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477192"
+				latitudine="41.907110">Via delle Colonnette, 20</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3221547</contatto>
+			<contatto label="Email">italarte@italarte.it</contatto>
+			<contatto label="Sito web">www.italarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10546">
+		<nome>Studio Lipoli &amp; Lopez</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10546.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.465537"
+				latitudine="41.894182">Via della Penitenza, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 51603618</contatto>
+			<contatto label="Email">info@studiolipolilopez.com</contatto>
+			<contatto label="Sito web">www.studiolipolilopez.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10547">
+		<nome>Galleria Arte e Pensieri</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10547.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.495374"
+				latitudine="41.889555">Via Ostilia, 3</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7002404</contatto>
+			<contatto label="Email">artepensieriroma@libero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10549">
+		<nome>Spaziodarte </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10549.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4472967"
+				latitudine="41.8702403">Via di Monte Verde, 57/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58230731 - 320 7070573</contatto>
+			<contatto label="Sito web">www.spaziodarte.it</contatto>
+			<contatto label="Email">info@spaziodarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10551">
+		<nome>Galleria Roberto Giustini</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10551.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68135013</contatto>
+			<contatto label="Fax">0039 06 68135013</contatto>
+			<contatto label="Email">msmarrelli@gmail.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10553">
+		<nome>Il mondo dell'arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10553.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.566729"
+				latitudine="41.884744">Via dei Castani, 191</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 2314864 - 2295561 - 23296552
+			</contatto>
+			<contatto label="Email">ilmondodellarte@libero.it</contatto>
+			<contatto label="Sito web">www.ilmondodellarte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10554">
+		<nome>Galleria Arte Colosseo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10554.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.495772"
+				latitudine="41.889639">Via San Giovanni in Laterano, 56 - 58</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7096404</contatto>
+			<contatto label="Email">colosseo@tiscalinet.it</contatto>
+			<contatto label="Sito web">www.artecolosseo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10555">
+		<nome>Galleria Via Giulia 95</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10555.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.465900"
+				latitudine="41.898659">Via Giulia, 95</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@viagiulia95.com</contatto>
+			<contatto label="Fax">0039 06 68216761</contatto>
+			<contatto label="Sito web">www.viagiulia95.com</contatto>
+			<contatto label="Telefono">0039 06 68892898</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10556">
+		<nome>Galleria Ar&#xE8;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10556.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.440591"
+				latitudine="41.967773">Via Al Sesto Miglio, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 33251707</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10557">
+		<nome>Galleria Tondinelli</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10557.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4909765"
+				latitudine="41.9018049">Via delle Quattro Fontane, 128/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4744300</contatto>
+			<contatto label="Fax">0039 06 47826269</contatto>
+			<contatto label="Email">info@galleriatondinelli.it</contatto>
+			<contatto label="Sito web">www.galleriatondinelli.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10558">
+		<nome>Galleria d'Arte Camel&#xF9;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10558.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471009"
+				latitudine="41.905504">Via Giovanni P.da Palestrina, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3241757 - 58</contatto>
+			<contatto label="Email">info@camelu.com</contatto>
+			<contatto label="Sito web">www.camelu.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10559">
+		<nome>Gard. Galleria d'arte e design</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10559.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480081"
+				latitudine="41.874379">Via Dei Conciatori, 3/i (cortile interno)</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5759475</contatto>
+			<contatto label="Fax">0039 06 57136891</contatto>
+			<contatto label="Email">soniagard@gmail.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10560">
+		<nome>Edarcom Europa Galleria d'Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10560.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.511874"
+				latitudine="41.873437">Via Macedonia, 12/16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7802620</contatto>
+			<contatto label="Email">edarcom_europa@yahoo.it</contatto>
+			<contatto label="Sito web">www.edarcom.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10561">
+		<nome>Galleria Degas</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10561.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.285214"
+				latitudine="41.731588">Via Della Stazione Del Lido, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5624707</contatto>
+			<contatto label="Sito web">www.artedegas.com</contatto>
+			<contatto label="Email">galleria@artedegas.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10562">
+		<nome>Galleria Ges&#xF9; e Maria</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10562.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477426"
+				latitudine="41.908045">Via del Corso, 45</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3215326</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10563">
+		<nome>Akkademia dei Prossimali</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10563.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.523129"
+				latitudine="41.886116">Via Alcamo, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7014551 - 3488234157</contatto>
+			<contatto label="Fax">0039 06 85351172</contatto>
+			<contatto label="Email">akkademia@tiscalinet.it</contatto>
+			<contatto label="Sito web">www.akkaprossimali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10564">
+		<nome>Galleria d'Arte Michelangelo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10564.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467172"
+				latitudine="41.899368">Via Giovanni Giraud, 6</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68193261</contatto>
+			<contatto label="Fax">0039-06.68193261</contatto>
+			<contatto label="Email">info@galleriamichelangelo.com</contatto>
+			<contatto label="Sito web">www.galleriamichelangelo.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10565">
+		<nome>Galleria Portuense</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10565.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469162"
+				latitudine="41.876543">Lungotevere Portuense, 158</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58332749</contatto>
+			<contatto label="Fax">0039 06 58333019</contatto>
+			<contatto label="Email">italarte@italarte.it</contatto>
+			<contatto label="Sito web">www.italarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10566">
+		<nome>Galleria Bettiv&#xF2; - Horti Lamiani Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10566.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503851"
+				latitudine="41.898389">Via Giovanni Giolitti, 163</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4460292</contatto>
+			<contatto label="Fax">0039 06 49385952</contatto>
+			<contatto label="Email">hortilamiani@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10567">
+		<nome>Studio Morbiducci</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10567.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472470"
+				latitudine="41.878121">Via Giovanni Battista Bodoni, 83</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5746285</contatto>
+			<contatto label="Email">morbiducci@alice.it</contatto>
+			<contatto label="Sito web">www.studiomorbiducci.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10568">
+		<nome>Galleria Fuoricentro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10568.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490987"
+				latitudine="41.896147">Via Cimarra, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4741804</contatto>
+			<contatto label="Email">galleria@fuoricentro.it</contatto>
+			<contatto label="Sito web">www.fuoricentro.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10569">
+		<nome>Galleria l'Officina</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10569.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Note</strong>: La galleria sar&agrave; anche un Centro studi dedicato allo storico Stefano Susinno e ospiter&agrave; una biblioteca (20 mila volumi) per studiare l'arte a Roma nel XIX e nel XX secolo.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474146"
+				latitudine="41.915854">Piazza della Marina, 27</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6871093</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10570">
+		<nome>Galleria Sisters</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10570.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467906"
+				latitudine="41.897400">Via dei Banchi Vecchi, 143</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6878497</contatto>
+			<contatto label="Email">galleriasisters@tin.it</contatto>
+			<contatto label="Sito web">www.sistersinart.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10571">
+		<nome>Galleria Lorcan O'Neill</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10571.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68892980</contatto>
+			<contatto label="Fax">0039 06 6838832</contatto>
+			<contatto label="Email">mail@lorcanoneill.com</contatto>
+			<contatto label="Sito web">www.lorcanoneill.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10572">
+		<nome>Galleria Domus Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10572.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488611"
+				latitudine="41.909754">Porta Pinciana</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 47424034</contatto>
+			<contatto label="Fax">0039 06 47424034</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10573">
+		<nome>Galleria Eleuteri</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10573.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477829"
+				latitudine="41.904155">Via della Fontanella Borghese, 62</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="10574">
+		<nome>Galleria Ashanti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10574.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.491235"
+				latitudine="41.895148">Via del Boschetto, 117</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4884203 </contatto>
+			<contatto label="Email">ashantigalleria@fastwebnet.it</contatto>
+			<contatto label="Sito web">www.ashantigalleria.com</contatto>
+			<contatto label="Fax">0039 06 4884203</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10575">
+		<nome>Centro Antiquario Romano Roberto Parenza</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10575.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467845"
+				latitudine="41.897249">Vicolo della Moretta, 13-15</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68134447</contatto>
+			<contatto label="Fax">0039 06 58237055</contatto>
+			<contatto label="Email">info@antichitaparenza.it</contatto>
+			<contatto label="Sito web">www.antichitaparenza.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10576">
+		<nome>Galleria Francesca Antonacci</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10576.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480027"
+				latitudine="41.908112">Via Margutta, 54</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 45433036 - 45433054</contatto>
+			<contatto label="Fax">0039 06 45433036 - 45433054</contatto>
+			<contatto label="Email">info@francescaantonacci.com</contatto>
+			<contatto label="Sito web">www.francescaantonacci.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10577">
+		<nome>Galleria l'Acquario</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10577.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469556"
+				latitudine="41.894611">Via Giulia, 178</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68805438</contatto>
+			<contatto label="Sito web">www.galleriacquario.it</contatto>
+			<contatto label="Email">galleriacquario@galleriacquario.it
+			</contatto>
+			<contatto label="Fax">0039 06 68805438</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10578">
+		<nome>Galleria Lombardi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10578.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.495293"
+				latitudine="41.897628">Via Urbana, 8/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4744143</contatto>
+			<contatto label="Email">galleria_lombardi@libero.it</contatto>
+			<contatto label="Sito web">www.argam.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10579">
+		<nome>Galleria Officina dell'Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10579.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4547506"
+				latitudine="41.8821279">Via Fonteiana, 55</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5815366</contatto>
+			<contatto label="Email">info@offarte.it</contatto>
+			<contatto label="Sito web">www.offarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10580">
+		<nome>Fondazione Volume!</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10580.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.464475"
+				latitudine="41.894474">Via di San Francesco di Sales, 86/88</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6892431</contatto>
+			<contatto label="Sito web">www.fondazionevolume.com</contatto>
+			<contatto label="Email">press@fondazionevolume.com</contatto>
+			<contatto label="Fax">0039 06 6892431</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10581">
+		<nome>Galleria il Sole Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10581.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.505851"
+				latitudine="41.912442">Via Nomentana, 169</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4404940 - 44251315</contatto>
+			<contatto label="Email">info@galleriailsole.it</contatto>
+			<contatto label="Sito web">www.galleriailsole.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10582">
+		<nome>Galleria Caf&#xE8; Europe - Centro di Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10582.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477223"
+				latitudine="41.902520">Via dei Prefetti, 46</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68805610</contatto>
+			<contatto label="Fax">0039 06 68307465</contatto>
+			<contatto label="Email">cafeurope@interfree.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10586">
+		<nome>Alessio Ponti Galleria d'arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10586.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468174"
+				latitudine="41.897206">Via di Monserrato, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6871425 - 335 5364897 </contatto>
+			<contatto label="Email">alessio@ottocento.it</contatto>
+			<contatto label="Sito web">www.ottocento.it/home.htm</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10587">
+		<nome>Galleria Oredaria</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10587.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503413"
+				latitudine="41.911788">Via Reggio Emilia, 22-24</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 97601689</contatto>
+			<contatto label="Email">info@oredaria.it</contatto>
+			<contatto label="Sito web">www.oredaria.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10588">
+		<nome>Galleria Stella</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10588.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471046"
+				latitudine="41.889298">Via di San Calisto, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58334158</contatto>
+			<contatto label="Fax">0039 06 58334158</contatto>
+			<contatto label="Email">galleriastella@hotmail.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10589">
+		<nome>Contarte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10589.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476483"
+				latitudine="41.899969">Piazza della Maddalena, 2/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68392081</contatto>
+			<contatto label="Fax">0039 06 68215242</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10591">
+		<nome>Studio Trisorio Roma</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10591.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470573"
+				latitudine="41.899563">Vicolo delle Vacche, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68136189</contatto>
+			<contatto label="Fax">0039 06 68136189</contatto>
+			<contatto label="Email">roma@studiotrisorio.com</contatto>
+			<contatto label="Sito web">www.studiotrisorio.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10592">
+		<nome>Galleria Arco D'Alibert</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10592.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472504"
+				latitudine="41.893831">Via Capo di Ferro, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68309325</contatto>
+			<contatto label="Email">arco.alibert@libero.it</contatto>
+			<contatto label="Fax">39 06 6879482</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10593">
+		<nome>Galleria dell'Oca</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10593.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.483264"
+				latitudine="41.903671">Via della Mercede, 12/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6781825</contatto>
+			<contatto label="Fax">0039 06 69294238</contatto>
+			<contatto label="Email">info@galleriadelloca.it</contatto>
+			<contatto label="Sito web">www.galleriadelloca.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10594">
+		<nome>Polmone Pulsante</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10594.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.486889"
+				latitudine="41.895429">Salita del Grillo, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6798218 - 86207236</contatto>
+			<contatto label="Fax">0039 06 6798218</contatto>
+			<contatto label="Email">saverioteresa@polmonepulsante.it</contatto>
+			<contatto label="Sito web">www.polmonepulsante.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10595">
+		<nome>Galleria Incontro d'arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10595.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476027"
+				latitudine="41.908585">Via del Vantaggio, 17/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3612267</contatto>
+			<contatto label="Email">info@incontrodarte.com</contatto>
+			<contatto label="Sito web">www.incontrodarte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10596">
+		<nome>Galleria Margutta 9</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10596.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479901"
+				latitudine="41.908226">Via Margutta, 53/B</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3614006 - 333 2559643</contatto>
+			<contatto label="Email">sabinasterbini@virgilio.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10597">
+		<nome>Galleria Tartaglia Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10597.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4958255"
+				latitudine="41.9055359">Via 20 Settembre, 98/c</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4884234</contatto>
+			<contatto label="Fax">0039 06 4884234 - 06 97999998</contatto>
+			<contatto label="Email">gallerie@tartagliaarte.com</contatto>
+			<contatto label="Sito web">www.tartagliaarte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10599">
+		<nome>Galleria Luxardo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10599.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469108"
+				latitudine="41.901493">Lungotevere Tor di Nona, 39</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6780393</contatto>
+			<contatto label="Email">info@gallerialuxardo.com</contatto>
+			<contatto label="Sito web">www.gallerialuxardo.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10600">
+		<nome>Galleria Pentart</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10600.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4693141"
+				latitudine="41.8907278">Vicolo de' Cinque, 14</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+39 347 6038668 - 3334088364</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10601">
+		<nome>Galleria Domus Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10601.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4823243"
+				latitudine="41.8954656">Via Vincenzo Picardi, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 80693711</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10602">
+		<nome>Galleria Odissea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10602.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.548376"
+				latitudine="41.843033">Via Annia Regilla, 142</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 7182514</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10603">
+		<nome>Galleria Nextdoor</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10603.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469537"
+				latitudine="41.896027">Via di Montoro, 3</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 45428048</contatto>
+			<contatto label="Fax">0039 06 97250381</contatto>
+			<contatto label="Email">info@gallerianextdoor.com</contatto>
+			<contatto label="Sito web">www.gallerianextdoor.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10604">
+		<nome>Studio Logos Galleria d'arte e design</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10604.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471799"
+				latitudine="41.888754">Via dei Fienaroli, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5806118</contatto>
+			<contatto label="Email">studiologos@email.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10606">
+		<nome>Mondo Bizzarro Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10606.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503082"
+				latitudine="41.912048">Via Reggio Emilia, 32 c/d</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 44247451</contatto>
+			<contatto label="Fax">0039 06 44247451</contatto>
+			<contatto label="Email">gallery@mondobizzarro.net</contatto>
+			<contatto label="Sito web">www.mondobizzarro.net/gallery</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10607">
+		<nome>Galleria Pancaldi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10607.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474474"
+				latitudine="41.941826">Via Antonio Serra, 78</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3336798</contatto>
+			<contatto label="Email">pancaldiarte@hotmail.com</contatto>
+			<contatto label="Sito web">www.pancaldiarte.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10608">
+		<nome>Galleria Alain Martin</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10608.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470426"
+				latitudine="41.896907">Via del Pellegrino, 171</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68807747</contatto>
+			<contatto label="Email">agmartin@tiscali.it</contatto>
+			<contatto label="Sito web">www.alaingeorgesmartin.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10609">
+		<nome>Galleria d'Arte Perera</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10609.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480208"
+				latitudine="41.907949">Via Margutta, 76</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+39 06 36003847</contatto>
+			<contatto label="Sito web">www.galleriaperera.com</contatto>
+			<contatto label="Email">info@galleriaperera.com</contatto>
+			<contatto label="Fax">+39 06 36003847</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10610">
+		<nome>Galleria Studio Rovo </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10610.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4764711"
+				latitudine="41.8924033">Vicolo de' Cinque, 38</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 380 3593375 - 06 6792166</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10611">
+		<nome>Galleria Romberg</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10611.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468633"
+				latitudine="41.896701">Piazza De' Ricci, 127</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68806377</contatto>
+			<contatto label="Sito web">www.romberg.it</contatto>
+			<contatto label="Email">artecontemporanea@romberg.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10612">
+		<nome>Galleria V.M.21 </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10612.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469817"
+				latitudine="41.900049">Via della Vetrina, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68891365</contatto>
+			<contatto label="Fax">0039 06 68891365</contatto>
+			<contatto label="Email">vm21artecontemporanea@virgilio.it</contatto>
+			<contatto label="Sito web">www.vm21contemporanea.com</contatto>
+			<contatto label="Email">info@vm21contemporanea.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10614">
+		<nome>Galleria Margutta 102</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10614.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479838"
+				latitudine="41.908283">Via Margutta, 102</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3213990</contatto>
+			<contatto label="Email">info@margutta102.it</contatto>
+			<contatto label="Sito web">www.margutta102.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10615">
+		<nome>Galleria Curcio</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10615.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.510208"
+				latitudine="41.918770">Via Appennini, 47</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 8548790</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10616">
+		<nome>Galleria Cassiopea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10616.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.497629"
+				latitudine="41.915462">Via Basento, 24</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 98184111</contatto>
+			<contatto label="Email">info@cassiopearte.it</contatto>
+			<contatto label="Sito web">www.cassiopearte.it</contatto>
+		</contatti>
+		<cucine>
+			<cucina>Romana</cucina>
+		</cucine>
+	</elemento>
+	<elemento id="10617">
+		<nome>Galleria d'Arte S. Francesco a Ripa</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10617.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472649"
+				latitudine="41.885770">Via di San Francesco a Ripa, 69</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 347 1956345</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10618">
+		<nome>Studio Soligo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10618.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467894"
+				latitudine="41.898222">Piazza Sforza Cesarini, 25a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 32609174</contatto>
+			<contatto label="Fax">0039 06 32609174</contatto>
+			<contatto label="Email">soligo@studiosoligo.it</contatto>
+			<contatto label="Sito web">www.studiosoligo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10619">
+		<nome>Esperimenti - Fondazione Alda Fendi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10619.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.484942"
+				latitudine="41.895793">Foro Traiano, 1</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6792597 - 6793139</contatto>
+			<contatto label="Email">info@fondazionealdafendi-esperimenti.it
+			</contatto>
+			<contatto label="Sito web">www.fondazionealdafendi-esperimenti.it
+			</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10620">
+		<nome>Galleria Santa Cecilia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10620.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476948"
+				latitudine="41.887274">Piazza di Santa Cecilia, 16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58334365</contatto>
+			<contatto label="Fax">0039 06 58334365</contatto>
+			<contatto label="Email">info@galleriasantacecilia.com</contatto>
+			<contatto label="Sito web">www.galleriasantacecilia.com</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Bar</servizio>
+			<servizio>Libreria</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="10622">
+		<nome>Galleria l'Angelo Azzurro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10622.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474060"
+				latitudine="41.895071">Piazza Dei Satiri, 51</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="10623">
+		<nome>Galleria d'Arte Essere/Avere</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10623.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.467892"
+				latitudine="41.900563">Via dei Coronari, 118</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">flavializ.depaulo@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10624">
+		<nome>Abwo - Galleria d'arte contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10624.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472396"
+				latitudine="41.894290">Vicolo delle Grotte, 19</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68135436</contatto>
+			<contatto label="Email">abwogalleria@hotmail.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10625">
+		<nome>Galleria Palazzo Margutta</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10625.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480153"
+				latitudine="41.907998">Via Margutta, 55</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3207683</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10626">
+		<nome>Galleria Radice</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10626.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4964776"
+				latitudine="41.8963328">Via dei Quattro Cantoni, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 48907450</contatto>
+			<contatto label="Email">manuela.radice@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10627">
+		<nome>Galleria Coronari 105</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10627.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468514"
+				latitudine="41.900547">Via dei Coronari, 105</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 347 6309520</contatto>
+			<contatto label="Fax">0039 06 6864278</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10628">
+		<nome>Galleria 196</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10628.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470147"
+				latitudine="41.900514">Via dei Coronari, 194</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 338 5953004 - 6892472</contatto>
+			<contatto label="Email">prgalleria194@virgilio.it</contatto>
+			<contatto label="Sito web">www.galleria196.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10629">
+		<nome>Galleria Mara Coccia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10629.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476027"
+				latitudine="41.908585">Via del Vantaggio, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3224434</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10630">
+		<nome>Galleria Monitor</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10630.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.456997"
+				latitudine="41.899515">Viale delle Mura Aurelie, 19</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 39378024</contatto>
+			<contatto label="Fax">0039 06 39378024</contatto>
+			<contatto label="Email">monitor@monitoronline.org</contatto>
+			<contatto label="Sito web">www.monitoronline.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10631">
+		<nome>Gallerie Antiquarie Benucci</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10631.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479595"
+				latitudine="41.907882">Via del Babuino, 150/C</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 36002190</contatto>
+			<contatto label="Fax">0039 06 36002193</contatto>
+			<contatto label="Email">info@galleriebenucci.it</contatto>
+			<contatto label="Sito web">www.galleriebenucci.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10632">
+		<nome>Galleria Brancolini Grimaldi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10632.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4869310"
+				latitudine="41.9199896">Via dei Tre Orologi, 6/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 80693100</contatto>
+			<contatto label="Fax">0039 06 80693100</contatto>
+			<contatto label="Email">info@brancolinigrimaldi.com</contatto>
+			<contatto label="Sito web">www.brancolinigrimaldi.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10633">
+		<nome>CAOS - Contemporary Art</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10633.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.461627"
+				latitudine="41.902479">Via della Conciliazione, 24</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68309540</contatto>
+			<contatto label="Fax">0039 06 68136436</contatto>
+			<contatto label="Sito web">www.caos2004.com</contatto>
+			<contatto label="Email">info@caos2004.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10635">
+		<nome>Arte 21</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10635.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470956"
+				latitudine="41.896059">Via dei Cappellari, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6878419 - 340 4661422</contatto>
+			<contatto label="Email">info@arte21.it</contatto>
+			<contatto label="Sito web">www.arte21.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10636">
+		<nome>Galleria Navona 42</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10636.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472761"
+				latitudine="41.899879">Piazza Navona, 42</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6873782</contatto>
+			<contatto label="Fax">0039 06 6873782</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10637">
+		<nome>Galleria Paolo Bonzano </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10637.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469147"
+				latitudine="41.899530">Via di Monte Giordano, 36</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 97613232</contatto>
+			<contatto label="Fax">0039 06 97613630</contatto>
+			<contatto label="Email">info@arte3.com</contatto>
+			<contatto label="Sito web">www.arte3.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10638">
+		<nome>Galleria Rosso20sette</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10638.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475139"
+				latitudine="41.901933">Via D'Ascanio, 27</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68193237</contatto>
+			<contatto label="Email">info@rosso27.com</contatto>
+			<contatto label="Sito web">www.rosso27.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10639">
+		<nome>Galleria L'Union Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10639.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503082"
+				latitudine="41.912048">Via Reggio Emilia, 32/c</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 45472110 - 99706573</contatto>
+			<contatto label="Email">info@lunion.it</contatto>
+			<contatto label="Sito web">www.lunion.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10640">
+		<nome>Galleria LipanjePuntin artecontemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10640.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470011"
+				latitudine="41.896274">Via di Montoro, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68307780</contatto>
+			<contatto label="Fax">0039 06 68216758</contatto>
+			<contatto label="Email">roma@lipuarte.it</contatto>
+			<contatto label="Sito web">www.lipanjepuntin.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10641">
+		<nome>Galleria Domizia Arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10641.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.501861"
+				latitudine="41.892097">Via Merulana, 75</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 77206613 - 339.3537127</contatto>
+			<contatto label="Fax">0039 06 77254357</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10642">
+		<nome>Galleria Spazio B</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10642.html
+		</link>
+		<descrizione><![CDATA[<div>Arte contemporanea</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.490735"
+				latitudine="41.894946">Piazza Della Madonna dei Monti, 1</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 47826335</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10643">
+		<nome>Galleria Capsula</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10643.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.449781"
+				latitudine="41.868298">Via Ascanio Rivaldi, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 335 6577850</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10644">
+		<nome>Changing Role Move Over Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10644.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470537"
+				latitudine="41.896578">Vicolo del Bollo, 13</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">infogallery@changingrole.com</contatto>
+			<contatto label="Sito web">www.changingrole.com</contatto>
+			<contatto label="Telefono">0039 06 83507085 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10645">
+		<nome>Galleria A.K.A.</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10645.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468319"
+				latitudine="41.897344">Via del Pellegrino, 128</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 348 4120260</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10646">
+		<nome>Container</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10646.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470956"
+				latitudine="41.896059">Via dei Cappellari, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 87450491</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10647">
+		<nome>Neo Art Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10647.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.494304"
+				latitudine="41.896492">Via Urbana, 122</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4740795</contatto>
+			<contatto label="Email">neoartgallery@neoartgallery.it</contatto>
+			<contatto label="Sito web">www.neoartgallery.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10648">
+		<nome>Rufartgallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10648.html
+		</link>
+		<descrizione><![CDATA[<div>Spazio espositivo della RUFA (Rome University of Fine Arts - Libera Accademia di Belle Arti di Roma).</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.504713"
+				latitudine="41.922507">Via Benaco, 2</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 85865917</contatto>
+			<contatto label="Email">rufartgallery@iaa.it</contatto>
+			<contatto label="Sito web">www.iaa.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10649">
+		<nome>Spazio Davar</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10649.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471802"
+				latitudine="41.888474">Via dei Fienaroli, 30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 349 4652169</contatto>
+			<contatto label="Email">spaziodavar@yahoo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10650">
+		<nome>Galleria Unosunove</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10650.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474602"
+				latitudine="41.893542">Via degli Specchi, 20</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 97613696</contatto>
+			<contatto label="Fax">0039 06 97613810</contatto>
+			<contatto label="Email">gallery@unosunove.com</contatto>
+			<contatto label="Sito web">www.unosunove.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10652">
+		<nome>Galleria il Cielo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10652.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.478364"
+				latitudine="41.908828">Via Laurina, 20/A</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 3402563677</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10653">
+		<nome>Alternatives </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10653.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475586"
+				latitudine="41.902131">Via D'Ascanio, 19</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68308233</contatto>
+			<contatto label="Fax">0039 06 68308233</contatto>
+			<contatto label="Email">info@alternatives.it</contatto>
+			<contatto label="Sito web">www.alternatives.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10654">
+		<nome>Galleria Traghetto</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10654.html
+		</link>
+		<descrizione><![CDATA[<div></div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503539"
+				latitudine="41.911688">Via Reggio Emilia, 25</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 44291074</contatto>
+			<contatto label="Fax">0039 06 44291074 </contatto>
+			<contatto label="Sito web">www.galleriatraghetto.it</contatto>
+			<contatto label="Email">galleria.traghetto@tin.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10655">
+		<nome>Galleria Giacomo Guidi arte contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10655.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473709"
+				latitudine="41.902229">Via del Cancello, 13</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68805233</contatto>
+			<contatto label="Email">info@galleriagiacomoguidi.com</contatto>
+			<contatto label="Sito web">www.galleriagiacomoguidi.com</contatto>
+			<contatto label="Fax">0039 06 68211036</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10656">
+		<nome>Galleria Mucciaccia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10656.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 69923801</contatto>
+			<contatto label="Fax">0039 06 69200634</contatto>
+			<contatto label="Email">info@galleriamucciaccia.it</contatto>
+			<contatto label="Sito web">www.galleriamucciaccia.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10657">
+		<nome>Z20 Galleria - Sara Zanin</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10657.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.497826"
+				latitudine="41.888442">Via dei Querceti, 6</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 70452261</contatto>
+			<contatto label="Fax">0039 06 77077616</contatto>
+			<contatto label="Email">info@z2ogalleria.it</contatto>
+			<contatto label="Sito web">www.z2ogalleria.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10658">
+		<nome>Galleria Atelier 35</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10658.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.524949"
+				latitudine="41.932817">Via Valpolicella, 35</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 347 0095009</contatto>
+			<contatto label="Email">info@atelier35.it</contatto>
+			<contatto label="Sito web">www.atelier35.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10659">
+		<nome>Galleria d'Arte Officina 14</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10659.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.503346"
+				latitudine="41.922431">Via Chiana, 40</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 85356404</contatto>
+			<contatto label="Email">officinaquattordici@libero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10661">
+		<nome>Galleria Cesare Manzo</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10661.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469650"
+				latitudine="41.898079">Vicolo del Governo Vecchio, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 97606054</contatto>
+			<contatto label="Email">info@galleriamanzo.it</contatto>
+			<contatto label="Sito web">www.galleriamanzo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10662">
+		<nome>Galleria Margutta 3</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10662.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477991"
+				latitudine="41.909444">Via Margutta, 3</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 32111271 - 335.7407204</contatto>
+			<contatto label="Fax">0039 06 6780204</contatto>
+			<contatto label="Email">info@galleriamargutta3.com</contatto>
+			<contatto label="Sito web">www.galleriamargutta3.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10663">
+		<nome>Galleria Secondome</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10663.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.473984"
+				latitudine="41.900889">Via dei Pianellari, 26/27</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 97270135</contatto>
+			<contatto label="Sito web">www.secondome.eu</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10664">
+		<nome>Galleria Roberto Ramoni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10664.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472023"
+				latitudine="41.900478">Via dei Coronari, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 347 9406352</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10665">
+		<nome>Margutta Stars Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10665.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479838"
+				latitudine="41.908283">Via Margutta, 18/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 32110525</contatto>
+			<contatto label="Fax">0039 06 32501584</contatto>
+			<contatto label="Email">info@marguttastarsgallery.com</contatto>
+			<contatto label="Sito web">www.marguttastarsgallery.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10666">
+		<nome>One Piece Art Contemporary Art Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10666.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479564"
+				latitudine="41.908125">Via dell'Orto di Napoli, 5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">onepieceart@libero.it</contatto>
+			<contatto label="Fax">0039 06 3244575 </contatto>
+			<contatto label="Sito web">www.onepieceart.it</contatto>
+			<contatto label="Telefono">0039 06 3244575 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10667">
+		<nome>Galleria d'Arte Crispi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10667.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.485728"
+				latitudine="41.904235">Via Francesco Crispi, 32a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 42014315</contatto>
+			<contatto label="Email">info@galleriacrispi.it</contatto>
+			<contatto label="Sito web">www.galleriacrispi.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10668">
+		<nome>Gallerja</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10668.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476723"
+				latitudine="41.903016">Via della Lupa, 24</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68801662</contatto>
+			<contatto label="Email">info@gallerja.it</contatto>
+			<contatto label="Sito web">www.gallerja.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10669">
+		<nome>Galleria Giulia</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10669.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468966"
+				latitudine="41.896118">Via della Barchetta, 13</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6861443</contatto>
+			<contatto label="Fax">0039 06 6802061</contatto>
+			<contatto label="Email">info@galleriagiulia.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10670">
+		<nome>Laboratorio Emozionale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10670.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">.328 2726700 - 338 3268089</contatto>
+			<contatto label="Email">info@laboratorioemozionale.org</contatto>
+			<contatto label="Sito web">www.laboratorioemozionale.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10671">
+		<nome>RAM - Radio Arte Mobile</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10671.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.506065"
+				latitudine="41.893588">Via Conte Verde, 15</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4940893</contatto>
+			<contatto label="Fax">0039 06 4940892</contatto>
+			<contatto label="Email">www.radioartemobile.it</contatto>
+			<contatto label="Sito web">info@radioartemobile.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10672">
+		<nome>La Porta Blu Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10672.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471356"
+				latitudine="41.896319">Arco degli Acetari, 40</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 066874822</contatto>
+			<contatto label="Fax">0039 06 066874822</contatto>
+			<contatto label="Email">laportablu@laportablu.it</contatto>
+			<contatto label="Sito web">www.laportablu.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10673">
+		<nome>New gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10673.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476371"
+				latitudine="41.893724">Via In Publicolis, 6</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 3460333302</contatto>
+			<contatto label="Email">new.gallery@yahoo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10674">
+		<nome>Galleria dell'Oca</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10674.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476027"
+				latitudine="41.908585">Via del Vantaggio, 45a- 46-46a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6781825</contatto>
+			<contatto label="Fax">0039 06 69294238</contatto>
+			<contatto label="Email">info@galleriadelloca.it</contatto>
+			<contatto label="Sito web">www.galleriadelloca.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10675">
+		<nome>Galleria Arch Art &amp; Jewels</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10675.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.499077"
+				latitudine="41.895013">Via Giovanni Lanza, 91a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 45471695</contatto>
+			<contatto label="Fax">0039 06 45471695</contatto>
+			<contatto label="Email">info@archrome.com</contatto>
+			<contatto label="Sito web">www.archrome.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10676">
+		<nome>Galleria Cedro 26</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10676.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468248"
+				latitudine="41.890141">Vicolo del Cedro, 26</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 58335 299</contatto>
+			<contatto label="Email">info@cedro26.it</contatto>
+			<contatto label="Sito web">www.cedro26.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10678">
+		<nome>Galleria Antiquaria Cesare Fasoli</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10678.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Collegamenti</strong>: Bus 116 Bus 186 - 204 - 492 - 628 - 70 - 81 - 87 - 78N - 99N</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.472396"
+				latitudine="41.901480">Via dei Soldati, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.0668307518</contatto>
+			<contatto label="Fax">0039-06.68307518</contatto>
+			<contatto label="Email">fasoliantichita@yahoo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10679">
+		<nome>Galleria Iannone Arte e Profumi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10679.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.493296"
+				latitudine="41.851358">Via Andrea Mantegna, 6-8-10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 513858 / 349 6442360</contatto>
+			<contatto label="Fax">0039 06 513858</contatto>
+			<contatto label="Email">info@arteprofumi.it</contatto>
+			<contatto label="Sito web">www.arteprofumi.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10680">
+		<nome>Galleria Maria Grazia Del Prete</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10680.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4686665"
+				latitudine="41.8968891">Via di Monserrato, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+ 39 06 68892480</contatto>
+			<contatto label="Email">info@galleriadelprete.com</contatto>
+			<contatto label="Sito web">www.galleriadelprete.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10681">
+		<nome>Galleria Maria Grazia del Prete</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10681.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468657"
+				latitudine="41.896851">Via di Monserrato, 21</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68892480</contatto>
+			<contatto label="Email">info@gallriadelprete.com</contatto>
+			<contatto label="Sito web">www.galleriadelprete.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10682">
+		<nome>Galleria InQuadro </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10682.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.505460"
+				latitudine="41.834610">Via Alberto Ascari, 255</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 5193433</contatto>
+			<contatto label="Email">info@inquadro.it</contatto>
+			<contatto label="Sito web">www.inquadro.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10683">
+		<nome>Galleria Dora Diamanti Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10683.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.470775"
+				latitudine="41.896713">Via del Pellegrino, 60</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68804574</contatto>
+			<contatto label="Fax">0039 06 68212702</contatto>
+			<contatto label="Email">info@doradiamanti.it</contatto>
+			<contatto label="Sito web">www.doradiamanti.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10684">
+		<nome>First Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10684.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.479838"
+				latitudine="41.908283">Via Margutta, 14</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 3230673 </contatto>
+			<contatto label="Email">info@firstgallery.it</contatto>
+			<contatto label="Sito web">www.firstgallery.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10685">
+		<nome>Fotofestival Garage</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10685.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.513199"
+				latitudine="41.897335">Via degli Ernici, 2a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4957245</contatto>
+			<contatto label="Email">srf@scuolaromanadifotografia.it</contatto>
+			<contatto label="Sito web">www.scuolaromanadifotografia.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10686">
+		<nome>Studio d'arte contemporanea Pino Casagrande</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10686.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.5161924"
+				latitudine="41.8991774">Via degli Ausoni, 7/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 4463480</contatto>
+			<contatto label="Email">gallcasagrande@alice.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="10687">
+		<nome>Gloria Gobbi Atelier</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/10687.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469637"
+				latitudine="41.895708">Via di Monserrato, 43</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68135876</contatto>
+			<contatto label="Email">globi@tiscali.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="14011">
+		<nome>Galleria Cortese &amp; Lisanti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/14011.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.500079"
+				latitudine="41.919204">Via Garigliano, 29</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@corteselisanti.com</contatto>
+			<contatto label="Sito web">www.corteselisanti.com</contatto>
+			<contatto label="Telefono">39 06 8559630</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="14025">
+		<nome>Dorothy Circus Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/14025.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.522602"
+				latitudine="41.887073">Via Nuoro, 17</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">Info@dorothycircusgallery.com</contatto>
+			<contatto label="Sito web">www.dorothycircusgallery.com</contatto>
+			<contatto label="Telefono">+39 06 7021179 - 06 70161256 </contatto>
+			<contatto label="Fax">+39 06 70391661</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="15110">
+		<nome>Galleria Interno Ventidue</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/15110.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469147"
+				latitudine="41.899530">Via di Monte Giordano, 36</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@internoventidue.com</contatto>
+			<contatto label="Fax">0039 06 81909377 </contatto>
+			<contatto label="Sito web">www.internoventidue.com</contatto>
+			<contatto label="Telefono">0039 06 81909377 </contatto>
+		</contatti>
+		<servizi>
+			<servizio>Accessibile ai disabili</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="15563">
+		<nome>Il mondo dell'arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/15563.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480153"
+				latitudine="41.907998">Via Margutta, 55</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">ilmondodellarte@libero.it</contatto>
+			<contatto label="Sito web">www.ilmondodellarte.com</contatto>
+			<contatto label="Telefono">0039 06 3207683</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="16080">
+		<nome>Ermanno Tedeschi Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/16080.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477564"
+				latitudine="41.892845">Via del Portico d'Ottavia, 7</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info.roma@etgallery.it</contatto>
+			<contatto label="Sito web">http://www.etgallery.it/etg_content.html
+			</contatto>
+			<contatto label="Telefono">0039 06 45551063</contatto>
+			<contatto label="Fax">+39 06 45551064</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="16083">
+		<nome>SMAC Galleria Segni Mutanti Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/16083.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.498664"
+				latitudine="41.912238">Via Velletri, 30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@segnimutanti.it</contatto>
+			<contatto label="Fax">0039 06 64780359</contatto>
+			<contatto label="Sito web">www.segnimutanti.it</contatto>
+			<contatto label="Telefono">0039 06 64780359</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="16084">
+		<nome>Galleria Marte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/16084.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.459339"
+				latitudine="41.903277">Vicolo del Farinone, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">galleria@m-artegalleria.com</contatto>
+			<contatto label="Sito web">www.m-artegalleria.com</contatto>
+			<contatto label="Telefono">0039 06 97602788 </contatto>
+			<contatto label="Fax">0039 06 97602788 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="17214">
+		<nome>Gagosian Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/17214.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.485871"
+				latitudine="41.904690">Via Francesco Crispi, 16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">roma@gagosian.com</contatto>
+			<contatto label="Sito web">www.gagosian.com</contatto>
+			<contatto label="Telefono">0039 06 42086498 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="17289">
+		<nome>ph7 Art gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/17289.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.474956"
+				latitudine="41.901649">Via della Scrofa, 46</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@ph7artgallery.it</contatto>
+			<contatto label="Sito web">www.ph7artgallery.it</contatto>
+			<contatto label="Telefono">0039 06 45550864 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="18305">
+		<nome>Libreria Galleria Il Museo del Louvre</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/18305.html
+		</link>
+		<descrizione><![CDATA[Il museo del louvre di Roma &egrave; diviso in due locali, contigui ma indipendenti.<br />Al numero 28 c&rsquo;&egrave; lo spazio principale, dove sono conservate ed esposte -negli scaffali, alle pareti, nei cassetti e in dodici vetrine- opere di vario genere: libri, ma anche quadri, altri oggetti d&rsquo;arte e una serie di carte rare e preziose: cartoline, ex libris, grafiche, autografi, lettere, taccuini e archivi privati di varia provenienza, che testimoniano aspetti diversi della storia culturale del secolo scorso.<br />Tra le opere in permanenza del museo del louvre, le fotografie occupano un ruolo di assoluto primato. Attualmente il fondo della galleria, comprende circa 30.000 immagini, quasi tutte vintage print, di diverso genere (dal r&eacute;portage alla moda, dalle foto di scena alle istantanee amatoriali): un fondo capace di documentare in vario modo la storia italiana del Novecento.<br />Il locale di Via della Reginella 26, &egrave; dedicato appunto esclusivamente alle collezioni fotografiche e alle mostre temporanee. La peculiarit&agrave; di questo spazio &egrave; quella di puntare, pi&ugrave; che sui singoli eventi espositivi, sull&rsquo;accesso &ldquo;permanente&rdquo; a questo ricchissimo patrimonio di immagini.<br />Oltre a una selezione di opere esposte alle pareti e nelle vetrine, la galleria offre infatti la possibilit&agrave; di consultare direttamente i circa 150 album che custodiscono e presentano, in diverse chiavi tematiche, la raccolta di stampe fotografiche originali di IMDL. <br />]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.477376"
+				latitudine="41.893481">Via della Reginella, 26-28</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@ilmuseodellouvre.com</contatto>
+			<contatto label="Sito web">www.ilmuseodellouvre.com</contatto>
+			<contatto label="Telefono">0039 06 68807725</contatto>
+		</contatti>
+		<servizi>
+			<servizio>Archivio multimediale</servizio>
+			<servizio>Libreria</servizio>
+			<servizio>Postazioni multimediali</servizio>
+		</servizi>
+	</elemento>
+	<elemento id="19116">
+		<nome>Contemporary Arts Society</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/19116.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480681"
+				latitudine="41.906968">Via del Babuino, 127</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@contemporaryartssociety.com</contatto>
+			<contatto label="Sito web">www.contemporaryartssociety.com</contatto>
+			<contatto label="Telefono">0039 06 6990832</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="19233">
+		<nome>Insight Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/19233.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468027"
+				latitudine="41.900559">Via dei Coronari, 143-145</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68586523</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="19542">
+		<nome>Galleria Chiari</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/19542.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475952"
+				latitudine="41.893510">Via di Santa Maria del Pianto, 56</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@galleriachiari.com</contatto>
+			<contatto label="Fax">0039 06 68139454</contatto>
+			<contatto label="Sito web">www.galleriachiari.com</contatto>
+			<contatto label="Telefono">0039 06 68139454</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="20257">
+		<nome>Webgallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/20257.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.485200"
+				latitudine="41.926305">Via Barnaba Oriani, 16</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">39 393 4405382 </contatto>
+			<contatto label="Sito web">www.webgallery.8m.com</contatto>
+			<contatto label="Email">gila6@libero.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="21736">
+		<nome>Galleria CO2 contemporary art</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/21736.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4622747"
+				latitudine="41.9041270">Borgo Vittorio, 9/b</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@co2gallery.com</contatto>
+			<contatto label="Sito web">www.co2gallery.com</contatto>
+			<contatto label="Telefono">0039 06 45471209</contatto>
+			<contatto label="Fax">0039 06 45473415</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="22163">
+		<nome>Galleria d'Arte Monserrato </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/22163.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469604"
+				latitudine="41.895729">Via di Monserrato, 104</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6875174 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="22239">
+		<nome>Galleria F&#xF2;ndaco</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/22239.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.493170"
+				latitudine="41.895433">Via degli Zingari, 28</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@fondaconet.it</contatto>
+			<contatto label="Fax">0039 06 97250449</contatto>
+			<contatto label="Sito web">www.fondaconet.it</contatto>
+			<contatto label="Telefono">0039 06 4815404 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="22244">
+		<nome>Galleria Tralevolte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/22244.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.507289"
+				latitudine="41.886646">Piazza di Porta San Giovanni, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Fax">0039 06 77207956</contatto>
+			<contatto label="Sito web">www.tralevolte.org</contatto>
+			<contatto label="Telefono">0039 06 70491663</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="22391">
+		<nome>Salottolmino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/22391.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.514588"
+				latitudine="41.920910">Via Tolmino, 48</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.salottolmino.it</contatto>
+			<contatto label="Telefono">0039 06 85301440</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="23899">
+		<nome>Embrice</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/23899.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4854946"
+				latitudine="41.8611634">Via delle Sette Chiese, 78</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Fax">0039 06 64521396</contatto>
+			<contatto label="Telefono">0039 06 64521396</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24027">
+		<nome>L'Archimede</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24027.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.476274"
+				latitudine="41.908583">Via del Vantaggio, 23a - 25 - 28</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@larchimede.com</contatto>
+			<contatto label="Fax">0039 06 32609438</contatto>
+			<contatto label="Sito web">www.larchimede.com</contatto>
+			<contatto label="Telefono">0039 06 32609340</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24029">
+		<nome>L'Archimede Contemporary</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24029.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475673"
+				latitudine="41.908031">Via del Fiume, 10b</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@larchimede.com</contatto>
+			<contatto label="Sito web">www.larchimede.com</contatto>
+			<contatto label="Telefono">0039 06 32609340</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24355">
+		<nome>Studio Ferraro Artecontemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24355.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.456792"
+				latitudine="41.908222">Via degli Scipioni, 39</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 39722001 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24600">
+		<nome>Galleria Studio.Ra - 1Fmediaproject</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24600.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.516567"
+				latitudine="41.869597">Via Bartolomeo Platina, 1/F</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.studiora.eu</contatto>
+			<contatto label="Telefono">0039 06 41437800</contatto>
+			<contatto label="Email">info@studiora.eu</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24601">
+		<nome>Endemica arte contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24601.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.501415"
+				latitudine="41.911958">Via Mantova, 14</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.endemica.it</contatto>
+			<contatto label="Telefono">0039 06 84240140</contatto>
+			<contatto label="Email">info@endemica.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="24843">
+		<nome>Galleria Artsinergy</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/24843.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4682272"
+				latitudine="41.8977118">Via dei Cartari, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">asroma@artsinergy.com</contatto>
+			<contatto label="Sito web">www.artsinergy.it/Roma.html</contatto>
+			<contatto label="Telefono">+39 06 83512663</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="25037">
+		<nome>Galleria Gallerati </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/25037.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.526548"
+				latitudine="41.914756">Via Apuania, 55</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Cellulare">0039 347 7900049</contatto>
+			<contatto label="Sito web">www.galleriagallerati.it</contatto>
+			<contatto label="Telefono">0039 06 44258243</contatto>
+			<contatto label="Email">info@galleriagallerati.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="25069">
+		<nome>Galleria 12-13</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/25069.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.466542"
+				latitudine="41.890830">Via Garibaldi, 12-13</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@galleria12-13.it</contatto>
+			<contatto label="Fax">0039 06 97273658</contatto>
+			<contatto label="Sito web">www.galleria12-13.it</contatto>
+			<contatto label="Telefono">0039 06 97273324</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="25076">
+		<nome>LAC - Libera Arte Contermporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/25076.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.471523"
+				latitudine="41.898931">Via del Teatro Pace, 3</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@liberaartecontemporanea.it</contatto>
+			<contatto label="Fax">0039 06 68212786</contatto>
+			<contatto label="Sito web">www.liberaartecontemporanea.it</contatto>
+			<contatto label="Telefono">0039 06 68301685</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="25174">
+		<nome>Alfredo Pallesi Art Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/25174.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480027"
+				latitudine="41.908112">Via Margutta, 54</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">a.pallesi@libero.it</contatto>
+			<contatto label="Sito web">www.galleria-pallesi.it</contatto>
+			<contatto label="Telefono">0039 06 32600338</contatto>
+			<contatto label="Fax">0039 06 32600338</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="28525">
+		<nome>Casa d&#x2019;arte Artrib&#xF9;</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/28525.html
+		</link>
+		<descrizione><![CDATA[La casa d&rsquo;arte Artrib&ugrave; &egrave; il salotto espositivo di arte moderna e contemporanea di Roma, nato dalla pluriennale esperienza nel campo dell&rsquo;intermediazione dei suoi fondatori Claudio e Giancarlo Proietti.<br />Non una galleria e non una casa ma un po&rsquo; dell&rsquo;uno e dell&rsquo;altro, la calda e intima atmosfera dell&rsquo;ospitalit&agrave; di un salotto privato &egrave; miscelata a quella stimolante ed eccitante di un vernissage espositivo. Artrib&ugrave; organizza periodiche serate con appassionati e collezionisti dove &egrave; possibile vivere mostre esclusive di celebri maestri e/o artisti emergenti con i quali la casa d&rsquo;arte ha rapporti diretti, riscaldati da un calice di vino e intrattenuti da performance di musica dal vivo, teatro, danza&hellip;<br />La casa d&rsquo;arte artrib&ugrave;&nbsp; &egrave; inoltre il punto di riferimento per chi desidera soddisfare le proprie ambizioni collezionistiche. Infatti, grazie alle intense relazioni e la profonda conoscenza del settore, &egrave; in grado di reperire sul mercato nazionale ed internazionale l&rsquo;opera desiderata, ai giusti costi e con le massime garanzie d&rsquo;autenticit&agrave;. <br />Questo e molto altro ancora &egrave; Artrib&ugrave;.<br />]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.495243"
+				latitudine="41.899442">Via Agostino Depretis, 86</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@artribu.it</contatto>
+			<contatto label="Fax">0039 06 4880285</contatto>
+			<contatto label="Sito web">www.artribu.it</contatto>
+			<contatto label="Telefono">0039 06 4880285</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="29412">
+		<nome>Galleria 1:1 projects</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/29412.html
+		</link>
+		<descrizione><![CDATA[Si tratta di un&#39; organizzazione no profit fondata a Roma e Londra nel 2006 da un gruppo di giovani curatori. <br />La sua attivit&agrave; spazia dalla creazione e lo sviluppo di progetti e mostre di arte contemporanea, alla programmazione di incontri, di laboratori didattici e di seminari in collaborazione con artisti, critici, curatori, teorici e musicisti italiani e internazionali.]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.518708"
+				latitudine="41.873986">Piazza Scipione Ammirato, 1/c</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.1to1projects.org</contatto>
+			<contatto label="Telefono">0039 06 45472265</contatto>
+			<contatto label="Email">info@1to1projects.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="29416">
+		<nome>Galleria 26cc</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/29416.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.529762"
+				latitudine="41.888529">Via Castruccio Castracane, 26</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.26cc.org</contatto>
+			<contatto label="Telefono">0039 06 98182991</contatto>
+			<contatto label="Email">info@26cc.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="29429">
+		<nome>Galleria Delloro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/29429.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.465826"
+				latitudine="41.899716">Via del Consolato, 10</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@galleriadelloro.it</contatto>
+			<contatto label="Sito web">www.galleriadelloro.it</contatto>
+			<contatto label="Telefono">0039 06 64760339</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="29430">
+		<nome>Creative Room</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/29430.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.451485"
+				latitudine="41.910532">Via Tommaso Campanella, 36</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.creativeroom.org</contatto>
+			<contatto label="Email">info@creativeroom.org</contatto>
+			<contatto label="Telefono">+39 06 39728186</contatto>
+			<contatto label="Fax">+39 06 39728187</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="29903">
+		<nome>Studio Tiepolo 38 Art Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/29903.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469495"
+				latitudine="41.923449">Via Giovanni Battista Tiepolo, 38</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Cellulare">335 8310878</contatto>
+			<contatto label="Email">info@studiotiepolo38.eu</contatto>
+			<contatto label="Sito web">www.studiotiepolo38.eu</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="30766">
+		<nome>Galleria L'impronta</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/30766.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.475040"
+				latitudine="41.897927">Via del Teatro Valle, 53</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">limpronta@alice.it</contatto>
+			<contatto label="Fax">0039 06 6867821</contatto>
+			<contatto label="Telefono">0039 06 6867821</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32388">
+		<nome>Galleria Sales</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32388.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4978808"
+				latitudine="41.8885926">Via dei Querceti, 4/5</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.galleriasales.it</contatto>
+			<contatto label="Telefono">0039 06 7759 1122</contatto>
+			<contatto label="Fax">0039 06 77254794</contatto>
+			<contatto label="Email">info@galleriasales.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32414">
+		<nome>Galleria Marino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32414.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4817268"
+				latitudine="41.9066257">Piazza di Spagna, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">galleriamarino@yahoo.it</contatto>
+			<contatto label="Telefono">0039 06 6789138 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32441">
+		<nome>Il Trittico arte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32441.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4740599"
+				latitudine="41.8950712">Piazza Dei Satiri, 51</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Cellulare">0039 3382189725</contatto>
+			<contatto label="Email">info@iltritticoarte.it</contatto>
+			<contatto label="Sito web">www.iltritticoarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32473">
+		<nome>Galleria Margutta design jewelry</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32473.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4784701"
+				latitudine="41.9095374">Via Margutta, 109/a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@marguttadesign.it</contatto>
+			<contatto label="Sito web">www.marguttadesign.it</contatto>
+			<contatto label="Telefono">0039 06 3233934</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32488">
+		<nome>Temporary Love - Art &amp; Fashion Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32488.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4710463"
+				latitudine="41.8892682">Via di San Calisto, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@temporarylove.net</contatto>
+			<contatto label="Sito web">www.temporarylove.net</contatto>
+			<contatto label="Telefono">0039 06 58334772</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32491">
+		<nome>ERA DEA Studio </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32491.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4662455"
+				latitudine="41.8991380">Vicolo delle Palle, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">eradea@eradea.it</contatto>
+			<contatto label="Telefono">+39 06 68801326 </contatto>
+			<contatto label="Sito web">www.eradea.it</contatto>
+			<contatto label="Fax">+39 06 68801326</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="32500">
+		<nome>MassenzioArte</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/32500.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4782460"
+				latitudine="41.8705434">Via del Commercio, 12</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Cellulare">0039 3286318496</contatto>
+			<contatto label="Email">massenzioarte@massenzioarte.it</contatto>
+			<contatto label="Sito web">www.massenzioarte.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="33563">
+		<nome>Galleria Studio Legale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/33563.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.5035431"
+				latitudine="41.9153497">Viale Regina Margherita, 158</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">gslegale@tin.it</contatto>
+			<contatto label="Sito web">www.galleriastudiolegale.it</contatto>
+			<contatto label="Telefono">0039 06 60650809</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="34255">
+		<nome>Gallery Apart</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/34255.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4687502"
+				latitudine="41.8960548">Via della Barchetta, 11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@thegalleryapart.it</contatto>
+			<contatto label="Sito web">www.thegalleryapart.it</contatto>
+			<contatto label="Telefono">0039 06 68809863</contatto>
+			<contatto label="Fax">0039 06 68809863</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="34530">
+		<nome>EB Gallery</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/34530.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4759320"
+				latitudine="41.8984229">Via della Palombella, 42</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">elibarbarisi@hotmail.it</contatto>
+			<contatto label="Telefono">0039 06 68807048</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="35444">
+		<nome>Il Mitreo Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/35444.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4134484"
+				latitudine="41.8505816">Via Marino Mazzacurati, 61</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.mitreoiside.com</contatto>
+			<contatto label="Telefono">+39 06 65678224</contatto>
+			<contatto label="Email">info@mitreoiside.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="36313">
+		<nome>Ex Elettrofonica</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/36313.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4620369"
+				latitudine="41.8990132">Vicolo di Sant'Onofrio, 10-11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@exelettrofonica.com.</contatto>
+			<contatto label="Sito web">www.exelettrofonica.com.</contatto>
+			<contatto label="Telefono">0039 06 64760163</contatto>
+			<contatto label="Fax">0039 06 64760163 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="36484">
+		<nome>Galleria Alessandra Di Castro</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/36484.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4814305"
+				latitudine="41.9065566">Piazza di Spagna, 4</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 6792269 - 69923127</contatto>
+			<contatto label="Fax">0039 06 6787410</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="38393">
+		<nome>Galleria Marie-Laure Fleisch</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/38393.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4680466"
+				latitudine="41.8988442">Vicolo Sforza Cesarini, 3a</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 68891936</contatto>
+			<contatto label="Email">info@galleriamlf.com</contatto>
+			<contatto label="Sito web">www.galleriamlf.com</contatto>
+			<contatto label="Fax">0039 06 68582360</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="39154">
+		<nome>Ingresso Pericoloso</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/39154.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4967966"
+				latitudine="41.8884453">Via Capo D'Africa, 46</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">posta@ingressopericoloso.com</contatto>
+			<contatto label="Sito web">www.ingressopericoloso.com</contatto>
+			<contatto label="Telefono">0039 06 45496564</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="39818">
+		<nome>10b Galleria Photography</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/39818.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4922459"
+				latitudine="41.8613423">Via Lorenzo da Brindisi, 10/b</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@10bphotography.com</contatto>
+			<contatto label="Telefono">06 97848038</contatto>
+			<contatto label="Sito web">www.10bphotography.com</contatto>
+		</contatti>
+		<keywords>
+			<keyword>fotografia</keyword>
+		</keywords>
+	</elemento>
+	<elemento id="39976">
+		<nome>GAP Galleria Arte Pignatelli</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/39976.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.5409626"
+				latitudine="41.8429960">Via Appia Pignatelli, 233</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@galleriartepignatelli.it</contatto>
+			<contatto label="Fax">0039 06 89538799</contatto>
+			<contatto label="Sito web">www.galleriartepignatelli.it</contatto>
+			<contatto label="Telefono">0039 06 89538799</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="45123">
+		<nome>Diagonale</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/45123.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.6752948"
+				latitudine="41.8956029">Via In Caterina, 23/c</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+39 06 68300482</contatto>
+			<contatto label="Sito web">www.ladiagonale.it</contatto>
+			<contatto label="Email">info@ladiagonale.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="45217">
+		<nome>S.T. Foto Libreria Galleria</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/45217.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4610832"
+				latitudine="41.9042038">Via Degli Ombrellari, 25</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@stsenzatitolo.it</contatto>
+			<contatto label="Fax">06 64760105</contatto>
+			<contatto label="Sito web">www.stsenzatitolo.it</contatto>
+			<contatto label="Telefono">06 64760105</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="46061">
+		<nome>Galleria Camponi</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/46061.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4750834"
+				latitudine="41.9016440">Via della Stelletta, 32</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti />
+	</elemento>
+	<elemento id="46067">
+		<nome>Galleria d'Arte Segnidisogni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/46067.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4840127"
+				latitudine="41.8464330">Via Fonte Buono, 35</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039 06 54602414 </contatto>
+			<contatto label="Sito web">www.segnidisogni.it </contatto>
+			<contatto label="Email">info@segnidisogni.it</contatto>
+			<contatto label="Fax">0039 06 54602414 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="46119">
+		<nome>Galleria Motelsalieri</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/46119.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4961228"
+				latitudine="41.8950286">Via Giovanni Lanza, 162</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+39 06 48989966</contatto>
+			<contatto label="Sito web">www.motelsalieri.org</contatto>
+			<contatto label="Email">guest@motelsalieri.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="46405">
+		<nome>Vista Arte e Comunicazione</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/46405.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4948765"
+				latitudine="41.8881850">Via Ostilia, 41</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@vistatv.it </contatto>
+			<contatto label="Telefono">0039 06 45449756 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="46915">
+		<nome>Galleria 20ArtSpace</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/46915.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4928757"
+				latitudine="41.9034430">Via 20 Settembre, 122</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@20artspace.it</contatto>
+			<contatto label="Sito web">www.20artspace.it</contatto>
+			<contatto label="Telefono">+39 06 4824334 - 06 48903390</contatto>
+			<contatto label="Fax">+39 06 4873062</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="47483">
+		<nome>Furini Arte Contemporanea</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/47483.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4690058"
+				latitudine="41.8952598">Via Giulia, 8</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">info@furiniartecontemporanea.it</contatto>
+			<contatto label="Sito web">www.furiniartecontemporanea.it </contatto>
+			<contatto label="Telefono">+39 06 68307443</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="48217">
+		<nome>Galleria Minima</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/48217.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4713602"
+				latitudine="41.8963676">Via del Pellegrino, 18</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Email">galleria_minima@hotmail.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="48279">
+		<nome>Galleria d'arte Ex Roma Club Monti</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/48279.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4888804"
+				latitudine="41.8945417">Via Baccina, 66</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">+39 06 70305684</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="48308">
+		<nome>Galleria Marino</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/48308.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4826020"
+				latitudine="41.9068348">Via di San Sebastianello, 16/b</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.galleriamarino.com</contatto>
+			<contatto label="Telefono">+39 06 69797531</contatto>
+			<contatto label="Email">galleriamarino@yahoo.com</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="48384">
+		<nome>Galleria Spaziottagoni</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/48384.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4682712"
+				latitudine="41.8863252">Via Goffredo Mameli, 9</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.spaziottagoni.com</contatto>
+			<contatto label="Telefono">+39 06 5811984 </contatto>
+		</contatti>
+	</elemento>
+	<elemento id="48453">
+		<nome>MondoPOP International Gallery &amp; Art Shop </nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/104/itm/48453.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.4784439"
+				latitudine="41.9074088">Via dei Greci, 30</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Sito web">www.mondopop.it</contatto>
+			<contatto label="Telefono">+39 06 36005117</contatto>
+		</contatti>
+	</elemento>
+</categoria>

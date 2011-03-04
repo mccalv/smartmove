@@ -6,13 +6,13 @@
 	<display-name>Wimove Restful Service</display-name>
 
 	<servlet>
-		<servlet-name>wimove</servlet-name>
+		<servlet-name>smartmove</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>wimove</servlet-name>
+		<servlet-name>smartmove</servlet-name>
 		<url-pattern>/*</url-pattern>
 	</servlet-mapping>
 
@@ -31,7 +31,7 @@
 	</filter-mapping>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/wimove-servlet.xml</param-value>
+		<param-value>/WEB-INF/smartmove-servlet.xml</param-value>
 	</context-param>
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>

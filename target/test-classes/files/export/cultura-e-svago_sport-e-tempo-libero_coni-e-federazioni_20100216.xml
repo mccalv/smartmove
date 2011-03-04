@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<categoria nome="Coni e federazioni">
+	<elemento id="12336">
+		<nome>FEDERAZIONE ITALIANA DI ATLETICA LEGGERA (FIDAL)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12336.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Note</strong>: la sede regionale si trova a via Flaminia, 388 - tel: 06 32111931 e non risponde al pubblico.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.483196"
+				latitudine="41.956213">Via Flaminia Nuova, 830</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856178 / 6147</contatto>
+			<contatto label="Fax">0039-06.36856273</contatto>
+			<contatto label="Email">segreteria2@fidal.it informatica@vidal.it
+				stampa@fidal.it</contatto>
+			<contatto label="Sito web">www.fidal.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12337">
+		<nome>FEDERAZIONE ITALIANA BASEBALL SOFTBALL (FIBS)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12337.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858376</contatto>
+			<contatto label="Fax">0039-06.36858201</contatto>
+			<contatto label="Email">ibaseball@baseball-softball.it</contatto>
+			<contatto label="Sito web">www.baseball-softball.it/</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12338">
+		<nome>FEDERAZIONE ITALIANA PALLAVOLO (FIPAV)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12338.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488008"
+				latitudine="41.959065">Via Vitorchiano, 107 / 109</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36859427 - 28</contatto>
+			<contatto label="Fax">0039-06.36859429</contatto>
+			<contatto label="Email">segreteria@federvolley.it</contatto>
+			<contatto label="Sito web">HTTP://www.federvolley.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12339">
+		<nome>FEDERAZIONE ITALIANA PENTATHLON MODERNO (FIPM)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12339.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488149"
+				latitudine="41.959390">Via Vitorchiano, 113</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856537</contatto>
+			<contatto label="Fax">0039-06.36856668</contatto>
+			<contatto label="Email">pentaita@libero.it</contatto>
+			<contatto label="Sito web">www.fipm.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12340">
+		<nome>FEDERAZ ITAL. PESCA SPORTIVA ED ATTIVITA SUBACQ (FIPSAS)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12340.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858365</contatto>
+			<contatto label="Fax">0039-06.36858109</contatto>
+			<contatto label="Email">segreteria@fipsas.it</contatto>
+			<contatto label="Sito web">www.fipsas.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12341">
+		<nome>FEDERAZIONE PUGILISTICA ITALIANA (FPI)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12341.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3233781</contatto>
+			<contatto label="Fax">0039-06.36858120</contatto>
+			<contatto label="Email">fpiweb@tiscalinet.it</contatto>
+			<contatto label="Sito web">www.fpi.it/</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12342">
+		<nome>FEDERAZIONE ITALIANA RUGBY (FIR)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12342.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Note</strong>: La sede si trova dentro lo Stadio Olimpico.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480650"
+				latitudine="41.940286">Via del Foro Italico</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36857309</contatto>
+			<contatto label="Fax">0039-06.3236059</contatto>
+			<contatto label="Sito web">www.federugby.it/</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12343">
+		<nome>FEDERAZIONE ITALIANA SCHERMA (FIS)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12343.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858520</contatto>
+			<contatto label="Fax">0039-06.36858139</contatto>
+			<contatto label="Email">fscherma@tin.it</contatto>
+			<contatto label="Sito web">www.scherma-fis.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12344">
+		<nome>FEDERAZIONE ITALIANA BOCCE (FIB)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12344.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488149"
+				latitudine="41.959390">Via Vitorchiano, 113</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856527</contatto>
+			<contatto label="Fax">0039-06.36856651</contatto>
+			<contatto label="Email">segreteria@federbocce.it</contatto>
+			<contatto label="Sito web">www.federbocce.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12345">
+		<nome>FEDERAZIONE ITALIANA DELLA CACCIA (FLDC)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12345.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Note</strong>: La sede nazionale si trova a via Salaria, 298 - tel: 06 8440941 e non &egrave; aperta al pubblico.</div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.601468"
+				latitudine="41.948955">Via Troilo Il Grande, 11</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.41404947</contatto>
+			<contatto label="Fax">0039-06.41404948</contatto>
+			<contatto label="Email">fdcaccia@tin.it</contatto>
+			<contatto label="Sito web">www.fedelcaccia.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12346">
+		<nome>FEDERAZIONE ITALIANA CANOA, KAJAK (FICK)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12346.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858525</contatto>
+			<contatto label="Fax">0039-06.36858171</contatto>
+			<contatto label="Email">federcanoa@federcanoa.it</contatto>
+			<contatto label="Sito web">www.federcanoa.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12347">
+		<nome>FEDERAZIONE ITALIANA CANOTTAGGIO (FIC)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12347.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858514</contatto>
+			<contatto label="Fax">0039-06.36858148</contatto>
+			<contatto label="Email">comunicazione&amp;marketing@canottaggio.org
+			</contatto>
+			<contatto label="Sito web">www.canottaggio.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12348">
+		<nome>FEDERAZIONE CICLISTICA ITALIANA (FCI)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12348.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi />
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36857813</contatto>
+			<contatto label="Fax">0039-06.36857175</contatto>
+			<contatto label="Email">segreteria@federciclismo.it</contatto>
+			<contatto label="Sito web">www.federciclismo.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12349">
+		<nome>FEDERAZIONE ITALIANA CRONOMETRISTI (FICR)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12349.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858165</contatto>
+			<contatto label="Fax">0039-06.36858112</contatto>
+			<contatto label="Email">ficr@ficr.it</contatto>
+			<contatto label="Sito web">www.ficr.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12350">
+		<nome>FEDERAZIONE GINNASTICA D'ITALIA (FGDL)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12350.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858517</contatto>
+			<contatto label="Fax">0039-06.36858113</contatto>
+			<contatto label="Email">itagym@nbn.it</contatto>
+			<contatto label="Sito web">www.nbn.it/itagym/cover</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12351">
+		<nome>FEDERAZIONE ITALIANA GOLF (FIG)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12351.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858108</contatto>
+			<contatto label="Fax">0039-06.3220250</contatto>
+			<contatto label="Email">fig@ntt.it</contatto>
+			<contatto label="Sito web">www.federgolf.it/</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12352">
+		<nome>FEDERAZIONE GIUOCO CALCIO (FIGC)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12352.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.494685"
+				latitudine="41.915113">Via Gregorio Allegri, 14</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.84911</contatto>
+			<contatto label="Fax">0039-06.84912239</contatto>
+			<contatto label="Email">press@figc.it</contatto>
+			<contatto label="Sito web">www.figc.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12353">
+		<nome>FEDERAZIONE ITALIANA GIUOCO HANDBALL (FIGH)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12353.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858250</contatto>
+			<contatto label="Fax">0039-06.36858332</contatto>
+			<contatto label="Email">figh@figh.it</contatto>
+			<contatto label="Sito web">www.figh.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12354">
+		<nome>FEDERAZIONE ITALIANA HOCKEY E PATTINAGGIO (FIHP)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12354.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858512</contatto>
+			<contatto label="Fax">0039-06-.36858211</contatto>
+			<contatto label="Email">fihp.italia@agora.stm.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12355">
+		<nome>FEDERAZIONE ITALIANA HOCKEY (FIH)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12355.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858521</contatto>
+			<contatto label="Fax">0039-06-.36858131</contatto>
+			<contatto label="Email">fih hockey.it</contatto>
+			<contatto label="Sito web">www.ifhockey.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12356">
+		<nome>FEDERAZIONE ITALIANA LOTTA, PESI, JUDO, KARATE (FILPJK)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12356.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858230</contatto>
+			<contatto label="Fax">0039-06.36858251</contatto>
+			<contatto label="Email">fijlkam@fijkam.it</contatto>
+			<contatto label="Sito web">www.fijlkam.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12357">
+		<nome>FEDERAZIONE MEDICO ITALIANA SPORTIVA (FMSI)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12357.html
+		</link>
+		<descrizione><![CDATA[<div><strong>Note</strong>: </div>]]></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3233774 - 3240454</contatto>
+			<contatto label="Fax">0039-06.36858206</contatto>
+			<contatto label="Sito web">www.fmsi.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12358">
+		<nome>FEDERAZIONE MOTOCICLISTICA ITALIANA (FMI)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12358.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858513</contatto>
+			<contatto label="Fax">0039-06.36858160</contatto>
+			<contatto label="Sito web">www.federmoto.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12359">
+		<nome>FEDERAZIONE ITALIANA NUOTO (FIN)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12359.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.454168"
+				latitudine="41.929848">Viale dello Stadio Olimpico</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.362001</contatto>
+			<contatto label="Fax">0039-06.3242501</contatto>
+			<contatto label="Email">www.federnuoto.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12360">
+		<nome>FEDERAZIONE ITALIANA PALLACANESTRO (FIP)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12360.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488149"
+				latitudine="41.959390">Via Vitorchiano, 113</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856514</contatto>
+			<contatto label="Fax">0039-06.36856552</contatto>
+			<contatto label="Email">segreteria.generale@fip.it</contatto>
+			<contatto label="Sito web">www.fip.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12361">
+		<nome>FEDERAZIONE ITALIANA SPORT DEL GHIACCIO (FISG)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12361.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488149"
+				latitudine="41.959390">Via Vitorchiano, 113</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856535</contatto>
+			<contatto label="Fax">0039-06.36856594</contatto>
+			<contatto label="Email">info@fisg.it</contatto>
+			<contatto label="Sito web">www.fisg.it/</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12362">
+		<nome>FEDERAZIONE ITALIANA SPORT EQUESTRI (FISE)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12362.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36003753</contatto>
+			<contatto label="Fax">0039-06.3233772</contatto>
+			<contatto label="Email">amministrazione@fise.it</contatto>
+			<contatto label="Sito web">www.Fise.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12363">
+		<nome>FEDERAZIONE ITALIANA SPORT DISABILI (FISD)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12363.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.454168"
+				latitudine="41.929848">Viale dello Stadio Olimpico</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36851</contatto>
+			<contatto label="Fax">0039-06.36857486</contatto>
+			<contatto label="Email">FISD_stampa@networld.it</contatto>
+			<contatto label="Sito web">www.Fisd.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12364">
+		<nome>FEDERAZIONE ITALIANA TENNIS (FIT)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12364.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.468896"
+				latitudine="41.930712">Viale Tiziano, 74</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858411</contatto>
+			<contatto label="Fax">0039-06-.36858166</contatto>
+			<contatto label="Email">fit_segr@gisa.net</contatto>
+			<contatto label="Sito web">www.federtennis.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12365">
+		<nome>FEDERAZIONE ITALIANA TENNIS TAVOLO (FIT&amp;T)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12365.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.452418"
+				latitudine="41.933727">Piazzale dello Stadio Olimpico</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3216642</contatto>
+			<contatto label="Fax">0039-06.3204714</contatto>
+			<contatto label="Email">fitet@fitet.org</contatto>
+			<contatto label="Sito web">www.fitet.org</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12366">
+		<nome>FEDERAZIONE ITALIANA TIRO CON L'ARCO (FITARCO)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12366.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.488149"
+				latitudine="41.959390">Via Vitorchiano, 113</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36856503</contatto>
+			<contatto label="Fax">0039-06.36856658</contatto>
+			<contatto label="Email">ufstampa@tin.it</contatto>
+			<contatto label="Sito web">http//www.fitarco.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12367">
+		<nome>FEDERAZIONE ITALIANA TIRO A SEGNO (UITS)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12367.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36858137</contatto>
+			<contatto label="Fax">0039-06.36858133</contatto>
+			<contatto label="Email">info@uits.it</contatto>
+			<contatto label="Sito web">www.coni.it/coni/fednaz/uits.html -
+				www.uits.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12368">
+		<nome>FEDERAZIONE ITALIANA TIRO A VOLO (FITAV)</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12368.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.469071"
+				latitudine="41.930271">Viale Tiziano, 70</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.3233789</contatto>
+			<contatto label="Fax">0039-06.3233791</contatto>
+			<contatto label="Email">info@fitav.it</contatto>
+			<contatto label="Sito web">www.fitav.it</contatto>
+		</contatti>
+	</elemento>
+	<elemento id="12369">
+		<nome>CONI - COMITATO OLIMPICO NAZIONALE ITALIANO</nome>
+		<link>http://www.060608.it/it/content/item/area/cultura_e_svago/id/143/itm/12369.html
+		</link>
+		<descrizione></descrizione>
+		<indirizzi>
+			<indirizzo label="Indirizzo" longitudine="12.480650"
+				latitudine="41.940286">Via del Foro Italico</indirizzo>
+		</indirizzi>
+		<costi />
+		<contatti>
+			<contatto label="Telefono">0039-06.36851</contatto>
+			<contatto label="Fax">0039-06.36857106</contatto>
+			<contatto label="Sito web">www.coni.it</contatto>
+		</contatti>
+	</elemento>
+</categoria>

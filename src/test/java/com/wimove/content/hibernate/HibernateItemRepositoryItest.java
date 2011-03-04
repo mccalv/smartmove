@@ -10,16 +10,16 @@ import java.util.Locale;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.closertag.smartmove.server.content.domain.Contact;
+import com.closertag.smartmove.server.content.domain.Cost;
+import com.closertag.smartmove.server.content.domain.GpsPosition;
+import com.closertag.smartmove.server.content.domain.Item;
+import com.closertag.smartmove.server.content.domain.LocalizedItem;
+import com.closertag.smartmove.server.content.domain.TimeOccurrence;
+import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
+import com.closertag.smartmove.server.content.geometry.GeoLocHelper;
+import com.closertag.smartmove.server.content.persistence.ItemRepository;
 import com.vividsolutions.jts.geom.Point;
-import com.wimove.content.domain.Contact;
-import com.wimove.content.domain.Cost;
-import com.wimove.content.domain.GpsPosition;
-import com.wimove.content.domain.Item;
-import com.wimove.content.domain.LocalizedItem;
-import com.wimove.content.domain.TimeOccurrence;
-import com.wimove.content.domain.LocalizedItem.Label;
-import com.wimove.content.geometry.GeoLocHelper;
-import com.wimove.content.persistence.ItemRepository;
 
 /**
  * @author mccalv
@@ -49,14 +49,14 @@ public class HibernateItemRepositoryItest extends
 	public void saveItem() {
 		Item item = new Item();
 		// item.setId(2L);
-		String nameIt = com.wimove.util.HtmlUtils
+		String nameIt = com.closertag.smartmove.server.util.HtmlUtils
 				.unescapeHtmlText("Casa Museo di Giorgio De Chirico");
-		String descriptionIt = com.wimove.util.HtmlUtils
+		String descriptionIt = com.closertag.smartmove.server.util.HtmlUtils
 				.unescapeHtmlText("E' stata riaperta nel novembre 1998, in occasione del XX anniversario della morte, la casa in cui l'artista Giorgio De Chirico (1888-1978) ha vissuto con la moglie Isabella Far. L'appartamento occupa gli ultimi tre piani del seicentesco Palazzo dei Borgognoni con vista su Piazza di Spagna, la Scalinata di Trinit&agrave; dei Monti e Villa Medici. Uno scorcio di citt&agrave; questo che ha ispirato l'artista in molte sue opere.</div><div>La Fondazione De Chirico ha ricostruito con grande attenzione e ricerca filologica gli spazi interni secondo l'arredamento originale: lo studio (integro di tutto il necessario per la pittura come i calchi, i materiali, la poltrona), la biblioteca e i sontuosi saloni arricchiti dalle opere che fanno parte della collezione privata");
 
-		String nameEn = com.wimove.util.HtmlUtils
+		String nameEn = com.closertag.smartmove.server.util.HtmlUtils
 				.unescapeHtmlText("Museum home of di Giorgio De Chirico");
-		String descriptionEn = com.wimove.util.HtmlUtils
+		String descriptionEn = com.closertag.smartmove.server.util.HtmlUtils
 				.unescapeHtmlText("The    De Chirico foundation is situated in the apartment where  Giorgio De Chirico live in Italy, in the Baroque Palazzetto dei Borgognoni in Rome's Piazza di Spagna n°31 which was originally the home of a seventeenth-century Burgundian (Borgognoni) family, painters, the Courtois, and later home to assorted Grand Tourists, including Swiss artists and English writers.In 1947, the ageing metaphysical painter moved into the Palazzetto, living there until his death, aged 90, in 1978.Now the property of the Fondazione Giorgio e Isa De Chirico, formed in 1986 to promote continued interest in the artist's work, the apartment was opened to the public for the second time last june after a lengthy restoration.");
 
 		// String description = "description";
