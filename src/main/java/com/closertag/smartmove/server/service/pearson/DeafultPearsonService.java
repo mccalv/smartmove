@@ -9,6 +9,8 @@ package com.closertag.smartmove.server.service.pearson;
 
 import java.util.Locale;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -21,6 +23,7 @@ import com.closertag.smartmove.server.content.domain.LocalizedItem;
 import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
 import com.closertag.smartmove.server.content.http.HttpConnectionManager;
 import com.closertag.smartmove.server.content.service.ItemService;
+import com.closertag.smartmove.server.content.service.impl.DefaultItemService;
 
 /**
  * 
@@ -33,6 +36,9 @@ public class DeafultPearsonService implements PearsonService {
 	private ItemService itemService;
 	private String apikey;
 	
+	
+	public static final Log LOG = LogFactory.getLog(DeafultPearsonService.class);
+
 
 	/* (non-Javadoc)
 	 * @see com.closertag.smartmove.server.service.pearson.PearsonService#importContentsFromGps(java.lang.Double, java.lang.Double)
@@ -51,8 +57,10 @@ public class DeafultPearsonService implements PearsonService {
 				.getElements();
 
 		while (it.hasNext()) {
+			
+			try{
 			JsonNode entry = it.next();
-			System.out.println(entry.get("@id"));
+			
 			// Chiamo la singola string per eseguire la query
 			// https://api.pearson.com/eyewitness/london/block/EWTG_LONDON097APSHOU_001.json?apikey=d14b9d3c132ba476437046de8b1395a8
 			ObjectMapper mapper_item = new ObjectMapper();
@@ -64,7 +72,7 @@ public class DeafultPearsonService implements PearsonService {
 			JsonNode block = itemNode.get("block");
 			String text = block.get("title").get("#text").getTextValue();
 
-			System.out.println(text);
+			
 			Item item = new Item();
 			Category c = new Category("pearson");
 			item.setCategory(c);
@@ -103,7 +111,21 @@ public class DeafultPearsonService implements PearsonService {
 							.getTextValue()), tagInfo.get("address")
 							.get("#text").getTextValue(), "London"));
 
+			
+			if(LOG.isDebugEnabled()){
+				
+				LOG.debug("Importing content id:"+id + " " +text);
+				
+			}
 			itemService.saveOrUpdate(item);
+			}catch(Exception e){
+				
+				if(LOG.isDebugEnabled()){
+					
+					LOG.debug("Error importing content " + e.toString());
+					
+				}
+			}
 
 		}
 	}
