@@ -1,4 +1,4 @@
-SET search_path TO wimovegis,public
+SET search_path TO smartmove,public
 
 
 CREATE SEQUENCE id_seq START 101;

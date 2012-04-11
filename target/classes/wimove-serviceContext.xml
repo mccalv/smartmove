@@ -62,6 +62,12 @@
 
 	</bean>
 	
+	
+	<bean id="pearsonService" class="com.closertag.smartmove.server.service.pearson.DeafultPearsonService">
+		<property name="itemService" ref="itemService"></property>
+		<property name="apikey" value="${pearsonApiKey}"></property>
+	</bean>
+	
 	<!-- Google Reverse Gecoding Service -->
 	<bean id="geocodingService" class="com.closertag.smartmove.server.content.service.impl.GoogleGeocodingService">
 		<constructor-arg value="${googleGeocodingServiceUrl}" />
@@ -205,5 +211,6 @@
 	
 		<property name="itemService" ref="itemService" />
 		<property name="batchContentService" ref="batchContentService" />
+		<property name="pearsonService" ref="pearsonService" />
 	</bean>
 </beans>

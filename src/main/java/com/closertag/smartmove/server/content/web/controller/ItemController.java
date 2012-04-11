@@ -271,10 +271,31 @@ public class ItemController extends BaseMarshallingController {
 			searchFilter.setStart(start);
 		}
 		List<Item> item = itemService.getItemsByCriteria(searchFilter);
+		
+		//itemService.saveOrUpdate(item)
 
 		return new JaxbView(createXmlListItem(item, null, new Locale(language)));
 
 	}
+	
+   @RequestMapping("uploadItem")  
+   public JaxbView uploadItem(
+			@RequestParam("api_key") String apiKey,
+			@RequestParam("tags") String tags,
+			@RequestParam("title") String title,
+			@RequestParam("description") String description,
+			@RequestParam("lat") Double lat,
+			@RequestParam("lon") Double lon,
+			@RequestParam("locale") Double locale
+			
+		   ){
+	  // Item i = new Item();
+	  // i.getGpsPositions().add(new G)
+	   
+	   return null;
+	   
+	   
+   } 
 
 	/**
 	 * Returns items by tags.

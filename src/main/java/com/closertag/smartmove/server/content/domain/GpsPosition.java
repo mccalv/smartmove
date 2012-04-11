@@ -23,7 +23,7 @@ import com.vividsolutions.jts.geom.Point;
  */
 @Entity
 @Table(name = "public.gps_position")
-@Cache(usage=CacheConcurrencyStrategy.READ_ONLY)
+@Cache(usage=CacheConcurrencyStrategy.READ_WRITE)
 public class GpsPosition extends AbstractDomainObject {
 
 	public GpsPosition() {

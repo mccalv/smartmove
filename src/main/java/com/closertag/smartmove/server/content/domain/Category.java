@@ -35,7 +35,7 @@ import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
 @SuppressWarnings("unchecked")
 @Entity
 @Table(name = "public.category")
-@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Category {
 	private static HashMap<String, Category> categories = new HashMap<String, Category>();
 

@@ -40,7 +40,7 @@ public class DefaultItemService implements ItemService {
 		return item;
 	}
 
-	@Transactional(readOnly = true)
+	@Transactional
 	public Item getItemByName(String itemName, Locale locale) {
 		Item item = itemRepository.getByName(itemName, locale);
 		
