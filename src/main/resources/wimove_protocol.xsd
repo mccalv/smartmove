@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://content.wimove.com/services"
-	xmlns:tns="http://content.wimove.com/services" elementFormDefault="qualified">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://smartmove.closertag.com/services"
+	xmlns:tns="http://smartmove.closertag.com/services" elementFormDefault="qualified">
 	<include schemaLocation="wimove_api.xsd"></include>
 	<element name="error">
 		<complexType>
