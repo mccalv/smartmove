@@ -35,7 +35,7 @@ public class JmxItemsMbean {
 	@ManagedOperationParameters({
 			@ManagedOperationParameter(name = "lat", description = "Lat"),
 			@ManagedOperationParameter(name = "lon", description = "lon") })
-	public String removeItems(String lat, String lon) {
+	public String importPearsonContents(String lat, String lon) {
 		try {
 			pearsonService.importContentsFromGps(Double.valueOf(lat),
 					Double.valueOf(lon));
