@@ -49,18 +49,29 @@ public class PearsonReaderText {
 	@Autowired
 	ItemService itemService;
 
-	
-	
-	@Autowired 
+	@Autowired
 	PearsonService pearsonService;
-	
-	
+
+	// @Test
+	public void testPearsonService() throws Exception {
+
+		// pearsonService.importContentsFromGps(51.497866d, 0.164739d);
+	}
+
 	@Test
-	public void testPearsonService() throws Exception{
-		
-		pearsonService.importContentsFromGps(51.497866d, 0.164739d);
-	} 
-	
+	public void testSingleEntry() throws Exception {
+
+		pearsonService.importSingleEntry("EWTG_LONDON248GEFMUS_001");
+
+	}
+
+	@Test
+	public void testPearsonServiceCategory() throws Exception {
+
+		int imported = pearsonService.importContentsFromCategory("Museums");
+		System.out.println("Number of contents imported :" + imported);
+	}
+
 	/**
 	 * <Pre>
 	 * {
@@ -122,10 +133,9 @@ public class PearsonReaderText {
 	 * }
 	 * @throws Exception
 	 */
-	//@Test
+	// @Test
 	public void getEntryRss() throws Exception {
 
-		
 		HttpConnectionManager manager = new HttpConnectionManager(PEARSON_URL,
 				false);
 		ObjectMapper mapper = new ObjectMapper(); // can reuse, share globally
@@ -147,17 +157,23 @@ public class PearsonReaderText {
 					new String(manager.getByteArrayResourcePost(
 							"/eyewitness/london/block/" + id + ".json?apikey="
 									+ API_KEY, null, null)), JsonNode.class);
+			System.out.println(itemNode.toString());
 			JsonNode block = itemNode.get("block");
 			String text = block.get("title").get("#text").getTextValue();
 
-			System.out.println(text);
+			System.out.println(id);
 			Item item = new Item();
-			Category c = new Category("pearson");
-			item.setCategory(c);
+			// Category c = new Category("pearson");
+			// item.setCategory(c);
 			item.setGid(new Gid("PEARSON"));
 			item.setItemId(id);
 
 			JsonNode tagInfo = block.get("tg_info");
+
+			Category c = new Category(tagInfo.get("info").get("category")
+					.get("@text").getTextValue());
+			item.setCategory(c);
+
 			Cost cost = new Cost();
 			if (tagInfo.get("admission_charge") != null) {
 				cost.setItem(item);
@@ -166,11 +182,12 @@ public class PearsonReaderText {
 				item.setWebsite(tagInfo.get("url").get("#text").getTextValue());
 				item.getCosts().add(cost);
 			}
-			
+
 			String description = text;
 			if (tagInfo.get("opening_info") != null) {
-			 description += "Opening:"
-					+ tagInfo.get("opening_info").get("#text").getTextValue();
+				description += "Opening:"
+						+ tagInfo.get("opening_info").get("#text")
+								.getTextValue();
 			}
 			if (tagInfo.get("closing_info") != null) {
 				description += "Closing: "
@@ -185,9 +202,10 @@ public class PearsonReaderText {
 
 			item.getGpsPositions().add(
 					new GpsPosition(item, Float.valueOf(tagInfo.get("@lat")
-							.getTextValue()), Float.valueOf(tagInfo.get("@long")
-							.getTextValue()), tagInfo.get("address")
-							.get("#text").getTextValue(), "London"));
+							.getTextValue()), Float.valueOf(tagInfo
+							.get("@long").getTextValue()), tagInfo
+							.get("address").get("#text").getTextValue(),
+							"London"));
 
 			itemService.saveOrUpdate(item);
 

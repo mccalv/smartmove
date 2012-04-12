@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<dataset>
-	<item id="100000" title ="Colosseo" description ="Colosseo di Roma2" />
-	<item  id="111155" title ="Terme di Diocleziano" description ="Colosseo di Roma2" />
-	<!--  gps_position id="1"  item_id="1" point="[point(13.34,33.53)]" />
-	-->
-</dataset>

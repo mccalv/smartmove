@@ -8,19 +8,29 @@
 package com.closertag.smartmove.server.service.pearson;
 
 /**
- *
+ * 
  * @author mccalv
  * @since Apr 11, 2012
- *
+ * 
  */
 public interface PearsonService {
-	
+
 	/**
 	 * Import content form a specific couple lat and long
+	 * 
 	 * @param lat
 	 * @param lon
 	 */
-	void importContentsFromGps(Double lat,Double lon)throws Exception;
-	
+	int importContentsFromGps(Double lat, Double lon) throws Exception;
 
+	/**
+	 * Import content form a specific couple lat and long
+	 * 
+	 * @param lat
+	 * @param lon
+	 * @return
+	 */
+	int importContentsFromCategory(String category) throws Exception;
+
+	int importSingleEntry(String id) throws Exception;
 }

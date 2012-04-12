@@ -1,3 +1,0 @@
-http://localhost:8080/wimove/services/get/GetItemsAroundmeByCriteria/xml?api_key=qw33fvvtg5hh&position=point:12.482415,41.87361&radius=5000&language=it
-
-http://localhost:8080/wimove/services/get/GetItemsAroundmeByCriteria/xml?api_key=qw33fvvtg5hh&position=area:12.5637 41.8746,12.5651 41.9434,12.4765 41.9103,12.5637 41.8746&radius=5000&language=it
