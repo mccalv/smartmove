@@ -553,9 +553,11 @@ public class ItemController extends BaseMarshallingController {
 		List<Item> items = itemService.getItemsByCriteria(searchFilter);
 		for (Item item : items) {
 			if (searchFilter.getCentroid() != null) {
+				/*
 				item.setDistance(new Float(GeoLocHelper.calculateMtDistance(
 						item.getGpsPositions().get(0).getGeom_point(),
 						searchFilter.getCentroid())));
+						*/
 			}
 		}
 		XmlList createXmlListItem = createXmlListItem(items,
