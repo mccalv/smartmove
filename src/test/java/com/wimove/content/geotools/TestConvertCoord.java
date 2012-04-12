@@ -7,6 +7,8 @@ import org.opengis.geometry.DirectPosition;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 import org.opengis.referencing.operation.MathTransform;
 
+import com.closertag.smartmove.server.content.geometry.GeoLocHelper;
+
 public class TestConvertCoord {
 
 	
@@ -80,5 +82,11 @@ String wkt = "GEOGCS[" + "\"WGS 84\"," + "  DATUM[" + "    \"WGS_1984\","
 				+ " " + projected.getOrdinate(1));
 		// 12.498950013467306, 41.89730008068392
 
+	}
+	
+	@Test
+	public void testConversion (){
+		GeoLocHelper.createPolygonFromString("-0.12623195 51.518845,-0.13623195 51.518845,-0.14623195 51.518845,-0.12623195 51.518845");
+		
 	}
 }

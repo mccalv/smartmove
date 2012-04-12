@@ -26,9 +26,11 @@ import com.closertag.smartmove.server.content.service.GeocodingService;
 import com.closertag.smartmove.server.content.service.ItemService;
 import com.closertag.smartmove.server.content.web.controller.filter.SearchFilterBuilder;
 import com.closertag.smartmove.server.content.web.view.JaxbView;
+import com.closertag.smartmove.server.content.web.view.JsonView;
 import com.closertag.smartmove.server.content.web.view.ServiceView;
 import com.closertag.smartmove.server.service.atac.AtacCalcolaPercorsoService;
 import com.closertag.smartmove.server.service.atac.AtacTempiAttesaBusService;
+import com.wimove.content.protocol.XmlList;
 
 /**
  * 
@@ -248,6 +250,20 @@ public class ItemController extends BaseMarshallingController {
 
 	}
 
+	@RequestMapping("GetItemById/json")
+	public JsonView getItemJson(HttpServletRequest req,
+			@RequestParam("api_key") String apiKey,
+			@RequestParam("itemId") String itemId,
+			@RequestParam("language") String language) {
+
+		apiKeyService.checkValidApiKey(req, apiKey);
+		Locale locale = new Locale(language);
+		Item item = itemService.get(itemId, locale);
+
+		return new JsonView(createXmlItem(item, true, locale));
+
+	}
+
 	/**
 	 * Returns all the items for given list
 	 * 
@@ -271,31 +287,28 @@ public class ItemController extends BaseMarshallingController {
 			searchFilter.setStart(start);
 		}
 		List<Item> item = itemService.getItemsByCriteria(searchFilter);
-		
-		//itemService.saveOrUpdate(item)
+
+		// itemService.saveOrUpdate(item)
 
 		return new JaxbView(createXmlListItem(item, null, new Locale(language)));
 
 	}
-	
-   @RequestMapping("uploadItem")  
-   public JaxbView uploadItem(
-			@RequestParam("api_key") String apiKey,
+
+	@RequestMapping("uploadItem")
+	public JaxbView uploadItem(@RequestParam("api_key") String apiKey,
 			@RequestParam("tags") String tags,
 			@RequestParam("title") String title,
 			@RequestParam("description") String description,
-			@RequestParam("lat") Double lat,
-			@RequestParam("lon") Double lon,
+			@RequestParam("lat") Double lat, @RequestParam("lon") Double lon,
 			@RequestParam("locale") Double locale
-			
-		   ){
-	  // Item i = new Item();
-	  // i.getGpsPositions().add(new G)
-	   
-	   return null;
-	   
-	   
-   } 
+
+	) {
+		// Item i = new Item();
+		// i.getGpsPositions().add(new G)
+
+		return null;
+
+	}
 
 	/**
 	 * Returns items by tags.
@@ -413,6 +426,7 @@ public class ItemController extends BaseMarshallingController {
 	@RequestMapping("GetItemsAroundmeByCriteria/xml")
 	public JaxbView getItemsAroundmeByCriteria(
 			HttpServletRequest req,
+			
 			@RequestParam("api_key") String apiKey,
 			@RequestParam(value = "position", required = false) String position,
 			@RequestParam(value = "language", required = true) String language,
@@ -434,6 +448,91 @@ public class ItemController extends BaseMarshallingController {
 
 	) throws Exception {
 
+		XmlList createXmlListItem = getItemList(req, apiKey, position,
+				language, category, radius, text, orderBy, tag, tagNot, mashup,
+				startDate, endDate, filterByOwner, withExtension,
+				extraFieldsConditions, limit, start, fromAddress);
+		
+		return new JaxbView(createXmlListItem);
+
+	}
+	
+	
+	/**
+	 * It represents the most general API present at the moment on the platform
+	 * and combines different search methods. An example could be the following
+	 * <p>
+	 * <a href=
+	 * "http://roma.wimove.it/wimove/services/get/GetItemsAroundmeByCriteria/xml?api_key=qw33fvvtg5hh&limit=50&start=0&language=it&category=PICCOLI_TURISTI"
+	 * >http://roma.wimove.it/wimove/services/get/GetItemsAroundmeByCriteria/xml
+	 * ?api_key=qw33fvvtg5hh&limit=50&start=0&language=it&category=
+	 * PICCOLI_TURISTI</a>
+	 * 
+	 * @param apiKey
+	 * @param position
+	 * @param language
+	 * @param category
+	 * @param radius
+	 * @param text
+	 * @param orderBy
+	 *            Possible values {CREATION_DATA, UPDATE_DATA, PROXIMITY, TITLE,
+	 *            DATE}
+	 * @param tag
+	 * @param tagNot
+	 * @param mashup
+	 *            (inactive)
+	 * @param startDate
+	 * @param endDate
+	 * @param filterByOwner
+	 * @param withExtension
+	 * @param extraFieldsConditions
+	 *            (inactive)
+	 * @param limit
+	 * @param start
+	 * @return the xml representation
+	 */
+	@RequestMapping("GetItemsAroundmeByCriteria/json")
+	public JsonView getItemsAroundmeByCriteriaJson(
+			HttpServletRequest req,
+			
+			@RequestParam("api_key") String apiKey,
+			@RequestParam(value = "position", required = false) String position,
+			@RequestParam(value = "language", required = true) String language,
+			@RequestParam(value = "category", required = false) String category,
+			@RequestParam(value = "radius", required = false) Double radius,
+			@RequestParam(value = "text", required = false) String text,
+			@RequestParam(value = "orderBy", required = false) String orderBy,
+			@RequestParam(value = "tag", required = false) String tag,
+			@RequestParam(value = "tagNot", required = false) String tagNot,
+			@RequestParam(value = "mashup", required = false) Boolean mashup,
+			@RequestParam(value = "startDate", required = false) String startDate,
+			@RequestParam(value = "endDate", required = false) String endDate,
+			@RequestParam(value = "filterByOwner", required = false) String filterByOwner,
+			@RequestParam(value = "withExtension", required = false) String withExtension,
+			@RequestParam(value = "extraFieldsConditions", required = false) String extraFieldsConditions,
+			@RequestParam(value = "limit", required = false) Integer limit,
+			@RequestParam(value = "start", required = false) Integer start,
+			@RequestParam(value = "fromAddress", required = false) String fromAddress
+
+	) throws Exception {
+
+		XmlList createXmlListItem = getItemList(req, apiKey, position,
+				language, category, radius, text, orderBy, tag, tagNot, mashup,
+				startDate, endDate, filterByOwner, withExtension,
+				extraFieldsConditions, limit, start, fromAddress);
+		
+		return new JsonView(createXmlListItem);
+
+	}
+
+
+	private XmlList getItemList(HttpServletRequest req, String apiKey,
+			String position, String language, String category, Double radius,
+			String text, String orderBy, String tag, String tagNot,
+			Boolean mashup, String startDate, String endDate,
+			String filterByOwner, String withExtension,
+			String extraFieldsConditions, Integer limit, Integer start,
+			String fromAddress) throws Exception {
 		apiKeyService.checkValidApiKey(req, apiKey);
 		Locale locale = new Locale(language);
 		if (fromAddress != null && position == null) {
@@ -459,9 +558,9 @@ public class ItemController extends BaseMarshallingController {
 						searchFilter.getCentroid())));
 			}
 		}
-		return new JaxbView(createXmlListItem(items,
-				searchFilter.getCentroid(), locale));
-
+		XmlList createXmlListItem = createXmlListItem(items,
+				searchFilter.getCentroid(), locale);
+		return createXmlListItem;
 	}
 
 	/**

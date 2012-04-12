@@ -60,6 +60,6 @@ public class Constants {
 
 	public static final String XML_CONTENT_TYPE = "text/xml; charset=UTF-8";
 
-	public static final String JSON_CONTENT_TYPE = "text/html";
+	public static final String JSON_CONTENT_TYPE = "application/json";
 
 }
