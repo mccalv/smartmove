@@ -98,7 +98,7 @@ public class SearchFilterCriteriaBuilder {
 					GPS_POSITIONS_ALIAS, searchFilter.getRadius()));
 		}
 		if (searchFilter.getPolygon() != null) {
-			criteria.add(SpatialRestrictions.within("gpsPositions.geom_point",
+			criteria.add(SpatialRestrictions.contains("gpsPositions.geom_point",
 					searchFilter.getPolygon()));
 		}
 		if (searchFilter.getText() != null) {
@@ -191,11 +191,13 @@ public class SearchFilterCriteriaBuilder {
 		/*
 		 * In this case it goes to by the centroid
 		 */
+		/*
 		if (searchFilter.getPolygon() != null) {
 			criteria.addOrder(new DistanceOrder(searchFilter.getPolygon()
 					.getCentroid(), true, GPS_POSITIONS_ALIAS));
 			isPointSelected = searchFilter.getPolygon().getCentroid();
 		}
+		*/
 		if (searchFilter.getLimit() == null) {
 			criteria
 					.setMaxResults(com.closertag.smartmove.server.constant.Constants.MAX_RESULT_PER_PAGE);
@@ -220,10 +222,11 @@ public class SearchFilterCriteriaBuilder {
 		proList.add(Projections.property(GPS_POSITIONS_ALIAS + ".geom_point"),
 				"address");
 
+		/*
 		if (isPointSelected != null) {
 			proList.add(new DistanceProjection(isPointSelected,
 					GPS_POSITIONS_ALIAS + ".geom_point"));
-		}
+		}*/
 
 		// proList.add(Projections.property("itemId"), "itemId");
 		// proList.add(Projections.alias("category"),"category");
