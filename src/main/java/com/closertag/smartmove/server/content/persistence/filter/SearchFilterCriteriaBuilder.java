@@ -212,6 +212,9 @@ public class SearchFilterCriteriaBuilder {
 		ProjectionList proList = Projections.projectionList();
 		proList.add(Projections.distinct(Projections.property("itemId")));
 		proList.add(Projections.property("itemId"), "itemId");
+		//proList.add(Projections.property("category"), "category");
+		//proList.add(Projections.property("website"));
+		
 		proList.add(Projections.property("localizedItems.value"), "title");
 		proList.add(Projections.property(GPS_POSITIONS_ALIAS + ".latitude"),
 				"lat");
