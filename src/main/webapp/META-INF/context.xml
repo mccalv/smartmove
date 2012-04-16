@@ -1,7 +1,7 @@
 <Context path="/smartmove" reloadable="true">
 
 <Resource name="jdbc/postgresSQL" auth="Container" type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
-	        url="jdbc:postgresql://localhost:5432/smartmove_server_utf8" username="mccalv" password="tomcat25"
+	        url="jdbc:postgresql://localhost:5432/smartmove_server?charSet=UTF-8" username="mccalv" password="tomcat25"
 	        maxActive="10" maxIdle="5" maxWait="-1"/>               	        
 	       
 </Context>

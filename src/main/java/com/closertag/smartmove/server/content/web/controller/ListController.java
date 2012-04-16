@@ -19,6 +19,7 @@ import com.closertag.smartmove.server.content.geometry.GeoLocHelper;
 import com.closertag.smartmove.server.content.service.ApiKeyService;
 import com.closertag.smartmove.server.content.service.ListService;
 import com.closertag.smartmove.server.content.web.view.JaxbView;
+import com.closertag.smartmove.server.content.web.view.JsonView;
 import com.wimove.content.protocol.XmlItemList;
 import com.wimove.content.protocol.XmlItemLists;
 
@@ -51,6 +52,17 @@ public class ListController {
 
 		return new JaxbView(getXmlList(itemsList));
 	}
+	
+	@RequestMapping("/services/get/GetLists/json")
+	public JsonView getListsJson(
+			HttpServletRequest req,
+			@RequestParam("api_key") String apiKey,
+			@RequestParam("language") String language) {
+		apiKeyService.checkValidApiKey(req,apiKey);
+		List<ItemList> itemsList = listService.getAllList(new Locale(language));
+
+		return new JsonView(getXmlList(itemsList));
+	}
 
 	/**
 	 * Returns all list present on a given point and radius
@@ -74,6 +86,7 @@ public class ListController {
 		XmlItemLists xmlItemLists = new XmlItemLists();
 		for (ItemList itemList : itemsList) {
 			XmlItemList xmlItemList = new XmlItemList();
+					
 			xmlItemList.setDescription(itemList.getListDescription());
 			xmlItemList.setTitle(itemList.getListName());
 			xmlItemList.setId(Long.toString(itemList.getId()));

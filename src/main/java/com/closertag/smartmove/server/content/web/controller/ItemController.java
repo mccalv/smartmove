@@ -293,6 +293,36 @@ public class ItemController extends BaseMarshallingController {
 		return new JaxbView(createXmlListItem(item, null, new Locale(language)));
 
 	}
+	
+	/**
+	 * Returns all the items for given list
+	 * 
+	 * @param apiKey
+	 * @param listId
+	 * @param language
+	 * @return the xml representation
+	 */
+	@RequestMapping("GetItemByList/json")
+	public JsonView getItemByListJson(HttpServletRequest req,
+			@RequestParam("api_key") String apiKey,
+			@RequestParam("listId") String listId,
+			@RequestParam("language") String language,
+			@RequestParam(value = "start", required = false) Integer start) {
+
+		apiKeyService.checkValidApiKey(req, apiKey);
+		SearchFilter searchFilter = new SearchFilter();
+		searchFilter.setListIdentifier(listId);
+		searchFilter.setLocale(new Locale(language));
+		if (start != null) {
+			searchFilter.setStart(start);
+		}
+		List<Item> item = itemService.getItemsByCriteria(searchFilter);
+
+		// itemService.saveOrUpdate(item)
+
+		return new JsonView(createXmlListItem(item, null, new Locale(language)));
+
+	}
 
 	@RequestMapping("uploadItem")
 	public JaxbView uploadItem(@RequestParam("api_key") String apiKey,
