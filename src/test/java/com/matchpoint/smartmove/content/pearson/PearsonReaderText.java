@@ -61,11 +61,11 @@ public class PearsonReaderText {
 	@Test
 	public void testSingleEntry() throws Exception {
 
-		pearsonService.importSingleEntry("EWTG_LONDON248GEFMUS_001");
+		pearsonService.importSingleEntry("EWTG_LONDON338DIRECT_065");
 
 	}
 
-	@Test
+	//@Test
 	public void testPearsonServiceCategory() throws Exception {
 
 		int imported = pearsonService.importContentsFromCategory("Museums");

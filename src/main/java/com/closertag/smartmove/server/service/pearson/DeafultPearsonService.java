@@ -206,11 +206,16 @@ public class DeafultPearsonService implements PearsonService {
 			}
 
 			if (tagInfo.get("phone") != null) {
-				Extra e = new Extra();
-				e.setItem(item);
-				e.setLabel("phone");
-				e.setValue(tagInfo.get("phone").get("#text").getTextValue());
-				item.getExtras().add(e);
+				if(tagInfo.get("phone").isArray()){
+				 
+				 item.setTelephone(tagInfo.get("phone").get(0).get("#text").getTextValue());
+				 
+				}else{
+				
+
+					 item.setTelephone(tagInfo.get("phone").get("#text").getTextValue());
+					 
+				}
 			}
 
 			if (tagInfo.get("tg_data") != null) {
