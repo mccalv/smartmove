@@ -76,14 +76,19 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 			createCriteria.add(Restrictions.eq("id", id));
 
 		}
-		Item item = (Item) setFetchMode(createCriteria).uniqueResult();
-
+		List<Item> items= setFetchMode(createCriteria).list();
+       Item item = null;
+		if(items.isEmpty()||items==null){
+			return item;
+		}
+		else{
+			
+			item = items.get(0);
+		}
 		/*
 		 * Initialized the object dependencies
 		 */
-		if (item == null)
-			return item;
-
+		
 		initializeFullDependencies(item);
 		return item;
 	}
