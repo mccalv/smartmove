@@ -1,4 +1,4 @@
-smartmove
+Smartmove
 =========
 
 SmartMove a Java GeoSpatial Server 
