@@ -1,3 +1,5 @@
+##Smartmove  
+
 Smartmove is Java platform to store and retrieved Geo Enabled content. 
 It supports different geospatial types
 ![Smartmove](http://www.mccalv.com/smartmove/smartmove-1.png)
