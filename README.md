@@ -1,6 +1,16 @@
-Smartmove
-=========
+Smartmove is Java platform to store and retrieved Geo Enabled content. 
+It supports different geospatial types
+![Smartmove](http://www.mccalv.com/smartmove/smartmove-1.png)
 
-SmartMove a Java GeoSpatial Server
-Based on Postgres Postgis exposes
-Exposes Rest Api to search for Geospatial Restrictions
+And queries based on complex spatial restrictions combined with standard textual ones
+![Smartmove](http://www.mccalv.com/smartmove/smartmove-2.png)
+
+![Smartmove](http://www.mccalv.com/smartmove/smartmove-3.png)
+
+Technologies involved are 
+* RESTFUL SERVICE LAYER 
+* SPRING 3.0
+* POSTGRES 8.3
+* POSTGIS
+* J2EE
+* APACHE LUCENE 
