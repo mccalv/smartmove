@@ -174,8 +174,8 @@
 				</element>
 				<element name="description" type="string" maxOccurs="unbounded"
 					minOccurs="0"
-				</element-->>
-				<element ref="tns:category" name="category" minOccurs="0"
+				</element-->
+				<element ref="tns:category"  minOccurs="0"
 					maxOccurs="unbounded"></element>
 			</sequence>
 		</complexType>
@@ -198,7 +198,7 @@
 		<complexType>
 			<sequence>
 
-				<element ref="tns:itemList" name="list" minOccurs="0"
+				<element ref="tns:itemList"  minOccurs="0"
 	maxOccurs="unbounded"></element>
 			</sequence>
 		

@@ -1,7 +1,8 @@
 package com.closertag.smartmove.server.content.geometry;
 
-
 /**
+ * Helper method to
+ * 
  * @author mccalv
  * 
  */
@@ -16,8 +17,7 @@ public class PointPositionHelper {
 	 * @author mccalv
 	 * 
 	 */
-	// FIXME Eliminate this class if something similar exists already in the
-	// project
+
 	public static class Point {
 		private double lon;
 		private double lat;
@@ -74,9 +74,6 @@ public class PointPositionHelper {
 		}
 	}
 
-	// FIXME Eliminate this class if something similar exists already in the
-	// right
-	// project
 	public static class Rectangle {
 		private Point topleft;
 		private Point topright;
@@ -155,9 +152,7 @@ public class PointPositionHelper {
 	}
 
 	/**
-	 * Questo algoritmo e' basato sul seguente algoritmo individuabile al sito <a
-
-	 * seguente return
+	 * Calculate the distance in Kilometers from 2 {@link Point}
 	 * 
 	 * <pre>
 	 * &amp;acos(cos($a1)*cos($b1)*cos($a2)*cos($b2) +
@@ -185,8 +180,10 @@ public class PointPositionHelper {
 		return distance;
 
 	}
+
 	/**
 	 * Verifies if a point is inside a given Rectangle
+	 * 
 	 * @param point
 	 * @param rectangle
 	 * @param ray
@@ -200,8 +197,7 @@ public class PointPositionHelper {
 		Point bottomright = rectangle.getBottomright();
 
 		if ((point.isLongMan(topright) && point.isLongMin(bottomleft) && (point
-				.isLatMan(topleft) && point.isLatMin(bottomright)))
-		) {
+				.isLatMan(topleft) && point.isLatMin(bottomright)))) {
 			return true;
 		}
 

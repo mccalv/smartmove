@@ -1,32 +1,44 @@
 package com.wimove.content.protocol;
 
+import static org.junit.Assert.assertEquals;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import org.junit.Test;
 
 /**
+ * A class to test a generation of an hash code using a MD5 digest
  * 
  * @author mccalv
  * 
  */
 public class HashGeneratorTest {
-
+	/**
+	 * Tests a generation of and Hashset without the error
+	 * 
+	 * @throws Exception
+	 */
 	@Test
 	public void voidTestHashGenerator() throws Exception {
-		String plainText = "123456";
-		StringBuffer hexString = generateHashCode(plainText);
 
-		System.out.println(generateHashCode("www.zetema.it"));
-		System.out.println(generateHashCode("www.atac.it"));
-		System.out.println(generateHashCode("www.mccalv.com"));
-	//	System.out.print(generateHashCode("www.zetema.it"));
-		
+		assertEquals(32, generateHashCode("www.zetema.it").length());
+		assertEquals(32, generateHashCode("www.atac.it").length());
+		assertEquals(32, generateHashCode("www.mccalv.com").length());
 
 	}
 
-	private StringBuffer generateHashCode(String plainText) throws NoSuchAlgorithmException {
-		
+	
+	/**
+	 * Generates the StringBuffer of the hashcode for a given String. It uses a MD5 digest.
+	 * 
+	 * @param plainText
+	 * @return
+	 * @throws NoSuchAlgorithmException
+	 */
+	private StringBuffer generateHashCode(String plainText)
+			throws NoSuchAlgorithmException {
+
 		MessageDigest mdAlgorithm = MessageDigest.getInstance("MD5");
 		mdAlgorithm.update(plainText.getBytes());
 

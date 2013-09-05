@@ -10,6 +10,8 @@ import java.util.Map;
 import com.closertag.smartmove.server.content.domain.Item;
 
 /**
+ * A repository for batch inserts and updates
+ * 
  * @author mccalv
  * 
  */
@@ -29,7 +31,5 @@ public interface BatchRepository {
 	List<Map<String, Object>> getItemsWithoutLocale(int howmany);
 
 	int removeItemsFromCategory(String category);
-
-	// List<Item>
 
 }

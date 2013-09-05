@@ -44,7 +44,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 /**
- * Manages HTTP connections to the PHP/JSAM server.
+ * Manages HTTP connections 
  * 
  * @author jope
  */

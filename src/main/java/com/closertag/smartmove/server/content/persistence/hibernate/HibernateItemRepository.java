@@ -20,6 +20,8 @@ import com.closertag.smartmove.server.content.persistence.filter.SearchFilterCri
 import com.vividsolutions.jts.geom.Point;
 
 /**
+ * A simple test for {@link ItemRepository}
+ * 
  * @author mccalv
  * 
  */
@@ -45,10 +47,10 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 	}
 
 	private Criteria setFetchMode(Criteria criteria) {
-		//criteria.setFetchMode("gpsPositions", FetchMode.JOIN).setFetchMode(
-		//"localizedItems", FetchMode.);
+		// criteria.setFetchMode("gpsPositions", FetchMode.JOIN).setFetchMode(
+		// "localizedItems", FetchMode.);
 		criteria.setCacheable(true);
-		
+
 		return criteria;
 	}
 
@@ -76,19 +78,18 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 			createCriteria.add(Restrictions.eq("id", id));
 
 		}
-		List<Item> items= setFetchMode(createCriteria).list();
-       Item item = null;
-		if(items.isEmpty()||items==null){
+		List<Item> items = setFetchMode(createCriteria).list();
+		Item item = null;
+		if (items.isEmpty() || items == null) {
 			return item;
-		}
-		else{
-			
+		} else {
+
 			item = items.get(0);
 		}
 		/*
 		 * Initialized the object dependencies
 		 */
-		
+
 		initializeFullDependencies(item);
 		return item;
 	}
@@ -112,15 +113,15 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 	public Item getByName(String itemName, Locale locale) {
 
 		List<Item> items = setFetchMode(
-				sessionFactory.getCurrentSession().createCriteria(Item.class)
-						.createAlias("localizedItems", "localizedItems").add(
-								Restrictions.eq("localizedItems.label",
-										Label.Title)).add(
-								Restrictions
-										.eq("localizedItems.locale", locale))
-						.add(
-								Restrictions.ilike("localizedItems.value",
-										itemName))).list();
+				sessionFactory
+						.getCurrentSession()
+						.createCriteria(Item.class)
+						.createAlias("localizedItems", "localizedItems")
+						.add(Restrictions.eq("localizedItems.label",
+								Label.Title))
+						.add(Restrictions.eq("localizedItems.locale", locale))
+						.add(Restrictions.ilike("localizedItems.value",
+								itemName))).list();
 
 		if (items.isEmpty())
 			return null;
@@ -129,13 +130,11 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 		return item;
 	}
 
-	
 	public List<Item> getItemsByCriteria(SearchFilter searchFilter) {
 		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(
-				Item.class,"item");
-		return 
-				SearchFilterCriteriaBuilder.buildContentCriteria(criteria,
-						searchFilter);
+				Item.class, "item");
+		return SearchFilterCriteriaBuilder.buildContentCriteria(criteria,
+				searchFilter);
 	}
 
 	public int removeItemFromGid(String gid) {
@@ -147,10 +146,14 @@ public class HibernateItemRepository extends HibernateBaseRepository implements
 
 	}
 
-	/* (non-Javadoc)
-	 * @see com.wimove.content.persistence.ItemRepository#removeItemFromCategory(java.lang.String)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.wimove.content.persistence.ItemRepository#removeItemFromCategory(
+	 * java.lang.String)
 	 */
-	
+
 	public int removeItemFromCategory(String category) {
 		String hql = "delete from Item where category.category = :category";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);

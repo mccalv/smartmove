@@ -55,15 +55,7 @@ public class JdbcBatchRepository implements BatchRepository {
 	public static final String DELETE_EXPIRED_ITEMS = " DELETE FROM item WHERE item.id IN( SELECT item_id as max_date FROM time_occurrence GROUP BY item_id   HAVING max(end_date)<NOW()   ORDER BY  max(end_date) DESC)";
 	public static final String SELECT_CONTENTS_WITH_NO_MP3 = "SELECT i.item_id,li.locale  FROM item i, localizeditem li WHERE i.id=li.item_id AND  li.label='Description' AND li.value<>''  AND not exists (SELECT id from localizeditem li_ WHERE li_.item_id= li.item_id AND  li_.label='Mp3' and li_.locale = li.locale)   LIMIT ?";
 
-	// SELECT i.item_id,li.locale FROM item i, localizeditem li WHERE
-	// i.id=li.item_id AND li.label='Description' AND li.value<>'' AND not
-	// exists (SELECT id from localizeditem li_ WHERE li_.item_id= li.item_id
-	// AND li_.label='Mp3' and li_.locale = li.locale) LIMIT 1
 
-	// SELECT i.item_id,li.locale FROM item i, localizeditem li WHERE
-	// i.id=li.item_id AND li.label='Description' AND li.value<>'' AND i.id NOT
-	// IN (SELECT li_.item_id from localizeditem li_ WHERE li_.id = li.id AND
-	// li.label='MP3') LIMIT 10
 	/*
 	 * (non-Javadoc)
 	 * 

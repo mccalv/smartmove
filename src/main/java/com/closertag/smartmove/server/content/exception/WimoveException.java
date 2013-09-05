@@ -8,6 +8,8 @@
 package com.closertag.smartmove.server.content.exception;
 
 /**
+ * A generic Exception class
+ * 
  * @author mccalv
  * 
  */
@@ -15,7 +17,8 @@ public class WimoveException extends RuntimeException {
 
 	public static enum ExceptionType {
 
-		INVALID_API_KEY(101), MISSING_PARAMETER(100), INVALID_DATE_FORMAT(102),GENERIC_EXCEPTION(500), AREA_INPUT_INVALID(103);
+		INVALID_API_KEY(101), MISSING_PARAMETER(100), INVALID_DATE_FORMAT(102), GENERIC_EXCEPTION(
+				500), AREA_INPUT_INVALID(103);
 
 		private int code;
 

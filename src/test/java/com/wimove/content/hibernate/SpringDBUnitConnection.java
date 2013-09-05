@@ -11,7 +11,6 @@ import org.springframework.jdbc.datasource.DataSourceUtils;
 /**
  * Wrapped version of DBUnits DatabaseDataSourceConnection to enable Spring Transaction support.
  */
-// XXX: Do we really need this class *and* SpringConnection? Delphi seems to work without both.
 public class SpringDBUnitConnection extends DatabaseDataSourceConnection {
 
     private final DataSource dataSource;

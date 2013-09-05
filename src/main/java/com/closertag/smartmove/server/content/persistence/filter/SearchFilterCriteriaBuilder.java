@@ -25,14 +25,16 @@ import com.closertag.smartmove.server.content.domain.Item;
 import com.closertag.smartmove.server.content.domain.LocalizedItem;
 import com.closertag.smartmove.server.content.domain.LocalizedItem.Label;
 import com.closertag.smartmove.server.content.persistence.hibernate.DistanceOrder;
-import com.closertag.smartmove.server.content.persistence.hibernate.DistanceProjection;
 import com.closertag.smartmove.server.content.persistence.hibernate.DistanceRestriction;
 import com.vividsolutions.jts.geom.Point;
 
 /**
+ * An Hibernate Criteria Builder from a {@link SearchFilter}
+ * 
  * @author mccalv
  * 
  */
+@SuppressWarnings("rawtypes")
 public class SearchFilterCriteriaBuilder {
 
 	private static final String GPS_POSITIONS_ALIAS = "gpsPositions";
@@ -82,16 +84,14 @@ public class SearchFilterCriteriaBuilder {
 		}
 		if (searchFilter.getCategory() == null) {
 			criteria.createAlias("category", "category")
-			
-			
-			.add(
-					Restrictions.not(
-						     // replace "id" below with property name, depending on what you're filtering against
-						    Restrictions.in("category.category", new String[] {"HOT_SPOT", "BUS_STOP"})
-						  ));
-					
-					
-					//Restrictions.ne("category.category", "HOT_SPOT"));
+
+			.add(Restrictions.not(
+			// replace "id" below with property name, depending on what you're
+			// filtering against
+					Restrictions.in("category.category", new String[] {
+							"HOT_SPOT", "BUS_STOP" })));
+
+			// Restrictions.ne("category.category", "HOT_SPOT"));
 		}
 		if (searchFilter.getRadius() != null && searchFilter.getPoint() != null) {
 			criteria.add(new DistanceRestriction(searchFilter.getPoint(),
@@ -108,19 +108,21 @@ public class SearchFilterCriteriaBuilder {
 		}
 		if (searchFilter.getGidIdentifier() != null) {
 			criteria.createAlias("gid", "gid", JoinFragment.INNER_JOIN).add(
-					Restrictions.in("gid.identifier", Arrays.asList(StringUtils
-							.split(searchFilter.getGidIdentifier(), ","))));
+					Restrictions.in(
+							"gid.identifier",
+							Arrays.asList(StringUtils.split(
+									searchFilter.getGidIdentifier(), ","))));
 		}
 		if (searchFilter.getTags() != null) {
 			criteria.createAlias("tags", "tags").add(
-					Restrictions.in("tags.tag", Arrays.asList(searchFilter
-							.getTags())));
+					Restrictions.in("tags.tag",
+							Arrays.asList(searchFilter.getTags())));
 		}
 
 		if (searchFilter.getListIdentifier() != null) {
 			criteria.createAlias("itemList", "itemList").add(
-					Restrictions.eq("itemList.name", searchFilter
-							.getListIdentifier()));
+					Restrictions.eq("itemList.name",
+							searchFilter.getListIdentifier()));
 
 		}
 
@@ -129,13 +131,10 @@ public class SearchFilterCriteriaBuilder {
 					JoinFragment.INNER_JOIN).add(
 					Restrictions.and(Restrictions.ge(
 							"timeOccurrences.startDate", searchFilter
-								
-							
+
 							.getStartDate()), Restrictions.le(
-							
-											
-											"timeOccurrences.endDate", searchFilter
-									.getEndDate())));
+
+					"timeOccurrences.endDate", searchFilter.getEndDate())));
 			// Needed b.o. left join
 
 		}
@@ -192,15 +191,13 @@ public class SearchFilterCriteriaBuilder {
 		 * In this case it goes to by the centroid
 		 */
 		/*
-		if (searchFilter.getPolygon() != null) {
-			criteria.addOrder(new DistanceOrder(searchFilter.getPolygon()
-					.getCentroid(), true, GPS_POSITIONS_ALIAS));
-			isPointSelected = searchFilter.getPolygon().getCentroid();
-		}
-		*/
+		 * if (searchFilter.getPolygon() != null) { criteria.addOrder(new
+		 * DistanceOrder(searchFilter.getPolygon() .getCentroid(), true,
+		 * GPS_POSITIONS_ALIAS)); isPointSelected =
+		 * searchFilter.getPolygon().getCentroid(); }
+		 */
 		if (searchFilter.getLimit() == null) {
-			criteria
-					.setMaxResults(com.closertag.smartmove.server.constant.Constants.MAX_RESULT_PER_PAGE);
+			criteria.setMaxResults(com.closertag.smartmove.server.constant.Constants.MAX_RESULT_PER_PAGE);
 		} else {
 			criteria.setMaxResults(searchFilter.getLimit());
 
@@ -212,9 +209,9 @@ public class SearchFilterCriteriaBuilder {
 		ProjectionList proList = Projections.projectionList();
 		proList.add(Projections.distinct(Projections.property("itemId")));
 		proList.add(Projections.property("itemId"), "itemId");
-		//proList.add(Projections.property("category"), "category");
-		//proList.add(Projections.property("website"));
-		
+		// proList.add(Projections.property("category"), "category");
+		// proList.add(Projections.property("website"));
+
 		proList.add(Projections.property("localizedItems.value"), "title");
 		proList.add(Projections.property(GPS_POSITIONS_ALIAS + ".latitude"),
 				"lat");
@@ -226,11 +223,10 @@ public class SearchFilterCriteriaBuilder {
 				"address");
 
 		/*
-		if (isPointSelected != null) {
-			proList.add(new DistanceProjection(isPointSelected,
-					GPS_POSITIONS_ALIAS + ".geom_point"));
-		}
-		*/
+		 * if (isPointSelected != null) { proList.add(new
+		 * DistanceProjection(isPointSelected, GPS_POSITIONS_ALIAS +
+		 * ".geom_point")); }
+		 */
 
 		// proList.add(Projections.property("itemId"), "itemId");
 		// proList.add(Projections.alias("category"),"category");
@@ -271,13 +267,7 @@ public class SearchFilterCriteriaBuilder {
 				localizedItem.setLocale(searchFilter.getLocale());
 				localizedItem.setValue((String) row[2]);
 				itemDetached.getLocalizedItems().add(localizedItem);
-				// if(isPointSelected!=null ){
-				// itemDetached.setDistance(new
-				// Float(GeoLocHelper.calculateMtDistance((Point)
-				// row[6],isPointSelected)));
-				// System.out.println("Distance :"+GeoLocHelper.calculateMtDistance((Point)
-				// row[6],isPointSelected));
-				// }
+
 				items.add(itemDetached);
 
 			}

@@ -29,7 +29,6 @@ import com.vividsolutions.jts.geom.Polygon;
 import com.vividsolutions.jts.geom.PrecisionModel;
 import com.vividsolutions.jts.io.WKBReader;
 import com.vividsolutions.jts.io.WKTReader;
-import com.vividsolutions.jts.operation.distance.DistanceOp;
 
 /**
  * Provides useful methods for geolocalisation

@@ -15,6 +15,9 @@ import com.vividsolutions.jts.geom.Point;
 import com.vividsolutions.jts.geom.Polygon;
 
 /**
+ * The SearchFilter is the holder of all the restrictions used to query against
+ * the database
+ * 
  * @author mccalv
  * 
  */
@@ -28,16 +31,13 @@ public class SearchFilter {
 	private Polygon polygon;
 	private Integer limit;
 	private Order orderBy;
-	private Locale locale;	
+	private Locale locale;
 	private String text;
 	private String gidIdentifier;
 	private String[] tags;
 	private String listIdentifier;
 	private Integer start;
 
-	
-	
-	
 	/**
 	 * @return the start
 	 */
@@ -46,7 +46,8 @@ public class SearchFilter {
 	}
 
 	/**
-	 * @param start the start to set
+	 * @param start
+	 *            the start to set
 	 */
 	public void setStart(Integer start) {
 		this.start = start;
@@ -60,14 +61,16 @@ public class SearchFilter {
 	}
 
 	/**
-	 * @param listIdentifier the listIdentifier to set
+	 * @param listIdentifier
+	 *            the listIdentifier to set
 	 */
 	public void setListIdentifier(String listIdentifier) {
 		this.listIdentifier = listIdentifier;
 	}
 
 	/**
-	 * @param limit the limit to set
+	 * @param limit
+	 *            the limit to set
 	 */
 	public void setLimit(Integer limit) {
 		this.limit = limit;
@@ -93,8 +96,6 @@ public class SearchFilter {
 		this.polygon = polygon;
 	}
 
-
-
 	/**
 	 * @return the tags
 	 */
@@ -103,7 +104,8 @@ public class SearchFilter {
 	}
 
 	/**
-	 * @param tags the tags to set
+	 * @param tags
+	 *            the tags to set
 	 */
 	public void setTags(String[] tags) {
 		this.tags = tags;
@@ -263,7 +265,8 @@ public class SearchFilter {
 	}
 
 	/**
-	 * @param locale the locale to set
+	 * @param locale
+	 *            the locale to set
 	 */
 	public void setLocale(Locale locale) {
 		this.locale = locale;

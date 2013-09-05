@@ -64,7 +64,7 @@ public class DefaultApiKeyService implements ApiKeyService {
 			if (!referer.startsWith("http") && !referer.endsWith("/"))
 				referer = referer + "/";
 			// get the key for the host used by the request
-			String refererKey = generateHash(referer + SERVER_TOKEN);
+			//String refererKey = generateHash(referer + SERVER_TOKEN);
 		}
 
 		if (apiKeyRepository.getApiKey(apiKey) == null) {

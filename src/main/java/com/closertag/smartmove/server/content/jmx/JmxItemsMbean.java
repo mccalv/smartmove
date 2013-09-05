@@ -13,6 +13,8 @@ import com.closertag.smartmove.server.content.service.ItemService;
 import com.closertag.smartmove.server.service.pearson.PearsonService;
 
 /**
+ * A Jmx bean
+ * 
  * @author mccalv
  * 
  */
@@ -37,23 +39,22 @@ public class JmxItemsMbean {
 			@ManagedOperationParameter(name = "lon", description = "lon") })
 	public String importPearsonContents(String lat, String lon) {
 		try {
-			int n =pearsonService.importContentsFromGps(Double.valueOf(lat),
+			int n = pearsonService.importContentsFromGps(Double.valueOf(lat),
 					Double.valueOf(lon));
-			return n +"contents has been imported";
+			return n + "contents has been imported";
 		} catch (Exception e) {
 			e.printStackTrace();
 			return e.toString();
 		}
 
 	}
-	
+
 	@ManagedOperation(description = "Import contents from Pearson")
-	@ManagedOperationParameters({
-			@ManagedOperationParameter(name = "category", description = "Category")})
+	@ManagedOperationParameters({ @ManagedOperationParameter(name = "category", description = "Category") })
 	public String importPearsonContentsByCategory(String category) {
 		try {
-			int n =pearsonService.importContentsFromCategory(category);
-			return n +"contents has been imported";
+			int n = pearsonService.importContentsFromCategory(category);
+			return n + "contents has been imported";
 		} catch (Exception e) {
 			e.printStackTrace();
 			return e.toString();
