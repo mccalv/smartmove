@@ -17,6 +17,7 @@ import java.sql.Statement;
 import java.sql.Struct;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.Executor;
 
 import javax.sql.DataSource;
 
@@ -204,7 +205,8 @@ public class SpringConnection implements Connection {
      * @return
      * @throws java.sql.SQLException
      */
-    public Map getTypeMap() throws SQLException {
+    @SuppressWarnings("unchecked")
+	public Map getTypeMap() throws SQLException {
         return conn.getTypeMap();
     }
 
@@ -434,13 +436,7 @@ public class SpringConnection implements Connection {
         conn.setTransactionIsolation(level);
     }
 
-    /**
-     * @param map
-     * @throws java.sql.SQLException
-     */
-    public void setTypeMap(Map map) throws SQLException {
-        conn.setTypeMap(map);
-    }
+ 
 
     /**
      * @see java.lang.Object#toString()
@@ -449,5 +445,42 @@ public class SpringConnection implements Connection {
     public String toString() {
         return conn.toString();
     }
+
+	@Override
+	public void setTypeMap(Map<String, Class<?>> map) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSchema(String schema) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getSchema() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void abort(Executor executor) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setNetworkTimeout(Executor executor, int milliseconds)
+			throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getNetworkTimeout() throws SQLException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

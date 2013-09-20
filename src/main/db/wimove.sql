@@ -228,3 +228,25 @@ CREATE TABLE gps_position (
                   REFERENCES item (id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+
+SET search_path TO smartmove,public
+
+
+CREATE SEQUENCE id_seq START 101;
+CREATE SEQUENCE users_id_users_seq START 1;
+SELECT AddGeometryColumn( 'gps_position', 'geom_point', 4326,'POINT',2);
+SELECT AddGeometryColumn( 'gidzone', 'polygon', 4326,'POLYGON',2);
+
+insert into apikey (hash, domain) VALUES('qw33fvvtg5hh',null);
+
+INSERT INTO roles (id_roles, code_role) VALUES(1,'Amministratore');
+INSERT INTO roles (id_roles, code_role) VALUES(2,'Redattore');
+
+
+INSERT INTO users (id_users, name, surname, email, nick, password, date_activation, last_login, enable) VALUES(2,'Redattore','Redattore','redattore@wimove.com','redattore','e10adc3949ba59abbe56e057f20f883e','2008-06-06 16:28:53','2008-06-06 16:28:53',	1);
+INSERT INTO users (id_users, name, surname, email, nick, password, date_activation, last_login, enable) VALUES(1,'Amministratore','Amministratore','admin@wimove.com','admin','e10adc3949ba59abbe56e057f20f883e','2008-06-06 16:28:53',	'2008-06-06 16:28:53',1);
+
+INSERT INTO roles_users (id_roles_users, id_roles, id_users) VALUES(1,1,1);
+INSERT INTO roles_users (id_roles_users, id_roles, id_users) VALUES(1,2,2);
+
+
