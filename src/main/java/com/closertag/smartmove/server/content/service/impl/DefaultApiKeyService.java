@@ -28,6 +28,7 @@ public class DefaultApiKeyService implements ApiKeyService {
 
 	private static String SERVER_TOKEN = "SMARTMOVE_SERVER_25_05_2010_er312";
 
+	@SuppressWarnings("unused")
 	private String generateHash(String key) {
 
 		MessageDigest md;

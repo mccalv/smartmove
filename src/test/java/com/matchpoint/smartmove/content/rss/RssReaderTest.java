@@ -32,7 +32,7 @@ public class RssReaderTest {
 	private static final String THISISLONDON_CO_UK_THEATRE_RSS = "" +
 			"http://www.thisislondon.co.uk/arts/rss/" +
 			"" ;
-			//"http://www.thisislondon.co.uk/theatre/rss/?ito=1588";
+			
 
 	@Test
 	public void testRssRead() throws Exception {

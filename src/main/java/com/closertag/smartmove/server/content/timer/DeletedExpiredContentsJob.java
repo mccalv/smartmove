@@ -10,11 +10,6 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 import com.closertag.smartmove.server.content.service.BatchContentsService;
 
 public class DeletedExpiredContentsJob extends QuartzJobBean {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -2712930144479564376L;
-
 	private static final Log LOG = LogFactory
 			.getLog(DeletedExpiredContentsJob.class);
 

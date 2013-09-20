@@ -41,12 +41,12 @@ public class ConvertFormat {
 
 		assertNotNull(projected);
 		System.out.println("projected location: " + projected.getCoordinate());
-		// 12.498950013467306, 41.89730008068392
+		
 
 	}
 
 	@Test
-	public void testDemoDifferen() throws Exception {
+	public void testDifferentCoordinatesSystem() throws Exception {
 
 		CoordinateReferenceSystem crs;
 
